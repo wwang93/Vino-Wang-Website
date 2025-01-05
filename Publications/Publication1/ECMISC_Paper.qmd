@@ -1,0 +1,14 @@
+---
+title: "An ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19"
+date: "2021-12-26"
+---
+
+### Abstract
+
+The “Suspending Classes without Stopping Learning”, which is an emergency policy launched by the Chinese government to continue teaching activities as schools across the country, gives a new opportunity to popularize the application of E-learning space for college students. In order to explain college students’ continued learning intention toward E-learning space post COVID-19, this study combines theories from the fields of ECM-ISC (Expectation Confirmation Model for Information Systems Continuance). By adding two latent variables, namely students’ initial intention and teacher guidance factor, an improved ECM-ISC model for college students’ continued learning intention was put forward. Results from Linear regression analysis and structural equation modeling (SEM) demonstrate a strong explanatory power of the new model. Based on the results of the empirical analysis, corresponding suggestions are proposed.
+
+![Regression Result](ECMISC%20regression.png) ![Model Result](ECMISC%20model%20result.png) 
+
+### Citation
+
+Wang, W., Duan, Y., Wang, Q., and Liu, H. (2021). An ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19. *Open Journal of Social Sciences*, 9, 377-395. [doi:10.4236/jss.2021.912026](https://doi.org/10.4236/jss.2021.912026)

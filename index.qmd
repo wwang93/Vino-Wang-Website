@@ -1,0 +1,24 @@
+---
+title: "Vino Wang"
+image: vino.png
+about:
+  template: jolla
+  links:
+    - icon: images/google scholar.png
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/wei-wang-356aa5285/
+    - icon: github
+      text: Github
+      href: https://github.com/wwang93
+---
+
+👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.
+
+🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.
+
+📚 I’m currently working towards my PISA paper in the field of ICI use in Education.
+
+📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）.
