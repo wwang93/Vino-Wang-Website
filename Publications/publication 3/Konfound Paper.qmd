@@ -1,6 +1,6 @@
 ---
 title: "konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences"
-date: "2021-03-09"
+date: "2024-03-09"
 ---
 
 ### Abstract
