@@ -30,4 +30,6 @@ of future trends in the field.
 
 ### Citation
 
-Allman, B., Kimmons, R., Wang, W. et al. Trends and Topics in Educational Technology, 2024 Edition. TechTrends 68, 402–410 (2024). https://doi.org/10.1007/s11528-024-00950-5 
+Allman, B., Kimmons, R., Wang, W. et al. Trends and Topics in Educational Technology, 2024 Edition. TechTrends 68, 402–410 (2024).
+[doi:10.1007/s11528-024-00950-5](https://doi.org/10.1007/s11528-024-00950-5)
+ 

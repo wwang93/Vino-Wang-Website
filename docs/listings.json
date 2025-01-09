@@ -9,9 +9,9 @@
     ]
   },
   {
-    "listing": "/Projects.html",
+    "listing": "/Blogs.html",
     "items": [
-      "/Projects/IES_Konfound/IES_konfound.html"
+      "/Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html"
     ]
   },
   {
@@ -22,14 +22,15 @@
     ]
   },
   {
-    "listing": "/Blogs.html",
+    "listing": "/Projects.html",
     "items": [
-      "/Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html"
+      "/Projects/IES_Konfound/IES_konfound.html"
     ]
   },
   {
     "listing": "/Publications.html",
     "items": [
+      "/Publications/publication 3/Konfound Paper.html",
       "/Publications/Publication 2/TechTrends Paper.html",
       "/Publications/Publication1/ECMISC_Paper.html"
     ]
