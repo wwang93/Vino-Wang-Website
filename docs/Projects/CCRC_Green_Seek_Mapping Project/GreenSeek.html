@@ -26,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<script src="../../docs/site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../docs/site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../docs/site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../docs/site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../docs/site_libs/quarto-html/quarto.js"></script>
+<script src="../../docs/site_libs/quarto-html/popper.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../docs/site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../docs/site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../docs/site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../docs/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../docs/site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -240,8 +240,7 @@ library(dplyr)
 ccrc_cip_comp &lt;- read_dta("ccrc_cip_comp.dta") %&gt;%
   mutate(year = as.numeric(year))
 
-saveRDS(ccrc_cip_comp, "ccrc_cip_comp.rds")
-</code></pre>
+saveRDS(ccrc_cip_comp, "ccrc_cip_comp.rds")</code></pre>
 </section>
 <section id="demandside-wrangling" class="level2">
 <h2 class="anchored" data-anchor-id="demandside-wrangling">3.2 Demand‐Side Wrangling</h2>
@@ -265,8 +264,7 @@ gz_sf &lt;- cz_raw %&gt;%
   st_simplify(dTolerance = 0.05)
 gz_sf$id &lt;- seq_len(nrow(gz_sf))
 
-saveRDS(gz_sf, "CZ_job_post.rds")
-</code></pre>
+saveRDS(gz_sf, "CZ_job_post.rds")</code></pre>
 </section>
 <section id="mask-polygon-generation" class="level2">
 <h2 class="anchored" data-anchor-id="mask-polygon-generation">3.3 Mask Polygon Generation</h2>
@@ -286,8 +284,7 @@ world_poly &lt;- st_sfc(
 )
 
 mask_poly &lt;- st_difference(world_poly, us_poly)
-geojson_write(mask_poly, file = "mask_polygon.geojson")
-</code></pre>
+geojson_write(mask_poly, file = "mask_polygon.geojson")</code></pre>
 </section>
 <section id="json-export-for-front-end" class="level2">
 <h2 class="anchored" data-anchor-id="json-export-for-front-end">3.4 JSON Export for Front-end</h2>
@@ -314,8 +311,28 @@ for (yr in unique(inst_df$year)) {
     filter(inst_df, year == yr),
     file = sprintf("InstituteData_%d.json", yr)
   )
-}
-</code></pre>
+}</code></pre>
+</section>
+<section id="analytic-pipeline-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="analytic-pipeline-preparation">3.5 Analytic Pipeline &amp; Preparation</h2>
+<ul>
+<li><strong>Supply-Side Wrangling:</strong> <code>pre_supply_data.R</code> reads <code>ccrc_cip_comp.dta</code>, coerces <code>year</code> to numeric, sorts institution names, and writes <code>ccrc_cip_comp.rds</code> for downstream use.</li>
+<li><strong>Demand-Side Wrangling:</strong> <code>pre_CZ_job_post.R</code> loads Lightcast CSVs (filtered <code>GREEN == 1</code> for 2010–2023), aggregates postings by county/SOC, joins to <code>county20</code> and <code>CZ2020</code> shapefiles, simplifies geometries (<code>dTolerance = 0.05</code>), and saves <code>CZ_job_post.rds</code>.</li>
+<li><strong>Mask Polygon Generation:</strong> <code>prepare_mask_polygon.R</code> fetches U.S. state boundaries via <code>rnaturalearth</code>, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports <code>mask_polygon.geojson</code>.</li>
+<li><strong>GeoJSON Exports for Front-end:</strong> <code>pre_cz jason.R</code> writes per-year CZ GeoJSON files (<code>CZData_&lt;year&gt;.json</code>) from <code>CZ_job_post.rds</code>. <code>Pre_supply_json.R</code> converts <code>ccrc_cip_comp.rds</code> into point SF, selects <code>instnm</code> and <code>inst_perc_green_tot</code>, and exports <code>InstituteData_&lt;year&gt;.json</code> for each year.</li>
+<li><strong>Visualization Preprocessing:</strong> <code>Pre_treemap.R</code> aggregates green completions by program title, builds a per-year Plotly treemap list (<code>Green_degree_treemap_plotly_list.rds</code>). <code>Pre_Plotly.R</code> computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes <code>p_CZ_plotly.rds</code> &amp; <code>p_SOC_plotly.rds</code>.</li>
+</ul>
+</section>
+<section id="technical-implementation-refinement" class="level2">
+<h2 class="anchored" data-anchor-id="technical-implementation-refinement">3.6 Technical Implementation &amp; Refinement</h2>
+<ul>
+<li><strong>Initial Prototype:</strong> Started with R’s <code>mapboxer</code> package in Shiny but lacked hover support, prompting migration to Mapbox GL JS.</li>
+<li><strong>Simulated Rendering:</strong> Prototyped using one year of real supply data and simulated demand via <code>tidycensus</code> for early UI/UX testing.</li>
+<li><strong>Hover &amp; Search Enhancements:</strong> Integrated hover popups on CZ polygons and implemented a Shiny search button for institution fly-to and popups.</li>
+<li><strong>Full Data Integration:</strong> Adopted real 2010–2023 supply and demand data, switched to CZ boundaries, and added a global <code>selectInput("selected_year")</code>.</li>
+<li><strong>Performance Tuning:</strong> Split 14-year data into individual JSON files (<code>CZData_2010.json…CZData_2023.json</code> and <code>InstituteData_*.json</code>), leveraging <code>fetch(..., {cache: "force-cache"})</code> to reduce redraw time from ~5s to &lt;1s.</li>
+<li><strong>Mask &amp; Tabs:</strong> Added a mask layer (<code>mask_polygon.geojson</code>) for contiguous U.S. and organized the Shiny UI into three tabs: Map (interactive map), Supply (treemap), and Demand (time-series).</li>
+</ul>
 </section>
 </section>
 <section id="interactive-application" class="level1">
@@ -384,8 +401,7 @@ server &lt;- function(input, output, session) {
   output$trendPlot  &lt;- renderPlotly(readRDS("p_SOC_plotly.rds"))
 }
 
-shinyApp(ui, server)
-</code></pre>
+shinyApp(ui, server)</code></pre>
 </section>
 <section id="mapbox-front-end-mapbox.js" class="level2">
 <h2 class="anchored" data-anchor-id="mapbox-front-end-mapbox.js">4.2 Mapbox Front-end (mapbox.js)</h2>
@@ -450,8 +466,7 @@ Shiny.addCustomMessageHandler('updateSearch', coords =&gt; {
 
 map.on('mousemove', 'cz-layer', e =&gt; { /* hover effect */ });
 map.on('mouseleave', 'cz-layer', () =&gt; { /* remove hover */ });
-window.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });
-</code></pre>
+window.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });</code></pre>
 </section>
 </section>
 <section id="app-ui-key-features" class="level1">
@@ -472,11 +487,20 @@ window.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });
 <li>The interactive map and time-series charts reveal spatial disparities in green job demand and highlight regions where community colleges may need to expand their green programs.</li>
 <li>Future enhancements include demographic filters (race, gender), predictive modeling, and user-uploaded data integration.</li>
 </ul>
+<section id="future-extensions-reusability" class="level2">
+<h2 class="anchored" data-anchor-id="future-extensions-reusability">6.1 Future Extensions &amp; Reusability</h2>
+<p>This R preprocessing + Mapbox GL JS pipeline can ingest new supply/demand datasets by replacing JSON export scripts. Future enhancements may include demographic filtering, predictive analytics tabs, and user data uploads, building on the existing Shiny + Mapbox framework.</p>
+</section>
 </section>
 <section id="repository" class="level1">
 <h1>7. Repository</h1>
 <p>Full code and documentation available at:</p>
 <p><a href="https://github.com/data-edu/crc-mapping#">GitHub · wwang93/CCRC_GreenSeek-Mapping</a></p>
+</section>
+<section id="full-paper" class="level1">
+<h1>8 Full Paper</h1>
+<p>For comprehensive analysis, methodology, and further implications:</p>
+<p><a href="https://docs.google.com/document/d/1LTAZ0IIExay1CJED3lBWcX2EgHtEvtr7DgBAOsYtaI8/edit?tab=t.0">Access the Full Paper (Google Doc)</a></p>
 
 
 </section>

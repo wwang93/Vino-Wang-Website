@@ -16,30 +16,33 @@ This report summarizes the visualization component of the research project **“
 
 Community colleges need to align their training programs with the rapidly growing green economy, while also ensuring equitable access. However, a nationwide, interactive visualization of this alignment is currently lacking. Our project addresses this gap by:
 
-- **Supply**: Tracking completions in green programs from IPEDS (2012–2022).  
-- **Demand**: Mapping green job postings from Lightcast (2010–2024), aggregated by Commuting Zone (CZ).  
-- **Classification**: Applying O*NET “Greening of Work” categories.  
+-   **Supply**: Tracking completions in green programs from IPEDS (2012–2022).\
+-   **Demand**: Mapping green job postings from Lightcast (2010–2024), aggregated by Commuting Zone (CZ).\
+-   **Classification**: Applying O\*NET “Greening of Work” categories.
 
 # 2. Data Sources
 
-## 2.1 IPEDS Supply Data  
-- **File**: `ccrc_cip_comp.dta`  
-- **Key Fields**: `unitid`, `instnm`, `latitude`, `longitude`, `year`, `greencat`, `cmplt_tot`  
+## 2.1 IPEDS Supply Data
 
-## 2.2 Lightcast Demand Data  
-- **File**: `lightcast-soc-year-county.csv`  
-- **Fields**: `COUNTY` (FIPS), `YEAR`, `SOC_CODE`, `JOB_POSTING_COUNT`, `GREEN` flag  
+-   **File**: `ccrc_cip_comp.dta`\
+-   **Key Fields**: `unitid`, `instnm`, `latitude`, `longitude`, `year`, `greencat`, `cmplt_tot`
 
-## 2.3 Spatial Data  
-- **County Boundaries**: `county20/county20.shp`  
-- **Commuting Zone Boundaries**: `cz20/cz20.shp`  
-- **Mask Polygon**: `mask_polygon.geojson` (generated via `prepare_mask_polygon.R`)
+## 2.2 Lightcast Demand Data
+
+-   **File**: `lightcast-soc-year-county.csv`\
+-   **Fields**: `COUNTY` (FIPS), `YEAR`, `SOC_CODE`, `JOB_POSTING_COUNT`, `GREEN` flag
+
+## 2.3 Spatial Data
+
+-   **County Boundaries**: `county20/county20.shp`\
+-   **Commuting Zone Boundaries**: `cz20/cz20.shp`\
+-   **Mask Polygon**: `mask_polygon.geojson` (generated via `prepare_mask_polygon.R`)
 
 # 3. Data Preparation
 
 ## 3.1 Supply‐Side Wrangling
 
-```
+```         
 library(haven)
 library(dplyr)
 
@@ -47,12 +50,11 @@ ccrc_cip_comp <- read_dta("ccrc_cip_comp.dta") %>%
   mutate(year = as.numeric(year))
 
 saveRDS(ccrc_cip_comp, "ccrc_cip_comp.rds")
-
 ```
 
 ## 3.2 Demand‐Side Wrangling
 
-```
+```         
 library(sf)
 library(readr)
 library(dplyr)
@@ -74,12 +76,11 @@ gz_sf <- cz_raw %>%
 gz_sf$id <- seq_len(nrow(gz_sf))
 
 saveRDS(gz_sf, "CZ_job_post.rds")
-
 ```
 
 ## 3.3 Mask Polygon Generation
 
-```
+```         
 library(rnaturalearth)
 library(sf)
 library(geojsonio)
@@ -97,12 +98,11 @@ world_poly <- st_sfc(
 
 mask_poly <- st_difference(world_poly, us_poly)
 geojson_write(mask_poly, file = "mask_polygon.geojson")
-
 ```
 
 ## 3.4 JSON Export for Front-end
 
-```
+```         
 library(geojsonio)
 library(dplyr)
 
@@ -127,14 +127,32 @@ for (yr in unique(inst_df$year)) {
     file = sprintf("InstituteData_%d.json", yr)
   )
 }
-
 ```
+
+## 3.5 Analytic Pipeline & Preparation
+
+- **Supply-Side Wrangling:** `pre_supply_data.R` reads `ccrc_cip_comp.dta`, coerces `year` to numeric, sorts institution names, and writes `ccrc_cip_comp.rds` for downstream use.
+- **Demand-Side Wrangling:** `pre_CZ_job_post.R` loads Lightcast CSVs (filtered `GREEN == 1` for 2010–2023), aggregates postings by county/SOC, joins to `county20` and `CZ2020` shapefiles, simplifies geometries (`dTolerance = 0.05`), and saves `CZ_job_post.rds`.
+- **Mask Polygon Generation:** `prepare_mask_polygon.R` fetches U.S. state boundaries via `rnaturalearth`, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports `mask_polygon.geojson`.
+- **GeoJSON Exports for Front-end:** `pre_cz jason.R` writes per-year CZ GeoJSON files (`CZData_<year>.json`) from `CZ_job_post.rds`. `Pre_supply_json.R` converts `ccrc_cip_comp.rds` into point SF, selects `instnm` and `inst_perc_green_tot`, and exports `InstituteData_<year>.json` for each year.
+- **Visualization Preprocessing:** `Pre_treemap.R` aggregates green completions by program title, builds a per-year Plotly treemap list (`Green_degree_treemap_plotly_list.rds`). `Pre_Plotly.R` computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes `p_CZ_plotly.rds` & `p_SOC_plotly.rds`.
+
+## 3.6 Technical Implementation & Refinement
+
+- **Initial Prototype:** Started with R’s `mapboxer` package in Shiny but lacked hover support, prompting migration to Mapbox GL JS.
+- **Simulated Rendering:** Prototyped using one year of real supply data and simulated demand via `tidycensus` for early UI/UX testing.
+- **Hover & Search Enhancements:** Integrated hover popups on CZ polygons and implemented a Shiny search button for institution fly-to and popups.
+- **Full Data Integration:** Adopted real 2010–2023 supply and demand data, switched to CZ boundaries, and added a global `selectInput("selected_year")`.
+- **Performance Tuning:** Split 14-year data into individual JSON files (`CZData_2010.json…CZData_2023.json` and `InstituteData_*.json`), leveraging `fetch(..., {cache: "force-cache"})` to reduce redraw time from ~5s to <1s.
+- **Mask & Tabs:** Added a mask layer (`mask_polygon.geojson`) for contiguous U.S. and organized the Shiny UI into three tabs: Map (interactive map), Supply (treemap), and Demand (time-series).
+
+
 
 # 4. Interactive Application
 
 ## 4.1 Shiny UI & Server
 
-```
+```         
 library(shiny)
 library(jsonlite)
 library(geojsonio)
@@ -198,12 +216,11 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
 ```
 
 ## 4.2 Mapbox Front-end (mapbox.js)
 
-```
+```         
 mapboxgl.accessToken = mapboxToken;
 const map = new mapboxgl.Map({
   container: 'map',
@@ -266,7 +283,6 @@ Shiny.addCustomMessageHandler('updateSearch', coords => {
 map.on('mousemove', 'cz-layer', e => { /* hover effect */ });
 map.on('mouseleave', 'cz-layer', () => { /* remove hover */ });
 window.clearMap = () => map.flyTo({ center: [-95, 40], zoom: 3.5 });
-
 ```
 
 # 5. APP UI Key Features
@@ -275,14 +291,23 @@ window.clearMap = () => map.flyTo({ center: [-95, 40], zoom: 3.5 });
 knitr::include_graphics("GreenSeek_UI.png")
 ```
 
-
 # 6. Conclusions & Next Steps
 
-- The interactive map and time-series charts reveal spatial disparities in green job demand and highlight regions where community colleges may need to expand their green programs.
-- Future enhancements include demographic filters (race, gender), predictive modeling, and user-uploaded data integration.
+-   The interactive map and time-series charts reveal spatial disparities in green job demand and highlight regions where community colleges may need to expand their green programs.
+-   Future enhancements include demographic filters (race, gender), predictive modeling, and user-uploaded data integration.
+
+## 6.1 Future Extensions & Reusability
+
+This R preprocessing + Mapbox GL JS pipeline can ingest new supply/demand datasets by replacing JSON export scripts. Future enhancements may include demographic filtering, predictive analytics tabs, and user data uploads, building on the existing Shiny + Mapbox framework.
 
 # 7. Repository
 
 Full code and documentation available at:
 
 [GitHub · wwang93/CCRC_GreenSeek-Mapping](https://github.com/data-edu/crc-mapping#)
+
+# 8 Full Paper
+
+For comprehensive analysis, methodology, and further implications:
+
+[Access the Full Paper (Google Doc)](https://docs.google.com/document/d/1LTAZ0IIExay1CJED3lBWcX2EgHtEvtr7DgBAOsYtaI8/edit?tab=t.0)

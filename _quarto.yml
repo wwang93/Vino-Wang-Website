@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: "docs"
+  lib-dir: "docs/site_libs"
 
 website:
   title: "Vino Wang"
