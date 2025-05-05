@@ -304,7 +304,7 @@ This R preprocessing + Mapbox GL JS pipeline can ingest new supply/demand datase
 
 Full code and documentation available at:
 
-[GitHub · wwang93/CCRC_GreenSeek-Mapping](https://github.com/data-edu/crc-mapping#)
+[GitHub · wwang93/CCRC_GreenSeek-Mapping](https://github.com/data-edu/CCRC_GreenSeek-Mapping)
 
 # 8 Full Paper
 
