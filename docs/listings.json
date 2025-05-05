@@ -9,21 +9,22 @@
     ]
   },
   {
+    "listing": "/Portfolio.html",
+    "items": [
+      "/Portfolio/AERA _2025/AERA 2025.html",
+      "/Portfolio/AECT 2024/AECT2024.html"
+    ]
+  },
+  {
     "listing": "/Blogs.html",
     "items": [
       "/Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html"
     ]
   },
   {
-    "listing": "/Portfolio.html",
-    "items": [
-      "/Portfolio/post-with-code/index.html",
-      "/Portfolio/welcome/index.html"
-    ]
-  },
-  {
     "listing": "/Projects.html",
     "items": [
+      "/Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
       "/Projects/IES_Konfound/IES_konfound.html"
     ]
   },

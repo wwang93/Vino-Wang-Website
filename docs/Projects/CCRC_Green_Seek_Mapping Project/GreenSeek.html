@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2024-12-22">
+<meta name="author" content="Wei Wang">
+<meta name="dcterms.date" content="2025-05-04">
+<meta name="description" content="An interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.">
 
-<title>Welcome To My Blog – Vino Wang</title>
+<title>CCRC Green Seek: Mapping Community College Green Sector Alignment – Vino Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -122,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">about me</span></a>
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
@@ -139,28 +140,37 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+    <div class="quarto-title column-page">
+      <h1 class="title">CCRC Green Seek: Mapping Community College Green Sector Alignment</h1>
+                  <div>
+        <div class="description">
+          An interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Web</div>
+                <div class="quarto-category">Shiny</div>
+                <div class="quarto-category">Mapping</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">JavaScript</div>
               </div>
                   </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>Wei Wang </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 22, 2024</p>
+        <p class="date">May 4, 2025</p>
       </div>
     </div>
     
@@ -168,22 +178,308 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<section id="project-background" class="level1">
+<h1>1. Project Background</h1>
+<p>This report summarizes the visualization component of the research project <strong>“Examining Community College Student Enrollment and Completions in Green Sector Occupations”</strong>, a joint effort by the Community College Research Center (CCRC) and the University of Tennessee, Knoxville. My role was to design and implement an <strong>interactive visualization tool</strong> that shows how community college green program completions (“supply”) align with green-sector job postings (“demand”).</p>
+<p>Community colleges need to align their training programs with the rapidly growing green economy, while also ensuring equitable access. However, a nationwide, interactive visualization of this alignment is currently lacking. Our project addresses this gap by:</p>
+<ul>
+<li><strong>Supply</strong>: Tracking completions in green programs from IPEDS (2012–2022).<br>
+</li>
+<li><strong>Demand</strong>: Mapping green job postings from Lightcast (2010–2024), aggregated by Commuting Zone (CZ).<br>
+</li>
+<li><strong>Classification</strong>: Applying O*NET “Greening of Work” categories.</li>
+</ul>
+</section>
+<section id="data-sources" class="level1">
+<h1>2. Data Sources</h1>
+<section id="ipeds-supply-data" class="level2">
+<h2 class="anchored" data-anchor-id="ipeds-supply-data">2.1 IPEDS Supply Data</h2>
+<ul>
+<li><strong>File</strong>: <code>ccrc_cip_comp.dta</code><br>
+</li>
+<li><strong>Key Fields</strong>: <code>unitid</code>, <code>instnm</code>, <code>latitude</code>, <code>longitude</code>, <code>year</code>, <code>greencat</code>, <code>cmplt_tot</code></li>
+</ul>
+</section>
+<section id="lightcast-demand-data" class="level2">
+<h2 class="anchored" data-anchor-id="lightcast-demand-data">2.2 Lightcast Demand Data</h2>
+<ul>
+<li><strong>File</strong>: <code>lightcast-soc-year-county.csv</code><br>
+</li>
+<li><strong>Fields</strong>: <code>COUNTY</code> (FIPS), <code>YEAR</code>, <code>SOC_CODE</code>, <code>JOB_POSTING_COUNT</code>, <code>GREEN</code> flag</li>
+</ul>
+</section>
+<section id="spatial-data" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-data">2.3 Spatial Data</h2>
+<ul>
+<li><strong>County Boundaries</strong>: <code>county20/county20.shp</code><br>
+</li>
+<li><strong>Commuting Zone Boundaries</strong>: <code>cz20/cz20.shp</code><br>
+</li>
+<li><strong>Mask Polygon</strong>: <code>mask_polygon.geojson</code> (generated via <code>prepare_mask_polygon.R</code>)</li>
+</ul>
+</section>
+</section>
+<section id="data-preparation" class="level1">
+<h1>3. Data Preparation</h1>
+<section id="supplyside-wrangling" class="level2">
+<h2 class="anchored" data-anchor-id="supplyside-wrangling">3.1 Supply‐Side Wrangling</h2>
+<pre><code>library(haven)
+library(dplyr)
+
+ccrc_cip_comp &lt;- read_dta("ccrc_cip_comp.dta") %&gt;%
+  mutate(year = as.numeric(year))
+
+saveRDS(ccrc_cip_comp, "ccrc_cip_comp.rds")
+</code></pre>
+</section>
+<section id="demandside-wrangling" class="level2">
+<h2 class="anchored" data-anchor-id="demandside-wrangling">3.2 Demand‐Side Wrangling</h2>
+<pre><code>library(sf)
+library(readr)
+library(dplyr)
+
+# Read commuting zone geometries
+CZ2020 &lt;- st_read("cz20/cz20.shp") %&gt;% select(CZ20 = cz, geometry)
+
+# Read and filter Lightcast data
+cz_raw &lt;- read_csv("lightcast-soc-year-county.csv") %&gt;%
+  filter(GREEN == 1) %&gt;%
+  rename(YEAR = YEAR, green_job_postings = JOB_POSTING_COUNT)
+
+# Merge and simplify
+gz_sf &lt;- cz_raw %&gt;%
+  inner_join(CZ2020, by = "CZ20") %&gt;%
+  st_as_sf() %&gt;%
+  st_transform(4326) %&gt;%
+  st_simplify(dTolerance = 0.05)
+gz_sf$id &lt;- seq_len(nrow(gz_sf))
+
+saveRDS(gz_sf, "CZ_job_post.rds")
+</code></pre>
+</section>
+<section id="mask-polygon-generation" class="level2">
+<h2 class="anchored" data-anchor-id="mask-polygon-generation">3.3 Mask Polygon Generation</h2>
+<pre><code>library(rnaturalearth)
+library(sf)
+library(geojsonio)
+
+us_states &lt;- ne_states(country = "United States of America", returnclass = "sf")
+us_poly   &lt;- st_union(us_states) %&gt;% st_transform(4326)
+
+world_poly &lt;- st_sfc(
+  st_polygon(list(matrix(
+    c(-180,-90, 180,-90, 180,90, -180,90, -180,-90),
+    ncol = 2, byrow = TRUE
+  ))),
+  crs = 4326
+)
+
+mask_poly &lt;- st_difference(world_poly, us_poly)
+geojson_write(mask_poly, file = "mask_polygon.geojson")
+</code></pre>
+</section>
+<section id="json-export-for-front-end" class="level2">
+<h2 class="anchored" data-anchor-id="json-export-for-front-end">3.4 JSON Export for Front-end</h2>
+<pre><code>library(geojsonio)
+library(dplyr)
+
+# Export CZ GeoJSON per year
+cz_df &lt;- readRDS("CZ_job_post.rds")
+for (yr in unique(cz_df$YEAR)) {
+  geojson_write(
+    filter(cz_df, YEAR == yr),
+    file = sprintf("CZData_%d.json", yr)
+  )
+}
+
+# Export institution GeoJSON per year
+inst_df &lt;- readRDS("ccrc_cip_comp.rds") %&gt;%
+  filter(!is.na(longitude), !is.na(latitude)) %&gt;%
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %&gt;%
+  select(year, instnm, inst_perc_green_tot)
+
+for (yr in unique(inst_df$year)) {
+  geojson_write(
+    filter(inst_df, year == yr),
+    file = sprintf("InstituteData_%d.json", yr)
+  )
+}
+</code></pre>
+</section>
+</section>
+<section id="interactive-application" class="level1">
+<h1>4. Interactive Application</h1>
+<section id="shiny-ui-server" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-ui-server">4.1 Shiny UI &amp; Server</h2>
+<pre><code>library(shiny)
+library(jsonlite)
+library(geojsonio)
+library(dplyr)
+library(sf)
+library(plotly)
+
+source("mapboxtoken_setup.R")
+ccrc_data &lt;- readRDS("ccrc_cip_comp.rds")
+cz_data   &lt;- readRDS("CZ_job_post.rds") %&gt;% mutate(id = row_number())
+
+ui &lt;- fluidPage(
+  titlePanel("CCRC Green Seek"),
+  fluidRow(
+    column(4,
+      selectInput("selected_year", "Year", choices = sort(unique(cz_data$YEAR))),
+      plotlyOutput("treemapPlot")
+    ),
+    column(8,
+      selectizeInput("search_term", "Search Institution", choices = NULL),
+      actionButton("search_btn", "Search"),
+      tags$button("Clear", onclick = "clearMap()"),
+      div(id = "map", style = "height:600px;")
+    )
+  ),
+  fluidRow(
+    column(6, plotlyOutput("cz_plot")),
+    column(6, plotlyOutput("trendPlot"))
+  )
+)
+
+server &lt;- function(input, output, session) {
+  observe({
+    req(input$selected_year)
+    insts &lt;- ccrc_data %&gt;%
+      filter(year == input$selected_year) %&gt;%
+      pull(instnm) %&gt;%
+      unique() %&gt;%
+      sort()
+    updateSelectizeInput(session, "search_term", choices = insts, server = TRUE)
+    session$sendCustomMessage("loadYear", input$selected_year)
+    session$sendCustomMessage("loadInstituteYear", input$selected_year)
+  })
+  observeEvent(input$search_btn, {
+    res &lt;- ccrc_data %&gt;%
+      filter(instnm == input$search_term, year == input$selected_year) %&gt;%
+      slice(1)
+    if (nrow(res)) {
+      popup &lt;- paste0("&lt;strong&gt;", res$instnm, "&lt;/strong&gt;&lt;br&gt;Green %: ",
+        sprintf("%.1f%%", res$inst_perc_green_tot * 100))
+      session$sendCustomMessage("updateSearch", list(
+        lng = res$longitude, lat = res$latitude, popup = popup
+      ))
+    }
+  })
+  output$treemapPlot &lt;- renderPlotly({
+    readRDS("Green_degree_treemap_plotly_list.rds")[[as.character(input$selected_year)]]
+  })
+  output$cz_plot    &lt;- renderPlotly(readRDS("p_CZ_plotly.rds"))
+  output$trendPlot  &lt;- renderPlotly(readRDS("p_SOC_plotly.rds"))
+}
+
+shinyApp(ui, server)
+</code></pre>
+</section>
+<section id="mapbox-front-end-mapbox.js" class="level2">
+<h2 class="anchored" data-anchor-id="mapbox-front-end-mapbox.js">4.2 Mapbox Front-end (mapbox.js)</h2>
+<pre><code>mapboxgl.accessToken = mapboxToken;
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/navigation-day-v1',
+  center: [-95, 40],
+  zoom: 3.5
+});
+
+function loadCZData(year) {
+  fetch(`CZData_${year}.json`)
+    .then(res =&gt; res.json())
+    .then(data =&gt; {
+      if (map.getSource('cz')) {
+        map.getSource('cz').setData(data);
+      } else {
+        map.addSource('cz', { type: 'geojson', data });
+        map.addLayer({
+          id: 'cz-layer',
+          type: 'fill',
+          source: 'cz',
+          paint: { /* color &amp; opacity settings */ }
+        });
+      }
+    });
+}
+
+function loadInstituteData(year) {
+  fetch(`InstituteData_${year}.json`)
+    .then(res =&gt; res.json())
+    .then(data =&gt; {
+      if (!map.getSource('institutes')) {
+        map.addSource('institutes', { type: 'geojson', data });
+        map.addLayer({
+          id: 'institutes-layer',
+          type: 'circle',
+          source: 'institutes',
+          paint: {
+            'circle-radius': [
+              'interpolate', ['linear'], ['get', 'inst_perc_green_tot'],
+              0, 4, 1, 12
+            ]
+          }
+        });
+      } else {
+        map.getSource('institutes').setData(data);
+      }
+    });
+}
+
+Shiny.addCustomMessageHandler('loadYear', loadCZData);
+Shiny.addCustomMessageHandler('loadInstituteYear', loadInstituteData);
+Shiny.addCustomMessageHandler('updateSearch', coords =&gt; {
+  map.flyTo({ center: [coords.lng, coords.lat], zoom: 6 });
+  new mapboxgl.Popup()
+    .setLngLat([coords.lng, coords.lat])
+    .setHTML(coords.popup)
+    .addTo(map);
+});
+
+map.on('mousemove', 'cz-layer', e =&gt; { /* hover effect */ });
+map.on('mouseleave', 'cz-layer', () =&gt; { /* remove hover */ });
+window.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });
+</code></pre>
+</section>
+</section>
+<section id="app-ui-key-features" class="level1">
+<h1>5. APP UI Key Features</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="GreenSeek_UI.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="conclusions-next-steps" class="level1">
+<h1>6. Conclusions &amp; Next Steps</h1>
+<ul>
+<li>The interactive map and time-series charts reveal spatial disparities in green job demand and highlight regions where community colleges may need to expand their green programs.</li>
+<li>Future enhancements include demographic filters (race, gender), predictive modeling, and user-uploaded data integration.</li>
+</ul>
+</section>
+<section id="repository" class="level1">
+<h1>7. Repository</h1>
+<p>Full code and documentation available at:</p>
+<p><a href="https://github.com/data-edu/crc-mapping#">GitHub · wwang93/CCRC_GreenSeek-Mapping</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

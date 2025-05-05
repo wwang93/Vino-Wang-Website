@@ -1,6 +1,8 @@
 ---
 title: "Faculty Development: Online Course Design Training"
+author: "Wei Wang"
 date: "2024-09-23"
+categories: [Professional Development, Faculty Development ]
 ---
 
 # Teaching and Training Experience
@@ -13,7 +15,7 @@ As a Research Assistant (RA) at **UTK Digital Learning**, I actively contributed
 
 As part of this program, I served as a Teaching Assistant (TA) for the **Online Course Design** training. This course, held from **September 9 to 23, 2024**, introduced participants to the principles of **Backward Design**, emphasizing the creation of aligned course outcomes, assessments, and learning activities.
 
-![Course Design](Course Design.png)
+![Course Design](Course%20Design.png)
 
 #### Responsibilities:
 

@@ -4,7 +4,7 @@
     "href": "Teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Faculty Development: Teaching with GenAI\n\n\n\n\n\n\n\n\n\n\n\nNov 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Delivery\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Development\n\n\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Development: Online Course Design Training\n\n\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Faculty Development: Teaching with GenAI\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\nTeaching with GenAI\n\n\n\n\n\n\n\n\n\nNov 23, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Delivery\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nNov 18, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Development\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Development: Online Course Design Training\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Teaching/Online Course Development/Course Development.html",
@@ -49,39 +49,88 @@
     "text": "Abstract\nThis editorial continues to landscape the trends and popular educational technology topics for 2023. We used the public internet data mining approach from previous years (Allman et al., 2023b; Kimmons, 2020; Kimmons & Rosenberg, 2022; Kimmons et al., 2021). This year, we extracted and analyzed data from the Scopus research article database, K-12 school and district Facebook pages, and the open publishing platform EdTech Books. We also looked closer at two key terms—“artificial intelligence” and “OER”—using Google Custom Search API to examine patterns in the higher education context and the description of resources from the Teachers Pay Teachers (TPT) website for insights in the K-12 context. This year, we no longer utilized the X (formerly Twitter) #EdTech affinity group as a data source because of the changes to the platform/accessibility of the data. Our analysis represents snapshots of 2023 trends in educational technology from these dataset angles, furthering our understanding of current EdTech community’s attitudes, behaviors, and leanings and underpinning a predictive vision of future trends in the field.\n \n\n\nCitation\nAllman, B., Kimmons, R., Wang, W. et al. Trends and Topics in Educational Technology, 2024 Edition. TechTrends 68, 402–410 (2024). doi:10.1007/s11528-024-00950-5"
   },
   {
-    "objectID": "Portfolio/welcome/index.html",
-    "href": "Portfolio/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "Projects/IES_Konfound/IES_konfound.html",
+    "href": "Projects/IES_Konfound/IES_konfound.html",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the konfound R package, to:\n\nQuantify the robustness of causal inferences (RIR, ITCV).\nProvide tools for published studies (pkonfound()), R model objects (konfound()), and meta-analyses (mkonfound())."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Vino Wang",
-    "section": "",
-    "text": "👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.\n🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.\n📚 I’m currently working towards my PISA paper in the field of ICI use in Education.\n📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）."
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "href": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "Dependencies",
+    "text": "Dependencies\n\nDepends: R (&gt;= 2.10)\nImports: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor\nSuggests: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix"
   },
   {
-    "objectID": "Blogs.html",
-    "href": "Blogs.html",
-    "title": "Blogs",
-    "section": "",
-    "text": "Stay hungry Stay foolish\n\n\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\n\nNo matching items"
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.1 Published Studies (pkonfound())",
+    "text": "4.1 Published Studies (pkonfound())\nlibrary(konfound)\n# Compute robustness indices for published summary statistics\npkonfound(\n  est_eff      = 2.0,\n  std_err      = 0.4,\n  n_obs        = 100,\n  n_covariates = 3\n)"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "about me",
-    "section": "",
-    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.2 R Model Objects (konfound())",
+    "text": "4.2 R Model Objects (konfound())\n# Fit a linear model\nm1 &lt;- lm(mpg ~ wt + disp, data = mtcars)\n# Sensitivity analysis for coefficient 'wt'\nkonfound(m1, \"wt\")"
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "about me",
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.3 Meta‑Analysis (mkonfound())",
+    "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
+  },
+  {
+    "objectID": "Portfolio.html",
+    "href": "Portfolio.html",
+    "title": "My Portfolio",
     "section": "",
-    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
+    "text": "AERA 2025 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html",
+    "href": "Portfolio/AECT 2024/AECT2024.html",
+    "title": "AECT 2024 Presentation",
+    "section": "",
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "href": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "title": "AECT 2024 Presentation",
+    "section": "",
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "href": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "title": "AECT 2024 Presentation",
+    "section": "Key Points",
+    "text": "Key Points\n\n🚀 GenAI’s Rise in Education\nTools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.\n🧠 Educational Design Transformation\nAt the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the CAS Online Course Design program to support faculty in designing evidence-based learning activities.\n🛠️ Practical Application Demonstrated\nEducators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:\n\nLearning Outcome: Distinguish differences between federal and state court systems.\nAssessment: Comparative analysis essay.\nActivity: Create interactive infographics or mind maps.\n\n💬 Faculty Feedback\nFaculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).\n📊 Sentiment Analysis\nParticipant reflections were analyzed using the Bing Sentiment Lexicon, revealing a generally positive attitude toward GenAI as a supplementary tool."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "href": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "title": "AECT 2024 Presentation",
+    "section": "Design Process (Quick Guide)",
+    "text": "Design Process (Quick Guide)\n\nSelect a GenAI tool (ChatGPT, Bing Chat, etc.).\nUse a prompt like:\n\"What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?\"\n\nReview and critically reflect on the generated suggestions.\nSelect and adapt ideas suitable for your course structure and learning goals."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "href": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "title": "AECT 2024 Presentation",
+    "section": "Outcomes",
+    "text": "Outcomes\n\n🔄 Encouraged iterative design of assessments with GenAI as inspiration.\n👥 Fostered collaboration and experience-sharing among faculty.\n🎯 Supported alignment between learning outcomes and activities in online settings."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "href": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "title": "AECT 2024 Presentation",
+    "section": "Call to Action -Your Story Matters!!!",
+    "text": "Call to Action -Your Story Matters!!!\n\nEducators are encouraged to:\n\nExplore GenAI tools in their teaching design.\nReflect critically on AI-generated suggestions.\nShare strategies and experiences within their academic communities.\n\n\nThis presentation was part of the Works in Progress & Design in Practice session at AECT 2024.\nFor more info, contact Wei Wang"
   },
   {
     "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
@@ -91,25 +140,116 @@
     "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
   },
   {
-    "objectID": "Portfolio/post-with-code/index.html",
-    "href": "Portfolio/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
   },
   {
-    "objectID": "Portfolio.html",
-    "href": "Portfolio.html",
-    "title": "My Portfolio",
+    "objectID": "Blogs.html",
+    "href": "Blogs.html",
+    "title": "Blogs",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 25, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Stay hungry Stay foolish\n\n\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vino Wang",
+    "section": "",
+    "text": "👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.\n🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.\n📚 I’m currently working towards my PISA paper in the field of ICI use in Education.\n📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）."
+  },
+  {
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "title": "AERA 2025 Presentation",
+    "section": "Part A: Exploring Dimensions of AI Integration",
+    "text": "Part A: Exploring Dimensions of AI Integration\n\nBackground & Motivation\nGenerative AI offers powerful capabilities—automating routine tasks, enhancing writing self-efficacy, and sparking creativity—but also raises concerns about over‑dependence, diminished critical thinking, and academic integrity risks. To strike the right balance, we must understand the psychological and behavioral drivers that sustain effective, creative GenAI use in higher education.\n\n\nTheoretical Frameworks\n\nECM-ISC (Expectation Confirmation Model for Information Systems Continuance): Explains how users’ satisfaction and confirmation of expectations drive continued usage.\nI-PACE (Interaction of Person–Affect–Cognition–Execution): Models how affective and cognitive responses influence behavior and creativity.\n\n\n\nKey Constructs\n\n\n\n\n\n\n\n\nAbbreviation\nConstruct\nDefinition\n\n\n\n\nSAT\nSatisfaction\nUsers’ contentment after initial GenAI use\n\n\nAF\nAffective Response\nEmotional reactions during interaction\n\n\nPT\nPersonality Traits\nStable individual differences (e.g., openness, conscientiousness)\n\n\nCOR\nCognitive Response\nReflective thinking and metacognitive processing\n\n\nCI\nContinuance Intention\nLikelihood of future GenAI use\n\n\nCR\nCreativity\nGeneration of novel, useful ideas when using GenAI\n\n\n\n\n\nResearch Questions\n\nRQ1: How do satisfaction, affective response, and personality traits predict students’ continuance intention to engage with GenAI?\nRQ2: Does cognitive response mediate the relationship between continuance intention and creative performance?\n\n\n\nMethodology\n\nParticipants: 259 undergraduates (67% female, 33% male) with GenAI usage of 2–5 times/week.\nMeasures: Validated multi‑item scales (Cronbach’s α ≥ .75; AVE ≥ .50; composite reliability ≥ .80).\nAnalysis:\n\nDescriptive statistics\nReliability & validity checks\nStructural Equation Modeling (χ²/df = 3.91; CFI = .95; RMSEA = .06)\n\n\n\n\nKey Findings\n\nUsage Purposes: Writing support and exploratory learning were most common, followed by academic assistance and entertainment.\nReliability & Validity: All constructs met thresholds (α ≥ .70; AVE ≥ .50).\nStructural Paths:\n\nSAT → CI (β = .41, p &lt; .001)\nAF → CI (β = .22, p &lt; .01)\nPT → CI (β = .25, p &lt; .01)\nCI → COR (β = .62, p &lt; .001)\nCOR → CR (β = .33, p &lt; .001)\nCI → CR direct path was non‑significant (full mediation by COR).\n\n\n\nImplication: Cognitive response is the central mechanism translating GenAI engagement into creative output."
+  },
+  {
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "title": "AERA 2025 Presentation",
+    "section": "Part B: Designing an Effective GenAI-Based Teaching Model",
+    "text": "Part B: Designing an Effective GenAI-Based Teaching Model\nUsing ADDIE instructional design, we integrate the six constructs into distinct phases:\n\n\n\n\n\n\n\n\nADDIE Stage\nTarget Constructs\nCore Strategies\n\n\n\n\nAnalysis & Design\nPerceived Usefulness, Ease of Use\nDemo video + interactive walkthrough with embedded quiz; instant AI feedback to build confidence.\n\n\nDevelopment\nAffective Response, Social Influence\nAI pair‑programming workshops; emotion cards (👍/👎) for real‑time feedback.\n\n\nImplementation\nCognitive Response\nStructured reflection logs (“What? Why? How?”); guided Socratic prompts to deepen metacognition.\n\n\nEvaluation & Continuous Improvement\nSatisfaction, Continuance Intention\nGamified prompts with badges & leaderboards; iterative prompt challenges to sustain engagement.\n\n\nExtension\nCreativity\nOpen‑ended mini‑projects: design AI‑enhanced micro‑lessons; peer showcase and feedback sessions.\n\n\n\n\nImplementation Plan\n\nPilot: 8‑week module in Python Programming, 2 sections × 30 students.\nFacilitator Training: Two workshops on GenAI tools and model dimensions.\nStudent Onboarding: Intro session, demo of reflection logs, and AI ethics primer.\n\n\n\nEvaluation Strategy\n\nQuantitative: Re‑test SEM paths; pre/post measures of COR, CI, and CR.\nQualitative: Text‑mining of reflection logs; focus groups on affective & metacognitive experiences.\n\n\n\nNext Steps\n\nRefine reflection prompts and gamification elements.\nScale model to humanities and STEM courses.\nEstablish an instructor community for sharing GenAI integration best practices.\n\n\nThank you for engaging! Your comments and questions are welcome below."
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "",
+    "text": "This report summarizes the visualization component of the research project “Examining Community College Student Enrollment and Completions in Green Sector Occupations”, a joint effort by the Community College Research Center (CCRC) and the University of Tennessee, Knoxville. My role was to design and implement an interactive visualization tool that shows how community college green program completions (“supply”) align with green-sector job postings (“demand”).\nCommunity colleges need to align their training programs with the rapidly growing green economy, while also ensuring equitable access. However, a nationwide, interactive visualization of this alignment is currently lacking. Our project addresses this gap by:\n\nSupply: Tracking completions in green programs from IPEDS (2012–2022).\n\nDemand: Mapping green job postings from Lightcast (2010–2024), aggregated by Commuting Zone (CZ).\n\nClassification: Applying O*NET “Greening of Work” categories."
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#ipeds-supply-data",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#ipeds-supply-data",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "2.1 IPEDS Supply Data",
+    "text": "2.1 IPEDS Supply Data\n\nFile: ccrc_cip_comp.dta\n\nKey Fields: unitid, instnm, latitude, longitude, year, greencat, cmplt_tot"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#lightcast-demand-data",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#lightcast-demand-data",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "2.2 Lightcast Demand Data",
+    "text": "2.2 Lightcast Demand Data\n\nFile: lightcast-soc-year-county.csv\n\nFields: COUNTY (FIPS), YEAR, SOC_CODE, JOB_POSTING_COUNT, GREEN flag"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#spatial-data",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#spatial-data",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "2.3 Spatial Data",
+    "text": "2.3 Spatial Data\n\nCounty Boundaries: county20/county20.shp\n\nCommuting Zone Boundaries: cz20/cz20.shp\n\nMask Polygon: mask_polygon.geojson (generated via prepare_mask_polygon.R)"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#supplyside-wrangling",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#supplyside-wrangling",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "3.1 Supply‐Side Wrangling",
+    "text": "3.1 Supply‐Side Wrangling\nlibrary(haven)\nlibrary(dplyr)\n\nccrc_cip_comp &lt;- read_dta(\"ccrc_cip_comp.dta\") %&gt;%\n  mutate(year = as.numeric(year))\n\nsaveRDS(ccrc_cip_comp, \"ccrc_cip_comp.rds\")"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#demandside-wrangling",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#demandside-wrangling",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "3.2 Demand‐Side Wrangling",
+    "text": "3.2 Demand‐Side Wrangling\nlibrary(sf)\nlibrary(readr)\nlibrary(dplyr)\n\n# Read commuting zone geometries\nCZ2020 &lt;- st_read(\"cz20/cz20.shp\") %&gt;% select(CZ20 = cz, geometry)\n\n# Read and filter Lightcast data\ncz_raw &lt;- read_csv(\"lightcast-soc-year-county.csv\") %&gt;%\n  filter(GREEN == 1) %&gt;%\n  rename(YEAR = YEAR, green_job_postings = JOB_POSTING_COUNT)\n\n# Merge and simplify\ngz_sf &lt;- cz_raw %&gt;%\n  inner_join(CZ2020, by = \"CZ20\") %&gt;%\n  st_as_sf() %&gt;%\n  st_transform(4326) %&gt;%\n  st_simplify(dTolerance = 0.05)\ngz_sf$id &lt;- seq_len(nrow(gz_sf))\n\nsaveRDS(gz_sf, \"CZ_job_post.rds\")"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mask-polygon-generation",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mask-polygon-generation",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "3.3 Mask Polygon Generation",
+    "text": "3.3 Mask Polygon Generation\nlibrary(rnaturalearth)\nlibrary(sf)\nlibrary(geojsonio)\n\nus_states &lt;- ne_states(country = \"United States of America\", returnclass = \"sf\")\nus_poly   &lt;- st_union(us_states) %&gt;% st_transform(4326)\n\nworld_poly &lt;- st_sfc(\n  st_polygon(list(matrix(\n    c(-180,-90, 180,-90, 180,90, -180,90, -180,-90),\n    ncol = 2, byrow = TRUE\n  ))),\n  crs = 4326\n)\n\nmask_poly &lt;- st_difference(world_poly, us_poly)\ngeojson_write(mask_poly, file = \"mask_polygon.geojson\")"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#json-export-for-front-end",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#json-export-for-front-end",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "3.4 JSON Export for Front-end",
+    "text": "3.4 JSON Export for Front-end\nlibrary(geojsonio)\nlibrary(dplyr)\n\n# Export CZ GeoJSON per year\ncz_df &lt;- readRDS(\"CZ_job_post.rds\")\nfor (yr in unique(cz_df$YEAR)) {\n  geojson_write(\n    filter(cz_df, YEAR == yr),\n    file = sprintf(\"CZData_%d.json\", yr)\n  )\n}\n\n# Export institution GeoJSON per year\ninst_df &lt;- readRDS(\"ccrc_cip_comp.rds\") %&gt;%\n  filter(!is.na(longitude), !is.na(latitude)) %&gt;%\n  st_as_sf(coords = c(\"longitude\", \"latitude\"), crs = 4326) %&gt;%\n  select(year, instnm, inst_perc_green_tot)\n\nfor (yr in unique(inst_df$year)) {\n  geojson_write(\n    filter(inst_df, year == yr),\n    file = sprintf(\"InstituteData_%d.json\", yr)\n  )\n}"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#shiny-ui-server",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#shiny-ui-server",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "4.1 Shiny UI & Server",
+    "text": "4.1 Shiny UI & Server\nlibrary(shiny)\nlibrary(jsonlite)\nlibrary(geojsonio)\nlibrary(dplyr)\nlibrary(sf)\nlibrary(plotly)\n\nsource(\"mapboxtoken_setup.R\")\nccrc_data &lt;- readRDS(\"ccrc_cip_comp.rds\")\ncz_data   &lt;- readRDS(\"CZ_job_post.rds\") %&gt;% mutate(id = row_number())\n\nui &lt;- fluidPage(\n  titlePanel(\"CCRC Green Seek\"),\n  fluidRow(\n    column(4,\n      selectInput(\"selected_year\", \"Year\", choices = sort(unique(cz_data$YEAR))),\n      plotlyOutput(\"treemapPlot\")\n    ),\n    column(8,\n      selectizeInput(\"search_term\", \"Search Institution\", choices = NULL),\n      actionButton(\"search_btn\", \"Search\"),\n      tags$button(\"Clear\", onclick = \"clearMap()\"),\n      div(id = \"map\", style = \"height:600px;\")\n    )\n  ),\n  fluidRow(\n    column(6, plotlyOutput(\"cz_plot\")),\n    column(6, plotlyOutput(\"trendPlot\"))\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  observe({\n    req(input$selected_year)\n    insts &lt;- ccrc_data %&gt;%\n      filter(year == input$selected_year) %&gt;%\n      pull(instnm) %&gt;%\n      unique() %&gt;%\n      sort()\n    updateSelectizeInput(session, \"search_term\", choices = insts, server = TRUE)\n    session$sendCustomMessage(\"loadYear\", input$selected_year)\n    session$sendCustomMessage(\"loadInstituteYear\", input$selected_year)\n  })\n  observeEvent(input$search_btn, {\n    res &lt;- ccrc_data %&gt;%\n      filter(instnm == input$search_term, year == input$selected_year) %&gt;%\n      slice(1)\n    if (nrow(res)) {\n      popup &lt;- paste0(\"&lt;strong&gt;\", res$instnm, \"&lt;/strong&gt;&lt;br&gt;Green %: \",\n        sprintf(\"%.1f%%\", res$inst_perc_green_tot * 100))\n      session$sendCustomMessage(\"updateSearch\", list(\n        lng = res$longitude, lat = res$latitude, popup = popup\n      ))\n    }\n  })\n  output$treemapPlot &lt;- renderPlotly({\n    readRDS(\"Green_degree_treemap_plotly_list.rds\")[[as.character(input$selected_year)]]\n  })\n  output$cz_plot    &lt;- renderPlotly(readRDS(\"p_CZ_plotly.rds\"))\n  output$trendPlot  &lt;- renderPlotly(readRDS(\"p_SOC_plotly.rds\"))\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mapbox-front-end-mapbox.js",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mapbox-front-end-mapbox.js",
+    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "section": "4.2 Mapbox Front-end (mapbox.js)",
+    "text": "4.2 Mapbox Front-end (mapbox.js)\nmapboxgl.accessToken = mapboxToken;\nconst map = new mapboxgl.Map({\n  container: 'map',\n  style: 'mapbox://styles/mapbox/navigation-day-v1',\n  center: [-95, 40],\n  zoom: 3.5\n});\n\nfunction loadCZData(year) {\n  fetch(`CZData_${year}.json`)\n    .then(res =&gt; res.json())\n    .then(data =&gt; {\n      if (map.getSource('cz')) {\n        map.getSource('cz').setData(data);\n      } else {\n        map.addSource('cz', { type: 'geojson', data });\n        map.addLayer({\n          id: 'cz-layer',\n          type: 'fill',\n          source: 'cz',\n          paint: { /* color & opacity settings */ }\n        });\n      }\n    });\n}\n\nfunction loadInstituteData(year) {\n  fetch(`InstituteData_${year}.json`)\n    .then(res =&gt; res.json())\n    .then(data =&gt; {\n      if (!map.getSource('institutes')) {\n        map.addSource('institutes', { type: 'geojson', data });\n        map.addLayer({\n          id: 'institutes-layer',\n          type: 'circle',\n          source: 'institutes',\n          paint: {\n            'circle-radius': [\n              'interpolate', ['linear'], ['get', 'inst_perc_green_tot'],\n              0, 4, 1, 12\n            ]\n          }\n        });\n      } else {\n        map.getSource('institutes').setData(data);\n      }\n    });\n}\n\nShiny.addCustomMessageHandler('loadYear', loadCZData);\nShiny.addCustomMessageHandler('loadInstituteYear', loadInstituteData);\nShiny.addCustomMessageHandler('updateSearch', coords =&gt; {\n  map.flyTo({ center: [coords.lng, coords.lat], zoom: 6 });\n  new mapboxgl.Popup()\n    .setLngLat([coords.lng, coords.lat])\n    .setHTML(coords.popup)\n    .addTo(map);\n});\n\nmap.on('mousemove', 'cz-layer', e =&gt; { /* hover effect */ });\nmap.on('mouseleave', 'cz-layer', () =&gt; { /* remove hover */ });\nwindow.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });"
   },
   {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "IES_konfound\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\n\n\n\nWeb\n\n\nShiny\n\n\nMapping\n\n\nR\n\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\n\n\n\nR\n\n\nSensitivity Analysis\n\n\nCausal Inference\n\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Publications/publication 3/Konfound Paper.html",
@@ -123,7 +263,7 @@
     "href": "Publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Trends and Topics in Educational Technology, 2024 Edition\n\n\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Trends and Topics in Educational Technology, 2024 Edition\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\n\n\n\nJournal Articles\n\n\nR Packages\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Teaching/Online Course Design/Course Design.html",

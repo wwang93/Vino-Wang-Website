@@ -1,6 +1,8 @@
 ---
 title: "Faculty Professional Development:Online Course Development"
+author: "Wei Wang"
 date: "2024-10-28"
+categories: [Professional Development, Faculty Development ]
 ---
 
 # Teaching and Training Experience
@@ -10,26 +12,23 @@ date: "2024-10-28"
 As a Research Assistant (RA) at **UTK Digital Learning**, I actively supported faculty professional development programs that aimed to enhance the quality of online teaching and learning. Among these, I contributed as a Teaching Assistant (TA) for the **Online Teaching & Learning Certificate Program**, which included the **Online Course Development** training module.
 
 ### Online Course Development Training (Fall 2024)
+
 This training, held from **October 14 to 28, 2024**, focused on designing and building robust Canvas courses to support online learners. Participants were guided through strategies to develop course content, structure, and activities to enhance the online learning experience.
 
-
-![Course Development](Course Development.png)
+![Course Development](Course%20Development.png)
 
 #### Responsibilities:
-- Assisted participants in designing course structures using Canvas learning modules.
-- Guided the creation of course content, including recorded lectures, PowerPoints, and curated web resources.
-- Supported the development of assignments and discussion prompts that align with learning outcomes.
-- Provided feedback on interactive learning activities and assessments to ensure engagement and alignment with course objectives.
-- Facilitated workshops on creating effective online assessments, including randomized quizzes and active learning tasks.
+
+-   Assisted participants in designing course structures using Canvas learning modules.
+-   Guided the creation of course content, including recorded lectures, PowerPoints, and curated web resources.
+-   Supported the development of assignments and discussion prompts that align with learning outcomes.
+-   Provided feedback on interactive learning activities and assessments to ensure engagement and alignment with course objectives.
+-   Facilitated workshops on creating effective online assessments, including randomized quizzes and active learning tasks.
 
 #### Training Outcomes:
-Participants who completed the training were equipped to:
-- Use an online course template effectively.
-- Develop comprehensive course structures and learning modules.
-- Incorporate a variety of learning resources, such as videos, external links, and recorded lectures.
-- Design meaningful assignments, discussions, and online assessments to support student engagement.
-- Create active learning activities that connect real-world relevance to course content.
 
----
+Participants who completed the training were equipped to: - Use an online course template effectively. - Develop comprehensive course structures and learning modules. - Incorporate a variety of learning resources, such as videos, external links, and recorded lectures. - Design meaningful assignments, discussions, and online assessments to support student engagement. - Create active learning activities that connect real-world relevance to course content.
+
+------------------------------------------------------------------------
 
 This role allowed me to deepen my expertise in online course development and further explore innovative methods for leveraging technology to enhance learning experiences. It also reinforced my ability to collaborate with faculty in designing impactful educational resources.

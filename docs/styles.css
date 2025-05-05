@@ -1,1 +1,15 @@
-/* css styles */
+/* 1. Import Google Fonts (you can replace with another CDN or local files) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');    /* Roboto: a clean, sans-serif font for body text */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); /* Merriweather: a classic, serif font for headings */
+
+/* 2. Globally override the default font for body text */
+body {
+  /* Use Roboto for all body text, with sans-serif as fallback */
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* 3. Override fonts for headings if you want a different serif font */
+h1, h2, h3, h4, h5, h6 {
+  /* Use Merriweather for all heading elements, with serif as fallback */
+  font-family: 'Merriweather', serif !important;
+}

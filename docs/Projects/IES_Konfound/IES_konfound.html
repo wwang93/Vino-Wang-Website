@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Wei Wang">
+<meta name="dcterms.date" content="2024-03-04">
+<meta name="description" content="Tools and methods for quantifying the robustness of causal inferences against potential biases.">
 
-<title>IES_konfound – Vino Wang</title>
+<title>KonFound-It!: Sensitivity Analysis for Robust Inference – Vino Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -35,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,10 +108,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -120,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">about me</span></a>
+<span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
@@ -135,34 +172,193 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">KonFound-It!: Sensitivity Analysis for Robust Inference</h1>
+                  <div>
+        <div class="description">
+          Tools and methods for quantifying the robustness of causal inferences against potential biases.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Sensitivity Analysis</div>
+                <div class="quarto-category">Causal Inference</div>
+                <div class="quarto-category">Statistics</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Wei Wang </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 4, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">IES_konfound</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
+
+<section id="project-background" class="level1">
+<h1>1. Project Background</h1>
+<p>Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the <code>konfound</code> R package, to:</p>
+<ul>
+<li>Quantify the robustness of causal inferences (RIR, ITCV).</li>
+<li>Provide tools for published studies (<code>pkonfound()</code>), R model objects (<code>konfound()</code>), and meta-analyses (<code>mkonfound()</code>).</li>
+</ul>
+</section>
+<section id="package-overview" class="level1">
+<h1>2. Package Overview</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Package</strong></td>
+<td><code>konfound</code></td>
+</tr>
+<tr class="even">
+<td><strong>Version</strong></td>
+<td>1.0.3</td>
+</tr>
+<tr class="odd">
+<td><strong>Title</strong></td>
+<td>Quantify the Robustness of Causal Inferences</td>
+</tr>
+<tr class="even">
+<td><strong>Type</strong></td>
+<td>Package</td>
+</tr>
+<tr class="odd">
+<td><strong>License</strong></td>
+<td>MIT + file LICENSE</td>
+</tr>
+<tr class="even">
+<td><strong>URL</strong></td>
+<td>https://github.com/konfound-project/konfound/</td>
+</tr>
+<tr class="odd">
+<td>https://konfound-it.org/konfound/</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>BugReports</strong></td>
+<td>https://github.com/konfound-project/konfound/issues</td>
+</tr>
+</tbody>
+</table>
+<section id="dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="dependencies">Dependencies</h2>
+<ul>
+<li><strong>Depends</strong>: R (&gt;= 2.10)</li>
+<li><strong>Imports</strong>: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor</li>
+<li><strong>Suggests</strong>: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix</li>
+</ul>
+</section>
+</section>
+<section id="installation" class="level1">
+<h1>3. Installation</h1>
+<p>Install from CRAN:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"konfound"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Install development version from GitHub:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"devtools"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"konfound-project/konfound"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usage-examples" class="level1">
+<h1>4. Usage Examples</h1>
+<section id="published-studies-pkonfound" class="level2">
+<h2 class="anchored" data-anchor-id="published-studies-pkonfound">4.1 Published Studies (<code>pkonfound()</code>)</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(konfound)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute robustness indices for published summary statistics</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pkonfound</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">est_eff      =</span> <span class="fl">2.0</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">std_err      =</span> <span class="fl">0.4</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_obs        =</span> <span class="dv">100</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_covariates =</span> <span class="dv">3</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="r-model-objects-konfound" class="level2">
+<h2 class="anchored" data-anchor-id="r-model-objects-konfound">4.2 R Model Objects (<code>konfound()</code>)</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear model</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>m1 <span class="ot">&lt;-</span> <span class="fu">lm</span>(mpg <span class="sc">~</span> wt <span class="sc">+</span> disp, <span class="at">data =</span> mtcars)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Sensitivity analysis for coefficient 'wt'</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">konfound</span>(m1, <span class="st">"wt"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="metaanalysis-mkonfound" class="level2">
+<h2 class="anchored" data-anchor-id="metaanalysis-mkonfound">4.3 Meta‑Analysis (<code>mkonfound()</code>)</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Built-in example dataset</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(mkonfound_ex)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Run sensitivity analysis across multiple studies</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mkonfound</span>(mkonfound_ex, t, df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="authors-my-contributions" class="level1">
+<h1>5. Authors &amp; My Contributions</h1>
+<p>The <code>konfound</code> package authors include:</p>
+<ul>
+<li><strong>Joshua M. Rosenberg</strong> (aut, cre)</li>
+<li>Ran Xu (ctb)</li>
+<li>Qinyun Lin (ctb)</li>
+<li>Spiro Maroulis (ctb)</li>
+<li>Sarah Narvaiz (ctb)</li>
+<li>Kenneth A. Frank (ctb)</li>
+<li><strong>Wei Wang</strong> (ctb)
+<ul>
+<li>Contributed to package documentation, vignettes, and unit tests for core functions.</li>
+</ul></li>
+<li>Yunhe Cui (ctb)</li>
+<li>Gaofei Zhang (ctb)</li>
+<li>Xuesen Cheng (ctb)</li>
+<li>JiHoon Choi (ctb)</li>
+<li>Guan Saw (ctb)</li>
+</ul>
+</section>
+<section id="additional-resources" class="level1">
+<h1>6. Additional Resources</h1>
+<ul>
+<li>Project website: https://konfound-it.org/konfound/</li>
+<li>GitHub repo: https://github.com/konfound-project/konfound/</li>
+<li>Browse vignettes in R:</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">browseVignettes</span>(<span class="at">package =</span> <span class="st">"konfound"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>File issues or feature requests: https://github.com/konfound-project/konfound/issues</li>
+</ul>
+</section>
+<section id="citation" class="level1">
+<h1>7. Citation</h1>
+<p>Frank, K.A., Maroulis, S., Duong, M., &amp; Kelcey, B. (2013). <em>What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences</em>. Education Evaluation and Policy Analysis, 35, 437–460.</p>
+<p>Frank, K. (2000). <em>Impact of a confounding variable on the inference of a regression coefficient</em>. Sociological Methods &amp; Research, 29(2), 147–194.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

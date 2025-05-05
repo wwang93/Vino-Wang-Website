@@ -1,0 +1,72 @@
+---
+title: "AECT 2024 Presentation"
+author: "Wei Wang"
+date: "2024-10-20"
+categories: [Conference Presentation, AECT 2024]
+---
+
+## Overview
+
+This session, presented at AECT 2024, explores the practical integration of **Generative Artificial Intelligence (GenAI)**—such as ChatGPT and Bing Chat—into **faculty development programs** for designing effective and innovative assessments and learning activities, especially in asynchronous online courses.
+
+![](IMG_0077.jpg)
+
+## Key Points
+
+- 🚀 **GenAI's Rise in Education**
+    
+    Tools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.
+    
+- 🧠 **Educational Design Transformation**
+    
+    At the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the *CAS Online Course Design* program to support faculty in designing evidence-based learning activities.
+    
+- 🛠️ **Practical Application Demonstrated**
+    
+    Educators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:
+    
+    - **Learning Outcome:** Distinguish differences between federal and state court systems.
+    - **Assessment:** Comparative analysis essay.
+    - **Activity:** Create interactive infographics or mind maps.
+- 💬 **Faculty Feedback**
+    
+    Faculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).
+    
+- 📊 **Sentiment Analysis**
+    
+    Participant reflections were analyzed using the *Bing Sentiment Lexicon*, revealing a generally positive attitude toward GenAI as a supplementary tool.
+    
+
+## Design Process (Quick Guide)
+
+1. Select a GenAI tool (ChatGPT, Bing Chat, etc.).
+2. Use a prompt like:
+    
+    ```
+    "What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?"
+    
+    ```
+    
+3. Review and critically reflect on the generated suggestions.
+4. Select and adapt ideas suitable for your course structure and learning goals.
+
+## Outcomes
+
+- 🔄 Encouraged iterative design of assessments with GenAI as inspiration.
+- 👥 Fostered collaboration and experience-sharing among faculty.
+- 🎯 Supported alignment between learning outcomes and activities in online settings.
+
+## Call to Action -Your Story Matters!!!
+![](IMG_1851.jpg)
+
+Educators are encouraged to:
+
+- Explore GenAI tools in their teaching design.
+- Reflect critically on AI-generated suggestions.
+- Share strategies and experiences within their academic communities.
+
+---
+
+*This presentation was part of the Works in Progress & Design in Practice session at [AECT 2024](https://aect.org/).*
+
+For more info, contact [Wei Wang](mailto:wwang93@vols.utk.edu)

@@ -1,5 +1,5 @@
 ---
-title: "about me"
+title: "About me"
 image: profile.jpg
 about:
   template: jolla
@@ -15,20 +15,12 @@ about:
       href: https://github.com
 ---
 
-## About Me
 
 Hello! My name is **Vino Wang**, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.
 
-Over the past few years, I’ve worked on various projects, including:
-- Developing AI-driven teaching assistants to improve critical thinking in higher education.
-- Designing innovative teaching materials for programming education.
-- Conducting large-scale data analyses on educational outcomes using tools like R and Python.
+Over the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.
 
 I believe in the motto: **"Technology comes and goes, pedagogy never falls."** This philosophy guides my work as I strive to create impactful educational experiences.
 
-
-
-📍 University of Tennessee,Knoxville, TN  
-✉️ Email: wwang93@vols.utk.edu
-🔗 [GitHub](https://github.com) | [LinkedIn](https://linkedin.com)  
-
+📍 University of Tennessee,Knoxville, TN\
+✉️ Email: wwang93\@vols.utk.edu 🔗 [GitHub](https://github.com) \| [LinkedIn](https://linkedin.com)

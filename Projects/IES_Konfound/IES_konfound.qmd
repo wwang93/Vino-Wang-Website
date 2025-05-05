@@ -1,4 +1,129 @@
 ---
-title: "IES_konfound"
-format: html
+title: "KonFound-It!: Sensitivity Analysis for Robust Inference"
+author: "Wei Wang"
+date: 2024-03-04
+categories: ["R", "Sensitivity Analysis", "Causal Inference", "Statistics"]
+image: "konfound.jpg"
+description: "Tools and methods for quantifying the robustness of causal inferences against potential biases."
+page-layout: full
+title-block-banner: true
+execute:
+  echo: false
 ---
+
+
+# 1. Project Background
+
+Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the `konfound` R package, to:
+
+- Quantify the robustness of causal inferences (RIR, ITCV).
+- Provide tools for published studies (`pkonfound()`), R model objects (`konfound()`), and meta-analyses (`mkonfound()`).
+
+# 2. Package Overview
+
+| Field | Details |
+| --- | --- |
+| **Package** | `konfound` |
+| **Version** | 1.0.3 |
+| **Title** | Quantify the Robustness of Causal Inferences |
+| **Type** | Package |
+| **License** | MIT + file LICENSE |
+| **URL** | https://github.com/konfound-project/konfound/ |
+| https://konfound-it.org/konfound/ |  |
+| **BugReports** | https://github.com/konfound-project/konfound/issues |
+
+## Dependencies
+
+- **Depends**: R (>= 2.10)
+- **Imports**: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor
+- **Suggests**: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix
+
+# 3. Installation
+
+Install from CRAN:
+
+```r
+install.packages("konfound")
+
+```
+
+Install development version from GitHub:
+
+```r
+install.packages("devtools")
+devtools::install_github("konfound-project/konfound")
+
+```
+
+# 4. Usage Examples
+
+## 4.1 Published Studies (`pkonfound()`)
+
+```r
+library(konfound)
+# Compute robustness indices for published summary statistics
+pkonfound(
+  est_eff      = 2.0,
+  std_err      = 0.4,
+  n_obs        = 100,
+  n_covariates = 3
+)
+
+```
+
+## 4.2 R Model Objects (`konfound()`)
+
+```r
+# Fit a linear model
+m1 <- lm(mpg ~ wt + disp, data = mtcars)
+# Sensitivity analysis for coefficient 'wt'
+konfound(m1, "wt")
+
+```
+
+## 4.3 Meta‑Analysis (`mkonfound()`)
+
+```r
+# Built-in example dataset
+head(mkonfound_ex)
+# Run sensitivity analysis across multiple studies
+mkonfound(mkonfound_ex, t, df)
+
+```
+
+# 5. Authors & My Contributions
+
+The `konfound` package authors include:
+
+- **Joshua M. Rosenberg** (aut, cre)
+- Ran Xu (ctb)
+- Qinyun Lin (ctb)
+- Spiro Maroulis (ctb)
+- Sarah Narvaiz (ctb)
+- Kenneth A. Frank (ctb)
+- **Wei Wang** (ctb)
+    - Contributed to package documentation, vignettes, and unit tests for core functions.
+- Yunhe Cui (ctb)
+- Gaofei Zhang (ctb)
+- Xuesen Cheng (ctb)
+- JiHoon Choi (ctb)
+- Guan Saw (ctb)
+
+# 6. Additional Resources
+
+- Project website: https://konfound-it.org/konfound/
+- GitHub repo: https://github.com/konfound-project/konfound/
+- Browse vignettes in R:
+
+```r
+browseVignettes(package = "konfound")
+
+```
+
+- File issues or feature requests: https://github.com/konfound-project/konfound/issues
+
+# 7. Citation
+
+Frank, K.A., Maroulis, S., Duong, M., & Kelcey, B. (2013). *What would it take to change an inference? Using Rubin’s causal model to interpret the robustness of causal inferences*. Education Evaluation and Policy Analysis, 35, 437–460.
+
+Frank, K. (2000). *Impact of a confounding variable on the inference of a regression coefficient*. Sociological Methods & Research, 29(2), 147–194.

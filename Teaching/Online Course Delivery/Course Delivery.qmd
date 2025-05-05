@@ -1,6 +1,8 @@
 ---
 title: "Faculty Professional Development:Online Course Delivery"
+author: "Wei Wang"
 date: "2024-11-18"
+categories: [Professional Development, Faculty Development ]
 ---
 
 # Teaching and Training Experience
@@ -13,9 +15,7 @@ As a Research Assistant (RA) at **UTK Digital Learning**, I actively contributed
 
 This training, held from **November 4 to November 18, 2024**, focused on preparing educators to effectively deliver their courses in an online format. The program emphasized practical strategies, instructional techniques, and leveraging technology to enhance student engagement and course management.
 
-![Course Development](Course Delivery.png) 
-#### Responsibilities: 
-- Guided participants in identifying challenges and opportunities in online teaching and learning based on their own experiences. - Facilitated discussions on practices that promote social presence and active engagement in online classrooms. - Assisted in the exploration of instructional technologies for course management, communication, and assessment. - Provided feedback on participants' teaching strategies, ensuring alignment with best practices in online education. - Supported reflective activities, encouraging participants to analyze and improve their own teaching approaches.
+![Course Development](Course%20Delivery.png) \#### Responsibilities: - Guided participants in identifying challenges and opportunities in online teaching and learning based on their own experiences. - Facilitated discussions on practices that promote social presence and active engagement in online classrooms. - Assisted in the exploration of instructional technologies for course management, communication, and assessment. - Provided feedback on participants' teaching strategies, ensuring alignment with best practices in online education. - Supported reflective activities, encouraging participants to analyze and improve their own teaching approaches.
 
 #### Training Outcomes:
 
