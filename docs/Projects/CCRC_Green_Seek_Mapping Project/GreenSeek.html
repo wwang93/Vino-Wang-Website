@@ -315,13 +315,16 @@ for (yr in unique(inst_df$year)) {
 </section>
 <section id="analytic-pipeline-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="analytic-pipeline-preparation">3.5 Analytic Pipeline &amp; Preparation</h2>
-<ul>
-<li><strong>Supply-Side Wrangling:</strong> <code>pre_supply_data.R</code> reads <code>ccrc_cip_comp.dta</code>, coerces <code>year</code> to numeric, sorts institution names, and writes <code>ccrc_cip_comp.rds</code> for downstream use.</li>
-<li><strong>Demand-Side Wrangling:</strong> <code>pre_CZ_job_post.R</code> loads Lightcast CSVs (filtered <code>GREEN == 1</code> for 2010–2023), aggregates postings by county/SOC, joins to <code>county20</code> and <code>CZ2020</code> shapefiles, simplifies geometries (<code>dTolerance = 0.05</code>), and saves <code>CZ_job_post.rds</code>.</li>
-<li><strong>Mask Polygon Generation:</strong> <code>prepare_mask_polygon.R</code> fetches U.S. state boundaries via <code>rnaturalearth</code>, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports <code>mask_polygon.geojson</code>.</li>
-<li><strong>GeoJSON Exports for Front-end:</strong> <code>pre_cz jason.R</code> writes per-year CZ GeoJSON files (<code>CZData_&lt;year&gt;.json</code>) from <code>CZ_job_post.rds</code>. <code>Pre_supply_json.R</code> converts <code>ccrc_cip_comp.rds</code> into point SF, selects <code>instnm</code> and <code>inst_perc_green_tot</code>, and exports <code>InstituteData_&lt;year&gt;.json</code> for each year.</li>
-<li><strong>Visualization Preprocessing:</strong> <code>Pre_treemap.R</code> aggregates green completions by program title, builds a per-year Plotly treemap list (<code>Green_degree_treemap_plotly_list.rds</code>). <code>Pre_Plotly.R</code> computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes <code>p_CZ_plotly.rds</code> &amp; <code>p_SOC_plotly.rds</code>.</li>
-</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="GreenSeek_pipe.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The analytic pipeline consists of several R scripts that perform data wrangling, JSON export, and visualization preparation. The key components are: - <strong>Supply-Side Wrangling:</strong> <code>pre_supply_data.R</code> reads <code>ccrc_cip_comp.dta</code>, coerces <code>year</code> to numeric, sorts institution names, and writes <code>ccrc_cip_comp.rds</code> for downstream use. - <strong>Demand-Side Wrangling:</strong> <code>pre_CZ_job_post.R</code> loads Lightcast CSVs (filtered <code>GREEN == 1</code> for 2010–2023), aggregates postings by county/SOC, joins to <code>county20</code> and <code>CZ2020</code> shapefiles, simplifies geometries (<code>dTolerance = 0.05</code>), and saves <code>CZ_job_post.rds</code>. - <strong>Mask Polygon Generation:</strong> <code>prepare_mask_polygon.R</code> fetches U.S. state boundaries via <code>rnaturalearth</code>, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports <code>mask_polygon.geojson</code>. - <strong>GeoJSON Exports for Front-end:</strong> <code>pre_cz jason.R</code> writes per-year CZ GeoJSON files (<code>CZData_&lt;year&gt;.json</code>) from <code>CZ_job_post.rds</code>. <code>Pre_supply_json.R</code> converts <code>ccrc_cip_comp.rds</code> into point SF, selects <code>instnm</code> and <code>inst_perc_green_tot</code>, and exports <code>InstituteData_&lt;year&gt;.json</code> for each year. - <strong>Visualization Preprocessing:</strong> <code>Pre_treemap.R</code> aggregates green completions by program title, builds a per-year Plotly treemap list (<code>Green_degree_treemap_plotly_list.rds</code>). <code>Pre_Plotly.R</code> computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes <code>p_CZ_plotly.rds</code> &amp; <code>p_SOC_plotly.rds</code>.</p>
 </section>
 <section id="technical-implementation-refinement" class="level2">
 <h2 class="anchored" data-anchor-id="technical-implementation-refinement">3.6 Technical Implementation &amp; Refinement</h2>
