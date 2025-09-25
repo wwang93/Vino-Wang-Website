@@ -42,137 +42,18 @@
     "text": "Abstract\nThe “Suspending Classes without Stopping Learning”, which is an emergency policy launched by the Chinese government to continue teaching activities as schools across the country, gives a new opportunity to popularize the application of E-learning space for college students. In order to explain college students’ continued learning intention toward E-learning space post COVID-19, this study combines theories from the fields of ECM-ISC (Expectation Confirmation Model for Information Systems Continuance). By adding two latent variables, namely students’ initial intention and teacher guidance factor, an improved ECM-ISC model for college students’ continued learning intention was put forward. Results from Linear regression analysis and structural equation modeling (SEM) demonstrate a strong explanatory power of the new model. Based on the results of the empirical analysis, corresponding suggestions are proposed.\n \n\n\nCitation\nWang, W., Duan, Y., Wang, Q., and Liu, H. (2021). An ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19. Open Journal of Social Sciences, 9, 377-395. doi:10.4236/jss.2021.912026"
   },
   {
-    "objectID": "Publications/Publication 2/TechTrends Paper.html",
-    "href": "Publications/Publication 2/TechTrends Paper.html",
-    "title": "Trends and Topics in Educational Technology, 2024 Edition",
+    "objectID": "Publications/publication 3/Konfound Paper.html",
+    "href": "Publications/publication 3/Konfound Paper.html",
+    "title": "konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences",
     "section": "",
-    "text": "Abstract\nThis editorial continues to landscape the trends and popular educational technology topics for 2023. We used the public internet data mining approach from previous years (Allman et al., 2023b; Kimmons, 2020; Kimmons & Rosenberg, 2022; Kimmons et al., 2021). This year, we extracted and analyzed data from the Scopus research article database, K-12 school and district Facebook pages, and the open publishing platform EdTech Books. We also looked closer at two key terms—“artificial intelligence” and “OER”—using Google Custom Search API to examine patterns in the higher education context and the description of resources from the Teachers Pay Teachers (TPT) website for insights in the K-12 context. This year, we no longer utilized the X (formerly Twitter) #EdTech affinity group as a data source because of the changes to the platform/accessibility of the data. Our analysis represents snapshots of 2023 trends in educational technology from these dataset angles, furthering our understanding of current EdTech community’s attitudes, behaviors, and leanings and underpinning a predictive vision of future trends in the field.\n \n\n\nCitation\nAllman, B., Kimmons, R., Wang, W. et al. Trends and Topics in Educational Technology, 2024 Edition. TechTrends 68, 402–410 (2024). doi:10.1007/s11528-024-00950-5"
+    "text": "Abstract\nQuantifying the Robustness of Inferences Sensitivity analysis, a statistical method crucial for validating inferences across disciplines, quantifies the conditions that could alter conclusions (Razavi et al., 2021). One line of work is rooted in linear models and foregrounds the sensitivity of inferences to the strength of omitted variables (Cinelli & Hazlett, 2019; Frank, 2000). A more recent approach is rooted in the potential outcomes framework for causal inference and foregrounds how hypothetical changes in a sample would alter an inference if such cases were otherwise observed (Frank et al., 2008, 2013; Frank & Min, 2007; Xu et al., 2019). One sensitivity measure is the Impact Threshold of a Confounding Variable, or ITCV, which generates statements about the correlation of an omitted, confounding variable with both a predictor of interest and the outcome (Frank, 2000). The ITCV index can be calculated for any linear model. The Robustness of an Inference to Replacement, RIR, assesses how replacing a certain percentage of cases with counterfactuals of zero treatment effect could nullify an inference (Frank et al., 2013). The RIR index is more general than the ITCV index. The sensitivity analysis techniques we describe in this paper and implement in the konfound R package differ from others in several ways. Unlike Linden et al. (2020), whose approach focuses on dichotomous outcomes and omitted variable sensitivity, our approach extends to continuous outcomes and evaluates both changes in estimates and standard errors. Oster (2019) focuses only on selection into the treatment based on unobservable variables versus observable variables necessary to nullify an estimate. The ITCV index focuses on the relationship of the unobservable to the predictor of interest and to the outcome. More generally, many others used simulation-based approaches, while our approach uses closed-form expressions to generate a single term representing sensitivity. These techniques, along with others, are reviewed and discussed (along with the ITCV and RIR approaches) in Frank et al. (2023). We have implemented the calculation of both the ITCV and RIR indices in the konfound R package. This package is intended to provide an easy-to-use and principled set of sensitivity techniques that are suitable for a range of model and dependent variable types and use cases. Its audience is broad: primarily social scientists, but also interested individuals in other disciplines (e.g., the health sciences). This paper provides an overview of two core functions within the konfound package, each of which can calculate the ITCV and RIR indices: konfound() and pkonfound(). These functions allow users to calculate the robustness of inferences using a model estimated (with R) or using information about a model from a published study, respectively. The konfound package is available from the Comprehensive R Archive Network (CRAN) at https://CRAN.R-project.org/package=konfound; it can be installed via the install.packages(“konfound”) function within R\n \n\n\nCitation\nNarvaiz et al., (2024). konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences. Journal of Open Source Software, 9(95), 5779. doi:10.21105/joss.05779"
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html",
-    "href": "Projects/IES_Konfound/IES_konfound.html",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the konfound R package, to:\n\nQuantify the robustness of causal inferences (RIR, ITCV).\nProvide tools for published studies (pkonfound()), R model objects (konfound()), and meta-analyses (mkonfound())."
-  },
-  {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#dependencies",
-    "href": "Projects/IES_Konfound/IES_konfound.html#dependencies",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "Dependencies",
-    "text": "Dependencies\n\nDepends: R (&gt;= 2.10)\nImports: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor\nSuggests: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix"
-  },
-  {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.1 Published Studies (pkonfound())",
-    "text": "4.1 Published Studies (pkonfound())\nlibrary(konfound)\n# Compute robustness indices for published summary statistics\npkonfound(\n  est_eff      = 2.0,\n  std_err      = 0.4,\n  n_obs        = 100,\n  n_covariates = 3\n)"
-  },
-  {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.2 R Model Objects (konfound())",
-    "text": "4.2 R Model Objects (konfound())\n# Fit a linear model\nm1 &lt;- lm(mpg ~ wt + disp, data = mtcars)\n# Sensitivity analysis for coefficient 'wt'\nkonfound(m1, \"wt\")"
-  },
-  {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.3 Meta‑Analysis (mkonfound())",
-    "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
-  },
-  {
-    "objectID": "Portfolio.html",
-    "href": "Portfolio.html",
-    "title": "My Portfolio",
-    "section": "",
-    "text": "AERA 2025 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html",
-    "href": "Portfolio/AECT 2024/AECT2024.html",
-    "title": "AECT 2024 Presentation",
-    "section": "",
-    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#overview",
-    "href": "Portfolio/AECT 2024/AECT2024.html#overview",
-    "title": "AECT 2024 Presentation",
-    "section": "",
-    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#key-points",
-    "href": "Portfolio/AECT 2024/AECT2024.html#key-points",
-    "title": "AECT 2024 Presentation",
-    "section": "Key Points",
-    "text": "Key Points\n\n🚀 GenAI’s Rise in Education\nTools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.\n🧠 Educational Design Transformation\nAt the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the CAS Online Course Design program to support faculty in designing evidence-based learning activities.\n🛠️ Practical Application Demonstrated\nEducators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:\n\nLearning Outcome: Distinguish differences between federal and state court systems.\nAssessment: Comparative analysis essay.\nActivity: Create interactive infographics or mind maps.\n\n💬 Faculty Feedback\nFaculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).\n📊 Sentiment Analysis\nParticipant reflections were analyzed using the Bing Sentiment Lexicon, revealing a generally positive attitude toward GenAI as a supplementary tool."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
-    "href": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
-    "title": "AECT 2024 Presentation",
-    "section": "Design Process (Quick Guide)",
-    "text": "Design Process (Quick Guide)\n\nSelect a GenAI tool (ChatGPT, Bing Chat, etc.).\nUse a prompt like:\n\"What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?\"\n\nReview and critically reflect on the generated suggestions.\nSelect and adapt ideas suitable for your course structure and learning goals."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#outcomes",
-    "href": "Portfolio/AECT 2024/AECT2024.html#outcomes",
-    "title": "AECT 2024 Presentation",
-    "section": "Outcomes",
-    "text": "Outcomes\n\n🔄 Encouraged iterative design of assessments with GenAI as inspiration.\n👥 Fostered collaboration and experience-sharing among faculty.\n🎯 Supported alignment between learning outcomes and activities in online settings."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
-    "href": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
-    "title": "AECT 2024 Presentation",
-    "section": "Call to Action -Your Story Matters!!!",
-    "text": "Call to Action -Your Story Matters!!!\n\nEducators are encouraged to:\n\nExplore GenAI tools in their teaching design.\nReflect critically on AI-generated suggestions.\nShare strategies and experiences within their academic communities.\n\n\nThis presentation was part of the Works in Progress & Design in Practice session at AECT 2024.\nFor more info, contact Wei Wang"
-  },
-  {
-    "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
-    "href": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
-    "title": "Stay hungry Stay foolish",
-    "section": "",
-    "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
-  },
-  {
-    "objectID": "Blogs.html",
-    "href": "Blogs.html",
-    "title": "Blogs",
-    "section": "",
-    "text": "Stay hungry Stay foolish\n\n\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Vino Wang",
-    "section": "",
-    "text": "👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.\n🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.\n📚 I’m currently working towards my PISA paper in the field of ICI use in Education.\n📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）."
-  },
-  {
-    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
-    "href": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
-    "title": "AERA 2025 Presentation",
-    "section": "Part A: Exploring Dimensions of AI Integration",
-    "text": "Part A: Exploring Dimensions of AI Integration\n\nBackground & Motivation\nGenerative AI offers powerful capabilities—automating routine tasks, enhancing writing self-efficacy, and sparking creativity—but also raises concerns about over‑dependence, diminished critical thinking, and academic integrity risks. To strike the right balance, we must understand the psychological and behavioral drivers that sustain effective, creative GenAI use in higher education.\n\n\nTheoretical Frameworks\n\nECM-ISC (Expectation Confirmation Model for Information Systems Continuance): Explains how users’ satisfaction and confirmation of expectations drive continued usage.\nI-PACE (Interaction of Person–Affect–Cognition–Execution): Models how affective and cognitive responses influence behavior and creativity.\n\n\n\nKey Constructs\n\n\n\n\n\n\n\n\nAbbreviation\nConstruct\nDefinition\n\n\n\n\nSAT\nSatisfaction\nUsers’ contentment after initial GenAI use\n\n\nAF\nAffective Response\nEmotional reactions during interaction\n\n\nPT\nPersonality Traits\nStable individual differences (e.g., openness, conscientiousness)\n\n\nCOR\nCognitive Response\nReflective thinking and metacognitive processing\n\n\nCI\nContinuance Intention\nLikelihood of future GenAI use\n\n\nCR\nCreativity\nGeneration of novel, useful ideas when using GenAI\n\n\n\n\n\nResearch Questions\n\nRQ1: How do satisfaction, affective response, and personality traits predict students’ continuance intention to engage with GenAI?\nRQ2: Does cognitive response mediate the relationship between continuance intention and creative performance?\n\n\n\nMethodology\n\nParticipants: 259 undergraduates (67% female, 33% male) with GenAI usage of 2–5 times/week.\nMeasures: Validated multi‑item scales (Cronbach’s α ≥ .75; AVE ≥ .50; composite reliability ≥ .80).\nAnalysis:\n\nDescriptive statistics\nReliability & validity checks\nStructural Equation Modeling (χ²/df = 3.91; CFI = .95; RMSEA = .06)\n\n\n\n\nKey Findings\n\nUsage Purposes: Writing support and exploratory learning were most common, followed by academic assistance and entertainment.\nReliability & Validity: All constructs met thresholds (α ≥ .70; AVE ≥ .50).\nStructural Paths:\n\nSAT → CI (β = .41, p &lt; .001)\nAF → CI (β = .22, p &lt; .01)\nPT → CI (β = .25, p &lt; .01)\nCI → COR (β = .62, p &lt; .001)\nCOR → CR (β = .33, p &lt; .001)\nCI → CR direct path was non‑significant (full mediation by COR).\n\n\n\nImplication: Cognitive response is the central mechanism translating GenAI engagement into creative output."
-  },
-  {
-    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
-    "href": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
-    "title": "AERA 2025 Presentation",
-    "section": "Part B: Designing an Effective GenAI-Based Teaching Model",
-    "text": "Part B: Designing an Effective GenAI-Based Teaching Model\nUsing ADDIE instructional design, we integrate the six constructs into distinct phases:\n\n\n\n\n\n\n\n\nADDIE Stage\nTarget Constructs\nCore Strategies\n\n\n\n\nAnalysis & Design\nPerceived Usefulness, Ease of Use\nDemo video + interactive walkthrough with embedded quiz; instant AI feedback to build confidence.\n\n\nDevelopment\nAffective Response, Social Influence\nAI pair‑programming workshops; emotion cards (👍/👎) for real‑time feedback.\n\n\nImplementation\nCognitive Response\nStructured reflection logs (“What? Why? How?”); guided Socratic prompts to deepen metacognition.\n\n\nEvaluation & Continuous Improvement\nSatisfaction, Continuance Intention\nGamified prompts with badges & leaderboards; iterative prompt challenges to sustain engagement.\n\n\nExtension\nCreativity\nOpen‑ended mini‑projects: design AI‑enhanced micro‑lessons; peer showcase and feedback sessions.\n\n\n\n\nImplementation Plan\n\nPilot: 8‑week module in Python Programming, 2 sections × 30 students.\nFacilitator Training: Two workshops on GenAI tools and model dimensions.\nStudent Onboarding: Intro session, demo of reflection logs, and AI ethics primer.\n\n\n\nEvaluation Strategy\n\nQuantitative: Re‑test SEM paths; pre/post measures of COR, CI, and CR.\nQualitative: Text‑mining of reflection logs; focus groups on affective & metacognitive experiences.\n\n\n\nNext Steps\n\nRefine reflection prompts and gamification elements.\nScale model to humanities and STEM courses.\nEstablish an instructor community for sharing GenAI integration best practices.\n\n\nThank you for engaging! Your comments and questions are welcome below."
+    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\n\n\n\nWeb\n\n\nShiny\n\n\nMapping\n\n\nR\n\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\n\n\n\nR\n\n\nSensitivity Analysis\n\n\nCausal Inference\n\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
@@ -266,25 +147,151 @@
     "text": "6.1 Future Extensions & Reusability\nThis R preprocessing + Mapbox GL JS pipeline can ingest new supply/demand datasets by replacing JSON export scripts. Future enhancements may include demographic filtering, predictive analytics tabs, and user data uploads, building on the existing Shiny + Mapbox framework."
   },
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\n\n\n\nWeb\n\n\nShiny\n\n\nMapping\n\n\nR\n\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\n\n\n\nR\n\n\nSensitivity Analysis\n\n\nCausal Inference\n\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "title": "AERA 2025 Presentation",
+    "section": "Part A: Exploring Dimensions of AI Integration",
+    "text": "Part A: Exploring Dimensions of AI Integration\n\nBackground & Motivation\nGenerative AI offers powerful capabilities—automating routine tasks, enhancing writing self-efficacy, and sparking creativity—but also raises concerns about over‑dependence, diminished critical thinking, and academic integrity risks. To strike the right balance, we must understand the psychological and behavioral drivers that sustain effective, creative GenAI use in higher education.\n\n\nTheoretical Frameworks\n\nECM-ISC (Expectation Confirmation Model for Information Systems Continuance): Explains how users’ satisfaction and confirmation of expectations drive continued usage.\nI-PACE (Interaction of Person–Affect–Cognition–Execution): Models how affective and cognitive responses influence behavior and creativity.\n\n\n\nKey Constructs\n\n\n\n\n\n\n\n\nAbbreviation\nConstruct\nDefinition\n\n\n\n\nSAT\nSatisfaction\nUsers’ contentment after initial GenAI use\n\n\nAF\nAffective Response\nEmotional reactions during interaction\n\n\nPT\nPersonality Traits\nStable individual differences (e.g., openness, conscientiousness)\n\n\nCOR\nCognitive Response\nReflective thinking and metacognitive processing\n\n\nCI\nContinuance Intention\nLikelihood of future GenAI use\n\n\nCR\nCreativity\nGeneration of novel, useful ideas when using GenAI\n\n\n\n\n\nResearch Questions\n\nRQ1: How do satisfaction, affective response, and personality traits predict students’ continuance intention to engage with GenAI?\nRQ2: Does cognitive response mediate the relationship between continuance intention and creative performance?\n\n\n\nMethodology\n\nParticipants: 259 undergraduates (67% female, 33% male) with GenAI usage of 2–5 times/week.\nMeasures: Validated multi‑item scales (Cronbach’s α ≥ .75; AVE ≥ .50; composite reliability ≥ .80).\nAnalysis:\n\nDescriptive statistics\nReliability & validity checks\nStructural Equation Modeling (χ²/df = 3.91; CFI = .95; RMSEA = .06)\n\n\n\n\nKey Findings\n\nUsage Purposes: Writing support and exploratory learning were most common, followed by academic assistance and entertainment.\nReliability & Validity: All constructs met thresholds (α ≥ .70; AVE ≥ .50).\nStructural Paths:\n\nSAT → CI (β = .41, p &lt; .001)\nAF → CI (β = .22, p &lt; .01)\nPT → CI (β = .25, p &lt; .01)\nCI → COR (β = .62, p &lt; .001)\nCOR → CR (β = .33, p &lt; .001)\nCI → CR direct path was non‑significant (full mediation by COR).\n\n\n\nImplication: Cognitive response is the central mechanism translating GenAI engagement into creative output."
   },
   {
-    "objectID": "Publications/publication 3/Konfound Paper.html",
-    "href": "Publications/publication 3/Konfound Paper.html",
-    "title": "konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences",
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "title": "AERA 2025 Presentation",
+    "section": "Part B: Designing an Effective GenAI-Based Teaching Model",
+    "text": "Part B: Designing an Effective GenAI-Based Teaching Model\nUsing ADDIE instructional design, we integrate the six constructs into distinct phases:\n\n\n\n\n\n\n\n\nADDIE Stage\nTarget Constructs\nCore Strategies\n\n\n\n\nAnalysis & Design\nPerceived Usefulness, Ease of Use\nDemo video + interactive walkthrough with embedded quiz; instant AI feedback to build confidence.\n\n\nDevelopment\nAffective Response, Social Influence\nAI pair‑programming workshops; emotion cards (👍/👎) for real‑time feedback.\n\n\nImplementation\nCognitive Response\nStructured reflection logs (“What? Why? How?”); guided Socratic prompts to deepen metacognition.\n\n\nEvaluation & Continuous Improvement\nSatisfaction, Continuance Intention\nGamified prompts with badges & leaderboards; iterative prompt challenges to sustain engagement.\n\n\nExtension\nCreativity\nOpen‑ended mini‑projects: design AI‑enhanced micro‑lessons; peer showcase and feedback sessions.\n\n\n\n\nImplementation Plan\n\nPilot: 8‑week module in Python Programming, 2 sections × 30 students.\nFacilitator Training: Two workshops on GenAI tools and model dimensions.\nStudent Onboarding: Intro session, demo of reflection logs, and AI ethics primer.\n\n\n\nEvaluation Strategy\n\nQuantitative: Re‑test SEM paths; pre/post measures of COR, CI, and CR.\nQualitative: Text‑mining of reflection logs; focus groups on affective & metacognitive experiences.\n\n\n\nNext Steps\n\nRefine reflection prompts and gamification elements.\nScale model to humanities and STEM courses.\nEstablish an instructor community for sharing GenAI integration best practices.\n\n\nThank you for engaging! Your comments and questions are welcome below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vino Wang",
     "section": "",
-    "text": "Abstract\nQuantifying the Robustness of Inferences Sensitivity analysis, a statistical method crucial for validating inferences across disciplines, quantifies the conditions that could alter conclusions (Razavi et al., 2021). One line of work is rooted in linear models and foregrounds the sensitivity of inferences to the strength of omitted variables (Cinelli & Hazlett, 2019; Frank, 2000). A more recent approach is rooted in the potential outcomes framework for causal inference and foregrounds how hypothetical changes in a sample would alter an inference if such cases were otherwise observed (Frank et al., 2008, 2013; Frank & Min, 2007; Xu et al., 2019). One sensitivity measure is the Impact Threshold of a Confounding Variable, or ITCV, which generates statements about the correlation of an omitted, confounding variable with both a predictor of interest and the outcome (Frank, 2000). The ITCV index can be calculated for any linear model. The Robustness of an Inference to Replacement, RIR, assesses how replacing a certain percentage of cases with counterfactuals of zero treatment effect could nullify an inference (Frank et al., 2013). The RIR index is more general than the ITCV index. The sensitivity analysis techniques we describe in this paper and implement in the konfound R package differ from others in several ways. Unlike Linden et al. (2020), whose approach focuses on dichotomous outcomes and omitted variable sensitivity, our approach extends to continuous outcomes and evaluates both changes in estimates and standard errors. Oster (2019) focuses only on selection into the treatment based on unobservable variables versus observable variables necessary to nullify an estimate. The ITCV index focuses on the relationship of the unobservable to the predictor of interest and to the outcome. More generally, many others used simulation-based approaches, while our approach uses closed-form expressions to generate a single term representing sensitivity. These techniques, along with others, are reviewed and discussed (along with the ITCV and RIR approaches) in Frank et al. (2023). We have implemented the calculation of both the ITCV and RIR indices in the konfound R package. This package is intended to provide an easy-to-use and principled set of sensitivity techniques that are suitable for a range of model and dependent variable types and use cases. Its audience is broad: primarily social scientists, but also interested individuals in other disciplines (e.g., the health sciences). This paper provides an overview of two core functions within the konfound package, each of which can calculate the ITCV and RIR indices: konfound() and pkonfound(). These functions allow users to calculate the robustness of inferences using a model estimated (with R) or using information about a model from a published study, respectively. The konfound package is available from the Comprehensive R Archive Network (CRAN) at https://CRAN.R-project.org/package=konfound; it can be installed via the install.packages(“konfound”) function within R\n \n\n\nCitation\nNarvaiz et al., (2024). konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences. Journal of Open Source Software, 9(95), 5779. doi:10.21105/joss.05779"
+    "text": "👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.\n🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.\n📚 I’m currently working towards my PISA paper in the field of ICI use in Education.\n📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）."
+  },
+  {
+    "objectID": "Blogs.html",
+    "href": "Blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Stay hungry Stay foolish\n\n\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
+  },
+  {
+    "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
+    "href": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
+    "title": "Stay hungry Stay foolish",
+    "section": "",
+    "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html",
+    "href": "Portfolio/AECT 2024/AECT2024.html",
+    "title": "AECT 2024 Presentation",
+    "section": "",
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "href": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "title": "AECT 2024 Presentation",
+    "section": "",
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "href": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "title": "AECT 2024 Presentation",
+    "section": "Key Points",
+    "text": "Key Points\n\n🚀 GenAI’s Rise in Education\nTools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.\n🧠 Educational Design Transformation\nAt the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the CAS Online Course Design program to support faculty in designing evidence-based learning activities.\n🛠️ Practical Application Demonstrated\nEducators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:\n\nLearning Outcome: Distinguish differences between federal and state court systems.\nAssessment: Comparative analysis essay.\nActivity: Create interactive infographics or mind maps.\n\n💬 Faculty Feedback\nFaculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).\n📊 Sentiment Analysis\nParticipant reflections were analyzed using the Bing Sentiment Lexicon, revealing a generally positive attitude toward GenAI as a supplementary tool."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "href": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "title": "AECT 2024 Presentation",
+    "section": "Design Process (Quick Guide)",
+    "text": "Design Process (Quick Guide)\n\nSelect a GenAI tool (ChatGPT, Bing Chat, etc.).\nUse a prompt like:\n\"What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?\"\n\nReview and critically reflect on the generated suggestions.\nSelect and adapt ideas suitable for your course structure and learning goals."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "href": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "title": "AECT 2024 Presentation",
+    "section": "Outcomes",
+    "text": "Outcomes\n\n🔄 Encouraged iterative design of assessments with GenAI as inspiration.\n👥 Fostered collaboration and experience-sharing among faculty.\n🎯 Supported alignment between learning outcomes and activities in online settings."
+  },
+  {
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "href": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "title": "AECT 2024 Presentation",
+    "section": "Call to Action -Your Story Matters!!!",
+    "text": "Call to Action -Your Story Matters!!!\n\nEducators are encouraged to:\n\nExplore GenAI tools in their teaching design.\nReflect critically on AI-generated suggestions.\nShare strategies and experiences within their academic communities.\n\n\nThis presentation was part of the Works in Progress & Design in Practice session at AECT 2024.\nFor more info, contact Wei Wang"
+  },
+  {
+    "objectID": "Portfolio.html",
+    "href": "Portfolio.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "AERA 2025 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html",
+    "href": "Projects/IES_Konfound/IES_konfound.html",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "",
+    "text": "Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the konfound R package, to:\n\nQuantify the robustness of causal inferences (RIR, ITCV).\nProvide tools for published studies (pkonfound()), R model objects (konfound()), and meta-analyses (mkonfound())."
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "href": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "Dependencies",
+    "text": "Dependencies\n\nDepends: R (&gt;= 2.10)\nImports: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor\nSuggests: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.1 Published Studies (pkonfound())",
+    "text": "4.1 Published Studies (pkonfound())\nlibrary(konfound)\n# Compute robustness indices for published summary statistics\npkonfound(\n  est_eff      = 2.0,\n  std_err      = 0.4,\n  n_obs        = 100,\n  n_covariates = 3\n)"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.2 R Model Objects (konfound())",
+    "text": "4.2 R Model Objects (konfound())\n# Fit a linear model\nm1 &lt;- lm(mpg ~ wt + disp, data = mtcars)\n# Sensitivity analysis for coefficient 'wt'\nkonfound(m1, \"wt\")"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.3 Meta‑Analysis (mkonfound())",
+    "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
+  },
+  {
+    "objectID": "Publications/Publication 2/TechTrends Paper.html",
+    "href": "Publications/Publication 2/TechTrends Paper.html",
+    "title": "Trends and Topics in Educational Technology, 2024 Edition",
+    "section": "",
+    "text": "Abstract\nThis editorial continues to landscape the trends and popular educational technology topics for 2023. We used the public internet data mining approach from previous years (Allman et al., 2023b; Kimmons, 2020; Kimmons & Rosenberg, 2022; Kimmons et al., 2021). This year, we extracted and analyzed data from the Scopus research article database, K-12 school and district Facebook pages, and the open publishing platform EdTech Books. We also looked closer at two key terms—“artificial intelligence” and “OER”—using Google Custom Search API to examine patterns in the higher education context and the description of resources from the Teachers Pay Teachers (TPT) website for insights in the K-12 context. This year, we no longer utilized the X (formerly Twitter) #EdTech affinity group as a data source because of the changes to the platform/accessibility of the data. Our analysis represents snapshots of 2023 trends in educational technology from these dataset angles, furthering our understanding of current EdTech community’s attitudes, behaviors, and leanings and underpinning a predictive vision of future trends in the field.\n \n\n\nCitation\nAllman, B., Kimmons, R., Wang, W. et al. Trends and Topics in Educational Technology, 2024 Edition. TechTrends 68, 402–410 (2024). doi:10.1007/s11528-024-00950-5"
+  },
+  {
+    "objectID": "Publications/Publication 4/GenAI dependency.html",
+    "href": "Publications/Publication 4/GenAI dependency.html",
+    "title": "Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity",
+    "section": "",
+    "text": "Abstract\nThis study examines the relationship between the continuance use of generative artificial intelligence (AI) and creativity among higher education students, emphasizing the mediating role of cognitive response. Drawing on the Expectation-Confirmation Model for Information Systems Continuance (ECM-ISC) and the Interaction of Person-Affect-Cognition-Execution (I-PACE) model, the research investigates how satisfaction, affect, and personality traits influence students’ intention to use AI tools and, through reflective cognitive engagement, enhance their creative performance. Data were collected from 288 undergraduate students via a structured questionnaire and analyzed using path analysis. The findings indicate that while satisfaction, affect, and personality traits significantly boost the intention to use AI, this intention impacts creativity only indirectly through cognitive response. These results highlight the importance of reflective engagement in harnessing AI for creative tasks and offer insights for its balanced integration into educational settings.\n\n\n\nGenAI dependency\n\n\n\n\n\nGenAI Usage\n\n\n\n\nCitation\nPing, H., Wang, W., Xie, Y., Lv, S., Li, J., & Weng, L. (2025, April). Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity. In 2025 7th International Conference on Computer Science and Technologies in Education (CSTE) (pp. 615-621). IEEE DOI: 10.1109/CSTE64638.2025.11092242"
   },
   {
     "objectID": "Publications.html",
     "href": "Publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Trends and Topics in Educational Technology, 2024 Edition\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\n\n\n\nJournal Articles\n\n\nR Packages\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity\n\n\n\n\n\n\nConference Paper\n\n\n\n\n\n\n\n\n\nJul 26, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nTrends and Topics in Educational Technology, 2024 Edition\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\n\n\n\nJournal Articles\n\n\nR Packages\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Teaching/Online Course Design/Course Design.html",

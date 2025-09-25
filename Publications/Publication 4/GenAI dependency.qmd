@@ -1,0 +1,20 @@
+---
+title: "Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity"
+author: "Wei Wang"
+date: "2025-07-26"
+categories: [Conference Paper]
+---
+
+### Abstract
+
+This study examines the relationship between the continuance use of generative artificial intelligence (AI) and creativity among higher education students, emphasizing the mediating role of cognitive response. Drawing on the Expectation-Confirmation Model for Information Systems Continuance (ECM-ISC) and the Interaction of Person-Affect-Cognition-Execution (I-PACE) model, the research investigates how satisfaction, affect, and personality traits influence students’ intention to use AI tools and, through reflective cognitive engagement, enhance their creative performance. Data were collected from 288 undergraduate students via a structured questionnaire and analyzed using path analysis. The findings indicate that while satisfaction, affect, and personality traits significantly boost the intention to use AI, this intention impacts creativity only indirectly through cognitive response. These results highlight the importance of reflective engagement in harnessing AI for creative tasks and offer insights for its balanced integration into educational settings.
+
+![GenAI dependency](GenAI%20dependency.png)
+
+![GenAI Usage](GenAI%20usage.png)
+
+### Citation
+
+Ping, H., Wang, W., Xie, Y., Lv, S., Li, J., & Weng, L. (2025, April). Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity. In 2025 7th International Conference on Computer Science and Technologies in Education (CSTE) (pp. 615-621). IEEE [DOI: 10.1109/CSTE64638.2025.11092242](https://ieeexplore-ieee-org.utk.idm.oclc.org/abstract/document/11092242)
+
+------------------------------------------------------------------------

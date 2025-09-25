@@ -9,10 +9,10 @@
     ]
   },
   {
-    "listing": "/Portfolio.html",
+    "listing": "/Projects.html",
     "items": [
-      "/Portfolio/AERA _2025/AERA 2025.html",
-      "/Portfolio/AECT 2024/AECT2024.html"
+      "/Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+      "/Projects/IES_Konfound/IES_konfound.html"
     ]
   },
   {
@@ -22,15 +22,16 @@
     ]
   },
   {
-    "listing": "/Projects.html",
+    "listing": "/Portfolio.html",
     "items": [
-      "/Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
-      "/Projects/IES_Konfound/IES_konfound.html"
+      "/Portfolio/AERA _2025/AERA 2025.html",
+      "/Portfolio/AECT 2024/AECT2024.html"
     ]
   },
   {
     "listing": "/Publications.html",
     "items": [
+      "/Publications/Publication 4/GenAI dependency.html",
       "/Publications/Publication 2/TechTrends Paper.html",
       "/Publications/publication 3/Konfound Paper.html",
       "/Publications/Publication1/ECMISC_Paper.html"
