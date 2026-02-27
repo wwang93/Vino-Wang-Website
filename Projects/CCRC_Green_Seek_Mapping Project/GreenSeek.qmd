@@ -135,23 +135,16 @@ for (yr in unique(inst_df$year)) {
 knitr::include_graphics("GreenSeek_pipe.png")
 ```
 
-The analytic pipeline consists of several R scripts that perform data wrangling, JSON export, and visualization preparation. The key components are:
-- **Supply-Side Wrangling:** `pre_supply_data.R` reads `ccrc_cip_comp.dta`, coerces `year` to numeric, sorts institution names, and writes `ccrc_cip_comp.rds` for downstream use.
-- **Demand-Side Wrangling:** `pre_CZ_job_post.R` loads Lightcast CSVs (filtered `GREEN == 1` for 2010–2023), aggregates postings by county/SOC, joins to `county20` and `CZ2020` shapefiles, simplifies geometries (`dTolerance = 0.05`), and saves `CZ_job_post.rds`.
-- **Mask Polygon Generation:** `prepare_mask_polygon.R` fetches U.S. state boundaries via `rnaturalearth`, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports `mask_polygon.geojson`.
-- **GeoJSON Exports for Front-end:** `pre_cz jason.R` writes per-year CZ GeoJSON files (`CZData_<year>.json`) from `CZ_job_post.rds`. `Pre_supply_json.R` converts `ccrc_cip_comp.rds` into point SF, selects `instnm` and `inst_perc_green_tot`, and exports `InstituteData_<year>.json` for each year.
-- **Visualization Preprocessing:** `Pre_treemap.R` aggregates green completions by program title, builds a per-year Plotly treemap list (`Green_degree_treemap_plotly_list.rds`). `Pre_Plotly.R` computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes `p_CZ_plotly.rds` & `p_SOC_plotly.rds`.
+The analytic pipeline consists of several R scripts that perform data wrangling, JSON export, and visualization preparation. The key components are: - **Supply-Side Wrangling:** `pre_supply_data.R` reads `ccrc_cip_comp.dta`, coerces `year` to numeric, sorts institution names, and writes `ccrc_cip_comp.rds` for downstream use. - **Demand-Side Wrangling:** `pre_CZ_job_post.R` loads Lightcast CSVs (filtered `GREEN == 1` for 2010–2023), aggregates postings by county/SOC, joins to `county20` and `CZ2020` shapefiles, simplifies geometries (`dTolerance = 0.05`), and saves `CZ_job_post.rds`. - **Mask Polygon Generation:** `prepare_mask_polygon.R` fetches U.S. state boundaries via `rnaturalearth`, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports `mask_polygon.geojson`. - **GeoJSON Exports for Front-end:** `pre_cz jason.R` writes per-year CZ GeoJSON files (`CZData_<year>.json`) from `CZ_job_post.rds`. `Pre_supply_json.R` converts `ccrc_cip_comp.rds` into point SF, selects `instnm` and `inst_perc_green_tot`, and exports `InstituteData_<year>.json` for each year. - **Visualization Preprocessing:** `Pre_treemap.R` aggregates green completions by program title, builds a per-year Plotly treemap list (`Green_degree_treemap_plotly_list.rds`). `Pre_Plotly.R` computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes `p_CZ_plotly.rds` & `p_SOC_plotly.rds`.
 
 ## 3.6 Technical Implementation & Refinement
 
-- **Initial Prototype:** Started with R’s `mapboxer` package in Shiny but lacked hover support, prompting migration to Mapbox GL JS.
-- **Simulated Rendering:** Prototyped using one year of real supply data and simulated demand via `tidycensus` for early UI/UX testing.
-- **Hover & Search Enhancements:** Integrated hover popups on CZ polygons and implemented a Shiny search button for institution fly-to and popups.
-- **Full Data Integration:** Adopted real 2010–2023 supply and demand data, switched to CZ boundaries, and added a global `selectInput("selected_year")`.
-- **Performance Tuning:** Split 14-year data into individual JSON files (`CZData_2010.json…CZData_2023.json` and `InstituteData_*.json`), leveraging `fetch(..., {cache: "force-cache"})` to reduce redraw time from ~5s to <1s.
-- **Mask & Tabs:** Added a mask layer (`mask_polygon.geojson`) for contiguous U.S. and organized the Shiny UI into three tabs: Map (interactive map), Supply (treemap), and Demand (time-series).
-
-
+-   **Initial Prototype:** Started with R’s `mapboxer` package in Shiny but lacked hover support, prompting migration to Mapbox GL JS.
+-   **Simulated Rendering:** Prototyped using one year of real supply data and simulated demand via `tidycensus` for early UI/UX testing.
+-   **Hover & Search Enhancements:** Integrated hover popups on CZ polygons and implemented a Shiny search button for institution fly-to and popups.
+-   **Full Data Integration:** Adopted real 2010–2023 supply and demand data, switched to CZ boundaries, and added a global `selectInput("selected_year")`.
+-   **Performance Tuning:** Split 14-year data into individual JSON files (`CZData_2010.json…CZData_2023.json` and `InstituteData_*.json`), leveraging `fetch(..., {cache: "force-cache"})` to reduce redraw time from \~5s to \<1s.
+-   **Mask & Tabs:** Added a mask layer (`mask_polygon.geojson`) for contiguous U.S. and organized the Shiny UI into three tabs: Map (interactive map), Supply (treemap), and Demand (time-series).
 
 # 4. Interactive Application
 

@@ -4,7 +4,7 @@
     "href": "Teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Faculty Development: Teaching with GenAI\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\nTeaching with GenAI\n\n\n\n\n\n\n\n\n\nNov 23, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Delivery\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nNov 18, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Development\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Development: Online Course Design Training\n\n\n\n\n\n\nProfessional Development\n\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "Faculty Development: Teaching with GenAI\n\n\n\nProfessional Development\n\nFaculty Development\n\nTeaching with GenAI\n\n\n\n\n\n\n\n\n\nNov 23, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Delivery\n\n\n\nProfessional Development\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nNov 18, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Professional Development:Online Course Development\n\n\n\nProfessional Development\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nFaculty Development: Online Course Design Training\n\n\n\nProfessional Development\n\nFaculty Development\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Teaching/Online Course Development/Course Development.html",
@@ -53,7 +53,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\n\n\n\nWeb\n\n\nShiny\n\n\nMapping\n\n\nR\n\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\n\n\n\nR\n\n\nSensitivity Analysis\n\n\nCausal Inference\n\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\nWeb\n\nShiny\n\nMapping\n\nR\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
@@ -163,23 +163,114 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Vino Wang",
+    "title": "Wei Wang",
     "section": "",
-    "text": "👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.\n🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.\n📚 I’m currently working towards my PISA paper in the field of ICI use in Education.\n📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）."
+    "text": "PhD student · Learning Design & Technology · UT Knoxville\n\n\n\nI study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.\n\nGenAI use in higher education and classroom practice\nEducational data science and large-scale assessment\nEvaluation methodology for technology-enabled learning {.hero-list}\n\n\nView projects Read publications CV"
+  },
+  {
+    "objectID": "index.html#focus-areas",
+    "href": "index.html#focus-areas",
+    "title": "Wei Wang",
+    "section": "Focus areas",
+    "text": "Focus areas\n\n\nGenAI in education\nResearching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.\nTeaching portfolio →\n\n\nEducational data science\nDeveloping analyses and tools for large-scale, longitudinal educational datasets and evaluation.\nProjects →\n\n\nResearch communication\nPresentations, publications, and community-focused dissemination of findings.\nPortfolio →"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Wei Wang",
+    "section": "Featured work",
+    "text": "Featured work\n\n\nKonFound-It! sensitivity analysis\nTools for quantifying robustness of causal inferences against potential biases.\nProject overview →\n\n\nCCRC Green Seek mapping\nInteractive visualization linking community college green programs to labor demand.\nProject overview →\n\n\nAERA 2025 presentation\nFrameworks and a teaching model for GenAI integration in higher education.\nPresentation →"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Wei Wang",
+    "section": "Get in touch",
+    "text": "Get in touch\nI welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.\n\nwwang93@vols.utk.edu Google Scholar LinkedIn GitHub"
   },
   {
     "objectID": "Blogs.html",
     "href": "Blogs.html",
-    "title": "Blogs",
+    "title": "Blog",
     "section": "",
-    "text": "Stay hungry Stay foolish\n\n\n\n\n\n\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "Stay hungry Stay foolish\n\n\nA personal reflection on Steve Jobs’ Stanford address and a decade-long journey in educational technology.\n\n\n\n\n\nDec 22, 2024\n\n\nVino Wang\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "AGENTS.html#project-snapshot",
+    "href": "AGENTS.html#project-snapshot",
+    "title": "AGENTS.md",
+    "section": "Project snapshot",
+    "text": "Project snapshot\n\nThis is a Quarto website project (see _quarto.yml).\nOutput is written to docs/ and docs/site_libs/.\nR dependencies are managed with renv (see renv.lock).\nR version in lockfile: 4.4.1.\nNo Cursor or Copilot instruction files are present in this repo."
+  },
+  {
+    "objectID": "AGENTS.html#build-lint-test-commands",
+    "href": "AGENTS.html#build-lint-test-commands",
+    "title": "AGENTS.md",
+    "section": "Build / lint / test commands",
+    "text": "Build / lint / test commands\n\nEnvironment setup\n\nRestore packages: Rscript -e \"renv::restore()\"\nCheck renv status: Rscript -e \"renv::status()\"\n\n\n\nBuild / preview\n\nBuild full site: quarto render\nBuild a single page: quarto render index.qmd\nLive preview with hot-reload: quarto preview\nClean Quarto output: quarto clean\n\n\n\nLinting (optional)\n\nLint all R sources (if lintr installed): Rscript -e \"lintr::lint_dir('.')\"\nLint a single file: Rscript -e \"lintr::lint('path/to/file.R')\"\n\n\n\nFormatting (optional)\n\nFormat R code (if styler installed): Rscript -e \"styler::style_dir('.')\"\nFormat one file: Rscript -e \"styler::style_file('path/to/file.R')\"\n\n\n\nTests\n\nThere is no tests directory in this repo right now.\nIf tests are added with testthat:\n\nRun all tests: Rscript -e \"testthat::test_dir('tests/testthat')\"\nRun a single test file: Rscript -e \"testthat::test_file('tests/testthat/test-foo.R')\"\nRun a single test by name: Rscript -e \"testthat::test_file('tests/testthat/test-foo.R', filter = 'name')\""
+  },
+  {
+    "objectID": "AGENTS.html#repo-structure-and-conventions",
+    "href": "AGENTS.html#repo-structure-and-conventions",
+    "title": "AGENTS.md",
+    "section": "Repo structure and conventions",
+    "text": "Repo structure and conventions\n\nTop-level pages are .qmd files (e.g. index.qmd, Projects.qmd).\nSection content is organized in folders: Projects/, Portfolio/, Teaching/, Publications/, Blogs/.\nShared site config is in _quarto.yml.\nCustom styling is in styles.css.\nBuilt site artifacts go to docs/ and docs/site_libs/."
+  },
+  {
+    "objectID": "AGENTS.html#code-style-guidelines",
+    "href": "AGENTS.html#code-style-guidelines",
+    "title": "AGENTS.md",
+    "section": "Code style guidelines",
+    "text": "Code style guidelines\n\nR code style\n\nUse 2 spaces for indentation (matches the .Rproj config).\nPrefer snake_case for variables and functions.\nUse UpperCamelCase only for R6/RC classes or S4 classes.\nPrefer explicit namespaces (pkg::fn) inside small chunks.\nIf many functions are used, a single library(pkg) at top is OK.\nAvoid attach() and implicit search path side effects.\nSet seeds (set.seed(...)) for any random output in rendered pages.\nKeep chunk outputs deterministic to avoid noisy diffs in docs/.\n\n\n\nQuarto / QMD style\n\nUse YAML front matter at top of .qmd pages.\nPrefer Quarto chunk options with the #| syntax.\nKeep chunk options consistent (echo, message, warning, fig.width).\nAvoid hidden side effects in chunks; make data loading explicit.\nWhen a chunk must fail the build, use stop(...) with a clear message.\nWhen a chunk can degrade gracefully, use warning(...) or message(...).\n\n\n\nImports and dependencies\n\nUse renv for package changes:\n\nAdd dependency: Rscript -e \"renv::install('pkg')\"\nUpdate lockfile: Rscript -e \"renv::snapshot()\"\n\nDo not edit renv.lock by hand.\nKeep package usage minimal in QMD chunks to speed builds.\n\n\n\nNaming conventions\n\nFiles: Title_Case.qmd for top-level pages already follow this style.\nNew QMD files should follow existing naming patterns.\nAvoid spaces in filenames; use underscores if needed.\nSection folders should be descriptive and match navbar labels.\n\n\n\nError handling\n\nFor fatal issues, prefer stop(\"clear message\").\nFor recoverable issues, use warning(...) and continue.\nUse tryCatch() when optional content may fail but the page should render.\nAvoid suppressing errors unless you also log a message.\n\n\n\nData and assets\n\nStore images in images/ or local section folders.\nFor large binary assets, prefer external hosting and link them.\nKeep docs/ in sync by re-rendering, not manual edits.\n\n\n\nCSS and styling\n\nKeep changes centralized in styles.css.\nExisting fonts are loaded via Google Fonts; reuse unless a full redesign.\nAvoid overriding Quarto theme styles unless needed.\nPrefer small, focused selectors over broad global resets."
+  },
+  {
+    "objectID": "AGENTS.html#content-editing-tips",
+    "href": "AGENTS.html#content-editing-tips",
+    "title": "AGENTS.md",
+    "section": "Content editing tips",
+    "text": "Content editing tips\n\nFor new pages, add to _quarto.yml navbar if it should be visible.\nUse relative links to keep site portable.\nWhen changing structure, update both source .qmd and built docs/."
+  },
+  {
+    "objectID": "AGENTS.html#checks-before-committing",
+    "href": "AGENTS.html#checks-before-committing",
+    "title": "AGENTS.md",
+    "section": "Checks before committing",
+    "text": "Checks before committing\n\nRun quarto render to update docs/.\nEnsure no unintended changes in docs/site_libs/.\nConfirm renv.lock matches package changes."
+  },
+  {
+    "objectID": "AGENTS.html#notes-for-agents",
+    "href": "AGENTS.html#notes-for-agents",
+    "title": "AGENTS.md",
+    "section": "Notes for agents",
+    "text": "Notes for agents\n\nNo Cursor rules in .cursor/rules/ or .cursorrules.\nNo GitHub Copilot instructions in .github/copilot-instructions.md.\nFollow existing patterns; do not introduce new tooling without need."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "Hello! My name is Vino Wang, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.\nOver the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This philosophy guides my work as I strive to create impactful educational experiences.\n📍 University of Tennessee,Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu 🔗 GitHub | LinkedIn"
+    "text": "Hello! I am Wei Wang (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education."
+  },
+  {
+    "objectID": "about.html#research-focus",
+    "href": "about.html#research-focus",
+    "title": "About me",
+    "section": "Research focus",
+    "text": "Research focus\n\nGenAI integration in teaching and learning\nEducational data science and large-scale assessment\nEvaluation methods for technology-enabled learning"
+  },
+  {
+    "objectID": "about.html#recent-work",
+    "href": "about.html#recent-work",
+    "title": "About me",
+    "section": "Recent work",
+    "text": "Recent work\n\nDesigning AI-assisted instructional models that promote critical thinking.\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\n📍 University of Tennessee, Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu\n🔗 GitHub | LinkedIn"
   },
   {
     "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
@@ -233,9 +324,9 @@
   {
     "objectID": "Portfolio.html",
     "href": "Portfolio.html",
-    "title": "My Portfolio",
+    "title": "Portfolio",
     "section": "",
-    "text": "AERA 2025 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\n\n\n\nConference Presentation\n\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "AERA 2025 Presentation\n\n\n\nConference Presentation\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\nConference Presentation\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/IES_Konfound/IES_konfound.html",
@@ -291,7 +382,7 @@
     "href": "Publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity\n\n\n\n\n\n\nConference Paper\n\n\n\n\n\n\n\n\n\nJul 26, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nTrends and Topics in Educational Technology, 2024 Edition\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\n\n\n\nJournal Articles\n\n\nR Packages\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\nWei Wang\n\n\n\n\n\n\nNo matching items"
+    "text": "Generative AI Dependency in Higher Education: Investigating Continuance Intention, Cognitive Response, and Creativity\n\n\n\nConference Paper\n\n\n\n\n\n\n\n\n\nJul 26, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nTrends and Topics in Educational Technology, 2024 Edition\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nkonfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences\n\n\n\nJournal Articles\n\nR Packages\n\n\n\n\n\n\n\n\n\nMar 9, 2024\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAn ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19\n\n\n\nJournal Articles\n\n\n\n\n\n\n\n\n\nDec 26, 2021\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Teaching/Online Course Design/Course Design.html",

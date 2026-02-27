@@ -1,5 +1,6 @@
 ---
-title: " Blogs"
+title: "Blog"
+description: "Reflections and essays on learning, technology, and research."
 listing:
   contents: Blogs
   sort: "date desc"

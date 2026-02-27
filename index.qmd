@@ -1,6 +1,7 @@
 ---
-title: "Vino Wang"
+title: "Wei Wang"
 image: vino.png
+description: "PhD student researching GenAI in education, educational data science, and evaluation methods at UT Knoxville."
 about:
   template: jolla
   links:
@@ -14,11 +15,78 @@ about:
       text: Github
       href: https://github.com/wwang93
 ---
+::: {.hero}
+<p class="hero-kicker">PhD student · Learning Design & Technology · UT Knoxville</p>
 
-👨🏻‍💻 I’m a second year PhD student at the UT Knoxville，major in Learning Design and Technology（LDT）.
+# Researching how GenAI reshapes learning
 
-🔬 My research interests are in ICT(GenAI) use in Education,Educational Data science,Educational technology,Large Education Datasets Assessment.
+I study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.
 
-📚 I’m currently working towards my PISA paper in the field of ICI use in Education.
+- GenAI use in higher education and classroom practice
+- Educational data science and large-scale assessment
+- Evaluation methodology for technology-enabled learning
+{.hero-list}
 
-📽️ I am also interested in assisting others on their path in the world of Education Evaluation Statistics Methodology（ESM）.
+<div class="hero-actions">
+  <a class="button" href="Projects.qmd">View projects</a>
+  <a class="button ghost" href="Publications.qmd">Read publications</a>
+  <a class="button ghost" href="CV.qmd">CV</a>
+</div>
+:::
+
+## Focus areas
+
+::: {.card-grid}
+::: {.card}
+### GenAI in education
+Researching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.
+
+[Teaching portfolio →](Teaching.qmd)
+:::
+::: {.card}
+### Educational data science
+Developing analyses and tools for large-scale, longitudinal educational datasets and evaluation.
+
+[Projects →](Projects.qmd)
+:::
+::: {.card}
+### Research communication
+Presentations, publications, and community-focused dissemination of findings.
+
+[Portfolio →](Portfolio.qmd)
+:::
+:::
+
+## Featured work
+
+::: {.card-grid}
+::: {.card}
+### KonFound-It! sensitivity analysis
+Tools for quantifying robustness of causal inferences against potential biases.
+
+[Project overview →](Projects/IES_Konfound/IES_konfound.qmd)
+:::
+::: {.card}
+### CCRC Green Seek mapping
+Interactive visualization linking community college green programs to labor demand.
+
+[Project overview →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
+:::
+::: {.card}
+### AERA 2025 presentation
+Frameworks and a teaching model for GenAI integration in higher education.
+
+[Presentation →](Portfolio/AERA%20_2025/AERA%202025.qmd)
+:::
+:::
+
+## Get in touch
+
+I welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.
+
+<div class="contact-list">
+  <a href="mailto:wwang93@vols.utk.edu">wwang93@vols.utk.edu</a>
+  <a href="https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1">Google Scholar</a>
+  <a href="https://www.linkedin.com/in/wei-wang-356aa5285/">LinkedIn</a>
+  <a href="https://github.com/wwang93">GitHub</a>
+</div>

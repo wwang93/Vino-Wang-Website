@@ -1,1 +1,6 @@
+---
+title: "CV"
+description: "Curriculum vitae for Wei Wang."
+---
+
 ![](cv.pdf){width="200%" height="1000px"}

@@ -1,5 +1,6 @@
 ---
-title: " My Portfolio"
+title: "Portfolio"
+description: "Conference presentations, talks, and professional showcases."
 listing:
   contents: Portfolio
   sort: "date desc"

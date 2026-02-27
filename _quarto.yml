@@ -3,8 +3,14 @@ project:
   output-dir: "docs"
   lib-dir: "docs/site_libs"
 
+execute:
+  freeze: auto
+
 website:
   title: "Vino Wang"
+  description: "PhD student in Learning, Design, and Technology focused on GenAI in education, educational data science, and evaluation methods."
+  image: vino.png
+  favicon: vino.png
   navbar:
     left: 
       - text: "Home"
@@ -31,6 +37,8 @@ format:
   html:
     theme: superhero
     css: styles.css
+    open-graph: true
+    twitter-card: true
 
 editor: visual
 

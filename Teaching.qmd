@@ -1,5 +1,6 @@
 ---
-title: " Teaching"
+title: "Teaching"
+description: "Teaching materials, course design, and GenAI instructional practice."
 listing:
   contents: Teaching
   sort: "date desc"

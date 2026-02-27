@@ -1,5 +1,6 @@
 ---
-title: " Projects"
+title: "Projects"
+description: "Research and technical projects, tools, and visualizations."
 listing:
   contents: Projects
   sort: "date desc"

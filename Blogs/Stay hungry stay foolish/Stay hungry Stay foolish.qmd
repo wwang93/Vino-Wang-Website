@@ -2,6 +2,8 @@
 title: 'Stay hungry Stay foolish'
 author: "Vino Wang"
 date: "2024-12-22"
+description: "A personal reflection on Steve Jobs' Stanford address and a decade-long journey in educational technology."
+image: steve.png
 ---
 
 ![Steve Jobs](steve.png)
@@ -16,6 +18,6 @@ Revisiting this speech today, I find myself reflecting on why I chose to enter t
 
 Here’s to staying hungry and staying foolish, as I continue this journey. [video:Stay hungry Stay foolish](https://www.youtube.com/watch?v=I5TKeu7Mpi4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I5TKeu7Mpi4?si=get7JO7tBQ-pA1EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I5TKeu7Mpi4?si=get7JO7tBQ-pA1EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen>
 
 </iframe>

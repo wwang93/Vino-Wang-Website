@@ -1,26 +1,39 @@
 ---
 title: "About me"
 image: profile.jpg
+description: "Background, research focus, and contact details for Wei Wang (Vino)."
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/wei-wang-356aa5285/
     - icon: github
-      text: Github
-      href: https://github.com
+      text: GitHub
+      href: https://github.com/wwang93
 ---
 
+Hello! I am **Wei Wang** (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education.
 
-Hello! My name is **Vino Wang**, a Ph.D. student in Learning, Design, and Technology at the University of Tennessee, Knoxville. My research focuses on integrating ICT (Information and Communication Technology) into education, with a special interest in the transformative potential of generative AI in teaching and learning.
+## Research focus
 
-Over the past few years, I’ve worked on various projects, including: - Developing AI-driven teaching assistants to improve critical thinking in higher education. - Designing innovative teaching materials for programming education. - Conducting large-scale data analyses on educational outcomes using tools like R and Python.
+- GenAI integration in teaching and learning
+- Educational data science and large-scale assessment
+- Evaluation methods for technology-enabled learning
 
-I believe in the motto: **"Technology comes and goes, pedagogy never falls."** This philosophy guides my work as I strive to create impactful educational experiences.
+## Recent work
 
-📍 University of Tennessee,Knoxville, TN\
-✉️ Email: wwang93\@vols.utk.edu 🔗 [GitHub](https://github.com) \| [LinkedIn](https://linkedin.com)
+- Designing AI-assisted instructional models that promote critical thinking.
+- Building tools and visualizations for large educational datasets in R and Python.
+- Translating research into practical guidance for instructors and students.
+
+I believe in the motto: **"Technology comes and goes, pedagogy never falls."** This guides my work toward grounded, human-centered learning experiences.
+
+## Contact
+
+📍 University of Tennessee, Knoxville, TN  \
+✉️ Email: [wwang93@vols.utk.edu](mailto:wwang93@vols.utk.edu)  \
+🔗 [GitHub](https://github.com/wwang93) | [LinkedIn](https://www.linkedin.com/in/wei-wang-356aa5285/)

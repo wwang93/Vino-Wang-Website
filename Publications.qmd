@@ -1,5 +1,6 @@
 ---
-title: " Publications"
+title: "Publications"
+description: "Peer-reviewed papers, manuscripts, and scholarly writing."
 listing:
   contents: Publications
   sort: "date desc"
