@@ -1,13 +1,76 @@
 ---
 title: "Blog"
 description: "Reflections and essays on learning, technology, and research."
-listing:
-  contents: Blogs
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
+
+## Read on Substack
+
+My blog is now hosted on Substack so posts are updated automatically and comments live there.
+
+<div class="substack-cta">
+  <a class="button" href="https://weiwang715.substack.com">Open Substack</a>
+  <a class="button ghost" href="https://weiwang715.substack.com/subscribe">Subscribe</a>
+</div>
+
+### Latest posts
+
+<div id="substack-feed" class="substack-posts">
+  <p>Loading latest posts...</p>
+</div>
+
+<script>
+const feedContainer = document.getElementById("substack-feed");
+const feedUrl = "https://weiwang715.substack.com/feed";
+const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+
+fetch(apiUrl)
+  .then((response) => response.json())
+  .then((data) => {
+    if (!data || data.status !== "ok" || !data.items) {
+      throw new Error("Feed unavailable");
+    }
+    const items = data.items.slice(0, 6);
+    const list = document.createElement("div");
+    list.className = "substack-post-list";
+    items.forEach((item) => {
+      const card = document.createElement("article");
+      card.className = "substack-post";
+      const title = document.createElement("h3");
+      title.className = "substack-post-title";
+      const link = document.createElement("a");
+      link.href = item.link;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = item.title;
+      title.appendChild(link);
+      const meta = document.createElement("p");
+      meta.className = "substack-post-meta";
+      const date = new Date(item.pubDate);
+      meta.textContent = date.toLocaleDateString();
+      card.appendChild(title);
+      card.appendChild(meta);
+      if (item.thumbnail) {
+        const img = document.createElement("img");
+        img.src = item.thumbnail;
+        img.alt = item.title;
+        img.loading = "lazy";
+        img.className = "substack-post-thumb";
+        card.appendChild(img);
+      }
+      if (item.description) {
+        const excerpt = document.createElement("p");
+        excerpt.className = "substack-post-excerpt";
+        excerpt.textContent = item.description.replace(/<[^>]*>/g, "").slice(0, 160) + "...";
+        card.appendChild(excerpt);
+      }
+      list.appendChild(card);
+    });
+    feedContainer.innerHTML = "";
+    feedContainer.appendChild(list);
+  })
+  .catch(() => {
+    feedContainer.innerHTML = '<p>Latest posts are available on <a href="https://weiwang715.substack.com" target="_blank" rel="noopener">Substack</a>.</p>';
+  });
+</script>

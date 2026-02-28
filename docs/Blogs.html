@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="docs/site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./vino.png" rel="icon" type="image/png">
-<script src="docs/site_libs/quarto-listing/list.min.js"></script>
-<script src="docs/site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="docs/site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="docs/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="docs/site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -72,74 +70,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Blog – Vino Wang">
 <meta property="og:description" content="Reflections and essays on learning, technology, and research.">
-<meta property="og:image" content="./Blogs/Stay hungry stay foolish/steve.png">
+<meta property="og:image" content="vino.png">
 <meta property="og:site_name" content="Vino Wang">
 <meta name="twitter:title" content="Blog – Vino Wang">
 <meta name="twitter:description" content="Reflections and essays on learning, technology, and research.">
-<meta name="twitter:image" content="./Blogs/Stay hungry stay foolish/steve.png">
+<meta name="twitter:image" content="vino.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -209,7 +149,7 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-page">
       <h1 class="title">Blog</h1>
                   <div>
         <div class="description">
@@ -220,7 +160,7 @@ window.Quarto = {
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -231,50 +171,87 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1734843600000" data-listing-file-modified-sort="1772167297278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
-<div class="thumbnail"><a href="./Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html" class="no-external">
-
-<img loading="lazy" src="./Blogs/Stay hungry stay foolish/steve.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html" class="no-external">Stay hungry Stay foolish</a>
-</h3>
-<div class="delink listing-description"><a href="./Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html" class="no-external">
-<p>A personal reflection on Steve Jobs’ Stanford address and a decade-long journey in educational technology.</p>
-</a></div>
+<section id="read-on-substack" class="level2">
+<h2 class="anchored" data-anchor-id="read-on-substack">Read on Substack</h2>
+<p>My blog is now hosted on Substack so posts are updated automatically and comments live there.</p>
+<div class="substack-cta">
+<p><a class="button" href="https://weiwang715.substack.com">Open Substack</a> <a class="button ghost" href="https://weiwang715.substack.com/subscribe">Subscribe</a></p>
 </div>
-<div class="metadata">
-<a href="./Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html" class="no-external">
-<div class="listing-date">
-Dec 22, 2024
+<section id="latest-posts" class="level3">
+<h3 class="anchored" data-anchor-id="latest-posts">Latest posts</h3>
+<div id="substack-feed" class="substack-posts">
+<p>
+Loading latest posts…
+</p>
 </div>
-<div class="listing-author">
-Vino Wang
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<script>
+const feedContainer = document.getElementById("substack-feed");
+const feedUrl = "https://weiwang715.substack.com/feed";
+const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+
+fetch(apiUrl)
+  .then((response) => response.json())
+  .then((data) => {
+    if (!data || data.status !== "ok" || !data.items) {
+      throw new Error("Feed unavailable");
+    }
+    const items = data.items.slice(0, 6);
+    const list = document.createElement("div");
+    list.className = "substack-post-list";
+    items.forEach((item) => {
+      const card = document.createElement("article");
+      card.className = "substack-post";
+      const title = document.createElement("h3");
+      title.className = "substack-post-title";
+      const link = document.createElement("a");
+      link.href = item.link;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = item.title;
+      title.appendChild(link);
+      const meta = document.createElement("p");
+      meta.className = "substack-post-meta";
+      const date = new Date(item.pubDate);
+      meta.textContent = date.toLocaleDateString();
+      card.appendChild(title);
+      card.appendChild(meta);
+      if (item.thumbnail) {
+        const img = document.createElement("img");
+        img.src = item.thumbnail;
+        img.alt = item.title;
+        img.loading = "lazy";
+        img.className = "substack-post-thumb";
+        card.appendChild(img);
+      }
+      if (item.description) {
+        const excerpt = document.createElement("p");
+        excerpt.className = "substack-post-excerpt";
+        excerpt.textContent = item.description.replace(/<[^>]*>/g, "").slice(0, 160) + "...";
+        card.appendChild(excerpt);
+      }
+      list.appendChild(card);
+    });
+    feedContainer.innerHTML = "";
+    feedContainer.appendChild(list);
+  })
+  .catch(() => {
+    feedContainer.innerHTML = '<p>Latest posts are available on <a href="https://weiwang715.substack.com" target="_blank" rel="noopener">Substack</a>.</p>';
+  });
+</script>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
