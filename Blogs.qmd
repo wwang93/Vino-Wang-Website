@@ -9,17 +9,18 @@ title-block-banner: true
 
 My blog is now hosted on Substack so posts are updated automatically and comments live there.
 
-<div class="substack-cta">
-  <a class="button" href="https://weiwang715.substack.com">Open Substack</a>
-  <a class="button ghost" href="https://weiwang715.substack.com/subscribe">Subscribe</a>
-</div>
+::: {.substack-cta}
+<a class="button" href="https://weiwang715.substack.com">Open Substack</a>
+<a class="button ghost" href="https://weiwang715.substack.com/subscribe">Subscribe</a>
+:::
 
 ### Latest posts
 
-<div id="substack-feed" class="substack-posts">
-  <p>Loading latest posts...</p>
-</div>
+::: {#substack-feed .substack-posts}
+<p>Loading latest posts...</p>
+:::
 
+```{=html}
 <script>
 const feedContainer = document.getElementById("substack-feed");
 const feedUrl = "https://weiwang715.substack.com/feed";
@@ -74,3 +75,4 @@ fetch(apiUrl)
     feedContainer.innerHTML = '<p>Latest posts are available on <a href="https://weiwang715.substack.com" target="_blank" rel="noopener">Substack</a>.</p>';
   });
 </script>
+```
