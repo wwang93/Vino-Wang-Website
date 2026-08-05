@@ -90,6 +90,26 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: none;
 }
 
+.book-preview {
+  max-width: 900px;
+  margin: var(--space-4) auto var(--space-5);
+}
+
+.book-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+}
+
+.book-preview figcaption {
+  margin-top: var(--space-1);
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 .section-title {
   margin: var(--space-5) 0 var(--space-2);
 }

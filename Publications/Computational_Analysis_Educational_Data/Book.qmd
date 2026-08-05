@@ -10,6 +10,8 @@ date-format: "MMMM YYYY"
 published-title: "Expected publication"
 categories: ["Book", "Educational Data Science", "R", "Artificial Intelligence"]
 description: "A forthcoming CRC Press field guide to computational analysis of educational data using R, traditional methods, and modern AI approaches."
+image: "research-idea-data-relationship.png"
+image-alt: "Diagram showing the reciprocal relationship between a research idea and available data: the research idea guides what researchers collect, while available data reshapes what they ask."
 page-layout: full
 title-block-banner: true
 ---
@@ -24,6 +26,11 @@ Both the CRC Press edition and the online companion are planned for publication 
   <a class="button" href="https://data-edu.github.io/computational-social-science-cookbook/" target="_blank" rel="noopener">Visit the book project</a>
   <a class="button ghost" href="https://github.com/data-edu/computational-social-science-cookbook" target="_blank" rel="noopener">View the repository</a>
 </div>
+
+<figure class="book-preview">
+  <img src="research-idea-data-relationship.png" alt="Diagram showing the reciprocal relationship between a research idea and available data: the research idea guides what researchers collect, while available data reshapes what they ask.">
+  <figcaption>Preview figure from the forthcoming manuscript; final design may change.</figcaption>
+</figure>
 
 ## About the book
 
