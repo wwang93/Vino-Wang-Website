@@ -1,5 +1,5 @@
 ---
-title: "Wei (Vino) Wang"
+title: "Wei Wang"
 image: vino.png
 description: "Ph.D. Candidate, educational AI researcher, and co-founder building evidence-informed tools for teaching, research, and educational decision-making."
 about:
@@ -22,12 +22,13 @@ about:
       href: https://github.com/wwang93
 ---
 
-<div class="proof-strip" aria-label="Selected roles and work">
-  <div class="proof-item"><span>Co-founder</span><strong>askabout.edu</strong></div>
-  <div class="proof-item"><span>Research leadership</span><strong>Student PI</strong></div>
-  <div class="proof-item"><span>Forthcoming</span><strong>CRC Press first author</strong></div>
-  <div class="proof-item"><span>Public data tools</span><strong>AIREA · R · Shiny</strong></div>
-</div>
+<p class="identity-line" aria-label="Current roles and forthcoming work">
+<span class="identity-item">Co-founder of askabout.edu</span>
+<span class="identity-separator" aria-hidden="true">·</span>
+<span class="identity-item">Student PI</span>
+<span class="identity-separator" aria-hidden="true">·</span>
+<span class="identity-item">First-author CRC Press book forthcoming in 2026</span>
+</p>
 
 ## Featured work
 
