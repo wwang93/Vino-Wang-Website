@@ -53,98 +53,63 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "CCRC Green Seek: Mapping Community College Green Sector Alignment\n\n\n\nWeb\n\nShiny\n\nMapping\n\nR\n\nJavaScript\n\n\n\nAn interactive visualization tool illustrating alignment between community college green program completions and green sector job demand.\n\n\n\n\n\nMay 4, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
+    "text": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
     "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
     "section": "",
-    "text": "This report summarizes the visualization component of the research project “Examining Community College Student Enrollment and Completions in Green Sector Occupations”, a joint effort by the Community College Research Center (CCRC) and the University of Tennessee, Knoxville. My role was to design and implement an interactive visualization tool that shows how community college green program completions (“supply”) align with green-sector job postings (“demand”).\nCommunity colleges need to align their training programs with the rapidly growing green economy, while also ensuring equitable access. However, a nationwide, interactive visualization of this alignment is currently lacking. Our project addresses this gap by:\n\nSupply: Tracking completions in green programs from IPEDS (2012–2022).\n\nDemand: Mapping green job postings from Lightcast (2010–2024), aggregated by Commuting Zone (CZ).\n\nClassification: Applying O*NET “Greening of Work” categories."
+    "text": "The AIREA Data Explorer combines an interactive national map with filters for year, job-posting measures, and community colleges."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#ipeds-supply-data",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#ipeds-supply-data",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "2.1 IPEDS Supply Data",
-    "text": "2.1 IPEDS Supply Data\n\nFile: ccrc_cip_comp.dta\n\nKey Fields: unitid, instnm, latitude, longitude, year, greencat, cmplt_tot"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Project overview",
+    "text": "Project overview\nCommunity colleges play a central role in preparing students for work in advanced infrastructure, energy, and agriculture. However, education and workforce data are often stored in separate systems, making it difficult to understand whether local credential production aligns with regional labor-market demand.\nThe AIREA Data Explorer brings these sources together in one national, interactive tool. Users can examine community college credentials, explore AIREA job postings across U.S. commuting zones, compare regions and institutions, and study how these patterns have changed since 2010."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#lightcast-demand-data",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#lightcast-demand-data",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "2.2 Lightcast Demand Data",
-    "text": "2.2 Lightcast Demand Data\n\nFile: lightcast-soc-year-county.csv\n\nFields: COUNTY (FIPS), YEAR, SOC_CODE, JOB_POSTING_COUNT, GREEN flag"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "My role and contributions",
+    "text": "My role and contributions\nI co-developed the AIREA Data Explorer and contributed to the design and implementation of its interactive visualization system. My work included:\n\nBuilding Shiny interface and server components for the map, credential, job-posting, and methodology views.\nImplementing Mapbox GL JS interactions for U.S. commuting zones and community college locations.\nIntegrating institution search, year selection, metric controls, hover details, and linked visualizations.\nPreparing and connecting multi-year credential, job-posting, population, and geospatial data.\nImproving performance by separating geospatial data into year-specific files and updating map sources without rebuilding the full application.\nSupporting the transition from the early CCRC Green Seek prototype to the final AIREA-branded public release."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#spatial-data",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#spatial-data",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "2.3 Spatial Data",
-    "text": "2.3 Spatial Data\n\nCounty Boundaries: county20/county20.shp\n\nCommuting Zone Boundaries: cz20/cz20.shp\n\nMask Polygon: mask_polygon.geojson (generated via prepare_mask_polygon.R)"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "What users can explore",
+    "text": "What users can explore\n\n\nNational map\nCompare AIREA job demand across commuting zones while viewing community college locations and credential rates.\n\n\nCredentials awarded\nSearch colleges, compare leading institutions, and examine AIREA credentials by program, award level, and year.\n\n\nJob postings\nExplore total postings, AIREA’s share of all postings, postings per 1,000 residents, occupational demand, and trends over time.\n\n\nMethods and downloads\nReview the AIREA classification methodology and download occupation, program, credential, and job-posting tables."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#supplyside-wrangling",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#supplyside-wrangling",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.1 Supply‐Side Wrangling",
-    "text": "3.1 Supply‐Side Wrangling\nlibrary(haven)\nlibrary(dplyr)\n\nccrc_cip_comp &lt;- read_dta(\"ccrc_cip_comp.dta\") %&gt;%\n  mutate(year = as.numeric(year))\n\nsaveRDS(ccrc_cip_comp, \"ccrc_cip_comp.rds\")"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Data and technical approach",
+    "text": "Data and technical approach\nThe explorer combines several complementary data sources and technologies:\n\nCommunity college credentials: Integrated Postsecondary Education Data System (IPEDS).\nLabor-market demand: Lightcast job postings from 2010 onward.\nOccupations and programs: AIREA classifications connecting SOC occupations with CIP programs of study.\nRegional geography: U.S. commuting zones, which approximate local labor markets across county boundaries.\nApplication stack: R, Shiny, Mapbox GL JS, Plotly, GeoJSON, and JavaScript.\n\nThe final application supports multiple views of demand—including raw AIREA job postings, the percentage of all postings in AIREA fields, and postings per 1,000 residents—while connecting those measures to community college credential production."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#demandside-wrangling",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#demandside-wrangling",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.2 Demand‐Side Wrangling",
-    "text": "3.2 Demand‐Side Wrangling\nlibrary(sf)\nlibrary(readr)\nlibrary(dplyr)\n\n# Read commuting zone geometries\nCZ2020 &lt;- st_read(\"cz20/cz20.shp\") %&gt;% select(CZ20 = cz, geometry)\n\n# Read and filter Lightcast data\ncz_raw &lt;- read_csv(\"lightcast-soc-year-county.csv\") %&gt;%\n  filter(GREEN == 1) %&gt;%\n  rename(YEAR = YEAR, green_job_postings = JOB_POSTING_COUNT)\n\n# Merge and simplify\ngz_sf &lt;- cz_raw %&gt;%\n  inner_join(CZ2020, by = \"CZ20\") %&gt;%\n  st_as_sf() %&gt;%\n  st_transform(4326) %&gt;%\n  st_simplify(dTolerance = 0.05)\ngz_sf$id &lt;- seq_len(nrow(gz_sf))\n\nsaveRDS(gz_sf, \"CZ_job_post.rds\")"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "From prototype to public data tool",
+    "text": "From prototype to public data tool\nThe project began as CCRC Green Seek, a prototype focused on green-program completions and green-sector job demand. Through continued research, classification work, data engineering, and user-experience development, it expanded into AIREA: a broader framework encompassing advanced infrastructure, energy, agriculture, and adjacent high-opportunity occupations.\nThe final release added dedicated credential and job-posting dashboards, institution and commuting-zone searches, ranking tables, downloads, methodology documentation, responsive controls, and CCRC’s public-facing visual identity."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mask-polygon-generation",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mask-polygon-generation",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.3 Mask Polygon Generation",
-    "text": "3.3 Mask Polygon Generation\nlibrary(rnaturalearth)\nlibrary(sf)\nlibrary(geojsonio)\n\nus_states &lt;- ne_states(country = \"United States of America\", returnclass = \"sf\")\nus_poly   &lt;- st_union(us_states) %&gt;% st_transform(4326)\n\nworld_poly &lt;- st_sfc(\n  st_polygon(list(matrix(\n    c(-180,-90, 180,-90, 180,90, -180,90, -180,-90),\n    ncol = 2, byrow = TRUE\n  ))),\n  crs = 4326\n)\n\nmask_poly &lt;- st_difference(world_poly, us_poly)\ngeojson_write(mask_poly, file = \"mask_polygon.geojson\")"
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Team and partners",
+    "text": "Team and partners\nThe AIREA Data Explorer was created by Wei Wang, Joshua Rosenberg, Cameron Sublett, Matias Fresard, and Bret Staudt Willet, in partnership with the Community College Research Center at Teachers College, Columbia University.\nThe project also acknowledges the University of Tennessee, Knoxville and the Foundation for California Community Colleges. Funding was provided by JPMorganChase and the National Renewable Energy Laboratory."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#json-export-for-front-end",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#json-export-for-front-end",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.4 JSON Export for Front-end",
-    "text": "3.4 JSON Export for Front-end\nlibrary(geojsonio)\nlibrary(dplyr)\n\n# Export CZ GeoJSON per year\ncz_df &lt;- readRDS(\"CZ_job_post.rds\")\nfor (yr in unique(cz_df$YEAR)) {\n  geojson_write(\n    filter(cz_df, YEAR == yr),\n    file = sprintf(\"CZData_%d.json\", yr)\n  )\n}\n\n# Export institution GeoJSON per year\ninst_df &lt;- readRDS(\"ccrc_cip_comp.rds\") %&gt;%\n  filter(!is.na(longitude), !is.na(latitude)) %&gt;%\n  st_as_sf(coords = c(\"longitude\", \"latitude\"), crs = 4326) %&gt;%\n  select(year, instnm, inst_perc_green_tot)\n\nfor (yr in unique(inst_df$year)) {\n  geojson_write(\n    filter(inst_df, year == yr),\n    file = sprintf(\"InstituteData_%d.json\", yr)\n  )\n}"
-  },
-  {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#analytic-pipeline-preparation",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#analytic-pipeline-preparation",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.5 Analytic Pipeline & Preparation",
-    "text": "3.5 Analytic Pipeline & Preparation\n\n\n\n\n\n\n\n\n\nThe analytic pipeline consists of several R scripts that perform data wrangling, JSON export, and visualization preparation. The key components are: - Supply-Side Wrangling: pre_supply_data.R reads ccrc_cip_comp.dta, coerces year to numeric, sorts institution names, and writes ccrc_cip_comp.rds for downstream use. - Demand-Side Wrangling: pre_CZ_job_post.R loads Lightcast CSVs (filtered GREEN == 1 for 2010–2023), aggregates postings by county/SOC, joins to county20 and CZ2020 shapefiles, simplifies geometries (dTolerance = 0.05), and saves CZ_job_post.rds. - Mask Polygon Generation: prepare_mask_polygon.R fetches U.S. state boundaries via rnaturalearth, unions them, computes the geometric difference from a world polygon to mask out non-contiguous areas, and exports mask_polygon.geojson. - GeoJSON Exports for Front-end: pre_cz jason.R writes per-year CZ GeoJSON files (CZData_&lt;year&gt;.json) from CZ_job_post.rds. Pre_supply_json.R converts ccrc_cip_comp.rds into point SF, selects instnm and inst_perc_green_tot, and exports InstituteData_&lt;year&gt;.json for each year. - Visualization Preprocessing: Pre_treemap.R aggregates green completions by program title, builds a per-year Plotly treemap list (Green_degree_treemap_plotly_list.rds). Pre_Plotly.R computes time-series of green job proportions by CZ and by SOC, converts ggplots to Plotly objects, and writes p_CZ_plotly.rds & p_SOC_plotly.rds."
-  },
-  {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#technical-implementation-refinement",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#technical-implementation-refinement",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "3.6 Technical Implementation & Refinement",
-    "text": "3.6 Technical Implementation & Refinement\n\nInitial Prototype: Started with R’s mapboxer package in Shiny but lacked hover support, prompting migration to Mapbox GL JS.\nSimulated Rendering: Prototyped using one year of real supply data and simulated demand via tidycensus for early UI/UX testing.\nHover & Search Enhancements: Integrated hover popups on CZ polygons and implemented a Shiny search button for institution fly-to and popups.\nFull Data Integration: Adopted real 2010–2023 supply and demand data, switched to CZ boundaries, and added a global selectInput(\"selected_year\").\nPerformance Tuning: Split 14-year data into individual JSON files (CZData_2010.json…CZData_2023.json and InstituteData_*.json), leveraging fetch(..., {cache: \"force-cache\"}) to reduce redraw time from ~5s to &lt;1s.\nMask & Tabs: Added a mask layer (mask_polygon.geojson) for contiguous U.S. and organized the Shiny UI into three tabs: Map (interactive map), Supply (treemap), and Demand (time-series)."
-  },
-  {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#shiny-ui-server",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#shiny-ui-server",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "4.1 Shiny UI & Server",
-    "text": "4.1 Shiny UI & Server\nlibrary(shiny)\nlibrary(jsonlite)\nlibrary(geojsonio)\nlibrary(dplyr)\nlibrary(sf)\nlibrary(plotly)\n\nsource(\"mapboxtoken_setup.R\")\nccrc_data &lt;- readRDS(\"ccrc_cip_comp.rds\")\ncz_data   &lt;- readRDS(\"CZ_job_post.rds\") %&gt;% mutate(id = row_number())\n\nui &lt;- fluidPage(\n  titlePanel(\"CCRC Green Seek\"),\n  fluidRow(\n    column(4,\n      selectInput(\"selected_year\", \"Year\", choices = sort(unique(cz_data$YEAR))),\n      plotlyOutput(\"treemapPlot\")\n    ),\n    column(8,\n      selectizeInput(\"search_term\", \"Search Institution\", choices = NULL),\n      actionButton(\"search_btn\", \"Search\"),\n      tags$button(\"Clear\", onclick = \"clearMap()\"),\n      div(id = \"map\", style = \"height:600px;\")\n    )\n  ),\n  fluidRow(\n    column(6, plotlyOutput(\"cz_plot\")),\n    column(6, plotlyOutput(\"trendPlot\"))\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  observe({\n    req(input$selected_year)\n    insts &lt;- ccrc_data %&gt;%\n      filter(year == input$selected_year) %&gt;%\n      pull(instnm) %&gt;%\n      unique() %&gt;%\n      sort()\n    updateSelectizeInput(session, \"search_term\", choices = insts, server = TRUE)\n    session$sendCustomMessage(\"loadYear\", input$selected_year)\n    session$sendCustomMessage(\"loadInstituteYear\", input$selected_year)\n  })\n  observeEvent(input$search_btn, {\n    res &lt;- ccrc_data %&gt;%\n      filter(instnm == input$search_term, year == input$selected_year) %&gt;%\n      slice(1)\n    if (nrow(res)) {\n      popup &lt;- paste0(\"&lt;strong&gt;\", res$instnm, \"&lt;/strong&gt;&lt;br&gt;Green %: \",\n        sprintf(\"%.1f%%\", res$inst_perc_green_tot * 100))\n      session$sendCustomMessage(\"updateSearch\", list(\n        lng = res$longitude, lat = res$latitude, popup = popup\n      ))\n    }\n  })\n  output$treemapPlot &lt;- renderPlotly({\n    readRDS(\"Green_degree_treemap_plotly_list.rds\")[[as.character(input$selected_year)]]\n  })\n  output$cz_plot    &lt;- renderPlotly(readRDS(\"p_CZ_plotly.rds\"))\n  output$trendPlot  &lt;- renderPlotly(readRDS(\"p_SOC_plotly.rds\"))\n}\n\nshinyApp(ui, server)"
-  },
-  {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mapbox-front-end-mapbox.js",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#mapbox-front-end-mapbox.js",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "4.2 Mapbox Front-end (mapbox.js)",
-    "text": "4.2 Mapbox Front-end (mapbox.js)\nmapboxgl.accessToken = mapboxToken;\nconst map = new mapboxgl.Map({\n  container: 'map',\n  style: 'mapbox://styles/mapbox/navigation-day-v1',\n  center: [-95, 40],\n  zoom: 3.5\n});\n\nfunction loadCZData(year) {\n  fetch(`CZData_${year}.json`)\n    .then(res =&gt; res.json())\n    .then(data =&gt; {\n      if (map.getSource('cz')) {\n        map.getSource('cz').setData(data);\n      } else {\n        map.addSource('cz', { type: 'geojson', data });\n        map.addLayer({\n          id: 'cz-layer',\n          type: 'fill',\n          source: 'cz',\n          paint: { /* color & opacity settings */ }\n        });\n      }\n    });\n}\n\nfunction loadInstituteData(year) {\n  fetch(`InstituteData_${year}.json`)\n    .then(res =&gt; res.json())\n    .then(data =&gt; {\n      if (!map.getSource('institutes')) {\n        map.addSource('institutes', { type: 'geojson', data });\n        map.addLayer({\n          id: 'institutes-layer',\n          type: 'circle',\n          source: 'institutes',\n          paint: {\n            'circle-radius': [\n              'interpolate', ['linear'], ['get', 'inst_perc_green_tot'],\n              0, 4, 1, 12\n            ]\n          }\n        });\n      } else {\n        map.getSource('institutes').setData(data);\n      }\n    });\n}\n\nShiny.addCustomMessageHandler('loadYear', loadCZData);\nShiny.addCustomMessageHandler('loadInstituteYear', loadInstituteData);\nShiny.addCustomMessageHandler('updateSearch', coords =&gt; {\n  map.flyTo({ center: [coords.lng, coords.lat], zoom: 6 });\n  new mapboxgl.Popup()\n    .setLngLat([coords.lng, coords.lat])\n    .setHTML(coords.popup)\n    .addTo(map);\n});\n\nmap.on('mousemove', 'cz-layer', e =&gt; { /* hover effect */ });\nmap.on('mouseleave', 'cz-layer', () =&gt; { /* remove hover */ });\nwindow.clearMap = () =&gt; map.flyTo({ center: [-95, 40], zoom: 3.5 });"
-  },
-  {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#future-extensions-reusability",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#future-extensions-reusability",
-    "title": "CCRC Green Seek: Mapping Community College Green Sector Alignment",
-    "section": "6.1 Future Extensions & Reusability",
-    "text": "6.1 Future Extensions & Reusability\nThis R preprocessing + Mapbox GL JS pipeline can ingest new supply/demand datasets by replacing JSON export scripts. Future enhancements may include demographic filtering, predictive analytics tabs, and user data uploads, building on the existing Shiny + Mapbox framework."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Project links",
+    "text": "Project links\n\nOfficial CCRC project page\nOpen the AIREA Data Explorer\nSource code on GitHub\nAIREA Data Explorer OSF repository"
   },
   {
     "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
@@ -179,7 +144,7 @@
     "href": "index.html#featured-work",
     "title": "Wei Wang",
     "section": "Featured work",
-    "text": "Featured work\n\n\nKonFound-It! sensitivity analysis\nTools for quantifying robustness of causal inferences against potential biases.\nProject overview →\n\n\nCCRC Green Seek mapping\nInteractive visualization linking community college green programs to labor demand.\nProject overview →\n\n\nAERA 2025 presentation\nFrameworks and a teaching model for GenAI integration in higher education.\nPresentation →"
+    "text": "Featured work\n\n\nKonFound-It! sensitivity analysis\nTools for quantifying robustness of causal inferences against potential biases.\nProject overview →\n\n\nAIREA Data Explorer\nNational interactive data tool connecting community college AIREA credentials with regional workforce demand.\nExplore the data tool →\n\n\nAERA 2025 presentation\nFrameworks and a teaching model for GenAI integration in higher education.\nPresentation →"
   },
   {
     "objectID": "index.html#get-in-touch",

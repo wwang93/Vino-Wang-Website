@@ -67,10 +67,10 @@ Tools for quantifying robustness of causal inferences against potential biases.
 [Project overview →](Projects/IES_Konfound/IES_konfound.qmd)
 :::
 ::: {.card}
-### CCRC Green Seek mapping
-Interactive visualization linking community college green programs to labor demand.
+### AIREA Data Explorer
+National interactive data tool connecting community college AIREA credentials with regional workforce demand.
 
-[Project overview →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
+[Explore the data tool →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
 :::
 ::: {.card}
 ### AERA 2025 presentation
