@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Research, product, and technical projects, tools, and visualizations.">
+<meta name="author" content="Wei Wang">
+<meta name="dcterms.date" content="2026-08-05">
+<meta name="description" content="An evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.">
 
-<title>Projects – Vino Wang</title>
+<title>askabout.edu: Evidence-Informed Decision Support for Education – Vino Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="docs/site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="docs/site_libs/quarto-nav/headroom.min.js"></script>
-<script src="docs/site_libs/clipboard/clipboard.min.js"></script>
-<script src="docs/site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="docs/site_libs/quarto-search/fuse.min.js"></script>
-<script src="docs/site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./vino.png" rel="icon" type="image/png">
-<script src="docs/site_libs/quarto-listing/list.min.js"></script>
-<script src="docs/site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="docs/site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="docs/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="docs/site_libs/quarto-html/popper.min.js"></script>
-<script src="docs/site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="docs/site_libs/quarto-html/anchor.min.js"></script>
-<link href="docs/site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="docs/site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="docs/site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="docs/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="docs/site_libs/bootstrap/bootstrap-4d514db10ed25d0c072a00fe091e4dd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../docs/site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../docs/site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../docs/site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../docs/site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../vino.png" rel="icon" type="image/png">
+<script src="../../docs/site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../docs/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../docs/site_libs/quarto-html/popper.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../docs/site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../docs/site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../docs/site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../docs/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../docs/site_libs/bootstrap/bootstrap-4d514db10ed25d0c072a00fe091e4dd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,76 +71,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Projects – Vino Wang">
-<meta property="og:description" content="Research, product, and technical projects, tools, and visualizations.">
-<meta property="og:image" content="./Projects/Ask_About_EDU/askaboutedu-product.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="askabout.edu: Evidence-Informed Decision Support for Education – Vino Wang">
+<meta property="og:description" content="An evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.">
+<meta property="og:image" content="askaboutedu-product.png">
 <meta property="og:site_name" content="Vino Wang">
-<meta property="og:image:alt" content="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
-<meta name="twitter:title" content="Projects – Vino Wang">
-<meta name="twitter:description" content="Research, product, and technical projects, tools, and visualizations.">
-<meta name="twitter:image" content="./Projects/Ask_About_EDU/askaboutedu-product.png">
-<meta name="twitter:image:alt" content="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
+<meta name="twitter:title" content="askabout.edu: Evidence-Informed Decision Support for Education – Vino Wang">
+<meta name="twitter:description" content="An evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.">
+<meta name="twitter:image" content="askaboutedu-product.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -151,7 +91,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Vino Wang</span>
     </a>
   </div>
@@ -162,37 +102,37 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
+    <a class="nav-link" href="../../Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Publications.html"> 
+    <a class="nav-link" href="../../Publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Portfolio.html"> 
+    <a class="nav-link" href="../../Portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Blogs.html"> 
+    <a class="nav-link" href="../../Blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Teaching.html"> 
+    <a class="nav-link" href="../../Teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item compact">
@@ -210,20 +150,39 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Projects</h1>
+    <div class="quarto-title column-page">
+      <h1 class="title">askabout.edu: Evidence-Informed Decision Support for Education</h1>
                   <div>
         <div class="description">
-          Research, product, and technical projects, tools, and visualizations.
+          An evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">AI in Education</div>
+                <div class="quarto-category">Evidence Synthesis</div>
+                <div class="quarto-category">Decision Support</div>
+                <div class="quarto-category">Educational Technology</div>
+                <div class="quarto-category">Venture</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Wei Wang </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 5, 2026</p>
+      </div>
+    </div>
     
       
     </div>
@@ -232,137 +191,110 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QUklMjBpbiUyMEVkdWNhdGlvbg==">AI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2F1c2FsJTIwSW5mZXJlbmNl">Causal Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVjaXNpb24lMjBTdXBwb3J0">Decision Support <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWR1Y2F0aW9uYWwlMjBUZWNobm9sb2d5">Educational Technology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXZpZGVuY2UlMjBTeW50aGVzaXM=">Evidence Synthesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFwYm94">Mapbox <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2Vuc2l0aXZpdHklMjBBbmFseXNpcw==">Sensitivity Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2hpbnk=">Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmVudHVyZQ==">Venture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya2ZvcmNlJTIwRWR1Y2F0aW9u">Workforce Education <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUklMjBpbiUyMEVkdWNhdGlvbiUyQ0V2aWRlbmNlJTIwU3ludGhlc2lzJTJDRGVjaXNpb24lMjBTdXBwb3J0JTJDRWR1Y2F0aW9uYWwlMjBUZWNobm9sb2d5JTJDVmVudHVyZQ==" data-listing-date-sort="1785941014000" data-listing-file-modified-sort="1785942432236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="650">
-<div class="thumbnail"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-
-<img loading="lazy" src="./Projects/Ask_About_EDU/askaboutedu-product.png" class="thumbnail-image" alt="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">askabout.edu: Evidence-Informed Decision Support for Education</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBpbiUyMEVkdWNhdGlvbg=='); return false;">AI in Education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXZpZGVuY2UlMjBTeW50aGVzaXM='); return false;">Evidence Synthesis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVjaXNpb24lMjBTdXBwb3J0'); return false;">Decision Support</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2F0aW9uYWwlMjBUZWNobm9sb2d5'); return false;">Educational Technology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmVudHVyZQ=='); return false;">Venture</div>
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="askaboutedu-product.png" class="img-fluid figure-img" alt="The askabout.edu product homepage showing a question about reading comprehension, an evidence-grounded response, an evidence-strength rating, and a cited What Works Clearinghouse source."></p>
+<figcaption>The askabout.edu working prototype turns practical education questions into evidence-grounded responses with transparent citations.</figcaption>
+</figure>
 </div>
-<div class="delink listing-description"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-<p>An evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.</p>
-</a></div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<div class="metadata">
-<a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-<div class="listing-date">
-Aug 5, 2026
-</div>
-<div class="listing-author">
-Wei Wang
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGF0YSUyMFZpc3VhbGl6YXRpb24lMkNTaGlueSUyQ01hcGJveCUyQ1IlMkNXb3JrZm9yY2UlMjBFZHVjYXRpb24=" data-listing-date-sort="1785902400000" data-listing-file-modified-sort="1785937333869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
-<div class="thumbnail"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-
-<img loading="lazy" src="./Projects/CCRC_Green_Seek_Mapping Project/airea-data-explorer.png" class="thumbnail-image" alt="AIREA Data Explorer showing community college credentials and job postings across U.S. commuting zones">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">Data Visualization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFwYm94'); return false;">Mapbox</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2ZvcmNlJTIwRWR1Y2F0aW9u'); return false;">Workforce Education</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-<p>A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-<div class="listing-date">
-Aug 5, 2026
-</div>
-<div class="listing-author">
-Wei Wang
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="UiUyQ1NlbnNpdGl2aXR5JTIwQW5hbHlzaXMlMkNDYXVzYWwlMjBJbmZlcmVuY2UlMkNTdGF0aXN0aWNz" data-listing-date-sort="1709528400000" data-listing-file-modified-sort="1785770993103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
-<div class="thumbnail"><a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-
-<img loading="lazy" src="./Projects/IES_Konfound/konfound.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">KonFound-It!: Sensitivity Analysis for Robust Inference</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2Vuc2l0aXZpdHklMjBBbmFseXNpcw=='); return false;">Sensitivity Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwSW5mZXJlbmNl'); return false;">Causal Inference</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">Statistics</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-<p>Tools and methods for quantifying the robustness of causal inferences against potential biases.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-<div class="listing-date">
-Mar 4, 2024
-</div>
-<div class="listing-author">
-Wei Wang
-</div>
-</a>
+<div class="callout-body-container">
+<p><strong>Co-founder · Working prototype · Company formation in progress</strong></p>
+<p>I am one of four co-founders of <strong>Ask About EDU (AAU)</strong>. The product is live as an early working prototype while the founding team prepares for pilot testing, continued corpus development, and company formation.</p>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<div class="hero-actions">
+<p><a class="button" href="https://askaboutedu.org/" target="_blank" rel="noopener">Try askabout.edu</a> <a class="button ghost" href="https://askaboutedu.org/ask-about-edu-one-pager.pdf" target="_blank" rel="noopener">Read the one-pager</a> <a class="button ghost" href="https://askaboutedu.org/#funders" target="_blank" rel="noopener">For funders</a></p>
+</div>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>Education has a persistent research-to-practice gap. A large body of peer-reviewed research is difficult for educators and school leaders to access, interpret, and connect to immediate decisions. Meanwhile, consequential choices about curricula, intervention programs, and professional development are often made without timely, usable evidence.</p>
+<p>General-purpose AI systems can make research easier to discuss, but they are not designed to provide a controlled evidence base, a consistent hierarchy of evidence, or transparent judgments about the strength and contextual relevance of the underlying research.</p>
+</section>
+<section id="the-solution" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution">The solution</h2>
+<p><strong>askabout.edu</strong> is an evidence-informed decision-support platform designed for practical education questions. An educator can ask a question such as, “What approaches improve reading comprehension for fourth-grade English learners?” The system retrieves relevant research from a curated corpus and returns a clear synthesis with citations, evidence-strength information, and the contexts in which the findings are grounded.</p>
+<p>Rather than searching the open web, AAU is deliberately designed around verified research sources such as ERIC, What Works Clearinghouse materials, IES practice guides, systematic reviews, and National Academies reports.</p>
+</section>
+<section id="from-question-to-evidence-informed-action" class="level2">
+<h2 class="anchored" data-anchor-id="from-question-to-evidence-informed-action">From question to evidence-informed action</h2>
+<div class="card-grid">
+<section id="ask-in-practical-language" class="level3 card">
+<h3 class="anchored" data-anchor-id="ask-in-practical-language">Ask in practical language</h3>
+<p>Users describe a program, outcome, population, or decision in the language they would use with a colleague rather than constructing a database query.</p>
+</section>
+<section id="retrieve-verified-evidence" class="level3 card">
+<h3 class="anchored" data-anchor-id="retrieve-verified-evidence">Retrieve verified evidence</h3>
+<p>The system searches a curated research corpus and prioritizes stronger forms of evidence, including systematic reviews and meta-analyses, over isolated single studies.</p>
+</section>
+<section id="interpret-with-context" class="level3 card">
+<h3 class="anchored" data-anchor-id="interpret-with-context">Interpret with context</h3>
+<p>Responses include transparent citations, an evidence-strength rating, and information about the populations and settings represented in the evidence.</p>
+</section>
+</div>
+</section>
+<section id="evidence-by-design" class="level2">
+<h2 class="anchored" data-anchor-id="evidence-by-design">Evidence by design</h2>
+<p>AAU is being developed around several principles:</p>
+<ul>
+<li><strong>Curated sources:</strong> Retrieval is constrained to verified educational research and evidence reports rather than the open web.</li>
+<li><strong>Evidence hierarchy:</strong> Research syntheses and higher-quality evidence are prioritized when available.</li>
+<li><strong>Transparent citations:</strong> Users can trace claims back to the underlying study or report.</li>
+<li><strong>Calibrated conclusions:</strong> Responses distinguish strong, moderate, limited, and inconclusive evidence.</li>
+<li><strong>Contextual grounding:</strong> The system surfaces the settings and populations represented in the evidence so users can judge how well it applies locally.</li>
+</ul>
+</section>
+<section id="current-status" class="level2">
+<h2 class="anchored" data-anchor-id="current-status">Current status</h2>
+<p>As of August 2026:</p>
+<ul>
+<li>An early working prototype is live with functioning retrieval pipelines tested against benchmark questions.</li>
+<li>Corpus development includes an ERIC ingestion pipeline spanning more than 2.2 million records; ingestion and evidence verification are still in progress.</li>
+<li>Approximately 10,000 What Works Clearinghouse intervention reports have been incorporated into the project corpus.</li>
+<li>Educational researchers, state education agency partners, and practicing teachers have provided letters of support and expressed readiness to participate in pilot testing.</li>
+</ul>
+<p>The number of records available in the live vetted index will continue to change as ingestion, verification, and evaluation progress.</p>
+</section>
+<section id="my-role-and-the-founding-team" class="level2">
+<h2 class="anchored" data-anchor-id="my-role-and-the-founding-team">My role and the founding team</h2>
+<p>I am one of four <strong>co-founders of Ask About EDU (AAU)</strong>. The founding team brings together expertise in AI engineering, educational research, software design, and educational technology.</p>
+<p>Because the company is still in formation, this page presents AAU as a co-founded product initiative rather than as a finalized legal entity. Company details will be updated after registration is complete.</p>
+</section>
+<section id="next-phase" class="level2">
+<h2 class="anchored" data-anchor-id="next-phase">Next phase</h2>
+<p>The team is seeking seed funding to move from an early prototype to a validated system. The next phase will focus on:</p>
+<ul>
+<li>Core engineering and product reliability.</li>
+<li>Corpus expansion, verification, and evidence-ranking workflows.</li>
+<li>Pilot implementation with educators and education partners.</li>
+<li>Rigorous evaluation of usability, evidence quality, and decision-support value.</li>
+</ul>
+</section>
+<section id="project-links" class="level2">
+<h2 class="anchored" data-anchor-id="project-links">Project links</h2>
+<ul>
+<li><a href="https://askaboutedu.org/">Visit askabout.edu</a></li>
+<li><a href="https://askaboutedu.org/ask-about-edu-one-pager.pdf">Read the project one-pager</a></li>
+<li><a href="https://askaboutedu.org/#funders">Information for funders</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

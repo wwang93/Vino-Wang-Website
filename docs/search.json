@@ -133,88 +133,123 @@
     "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
   },
   {
-    "objectID": "Portfolio.html",
-    "href": "Portfolio.html",
-    "title": "Portfolio",
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
     "section": "",
-    "text": "AERA 2025 Presentation\n\n\n\nConference Presentation\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\nConference Presentation\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
+    "text": "The askabout.edu working prototype turns practical education questions into evidence-grounded responses with transparent citations."
   },
   {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html",
-    "href": "Portfolio/AECT 2024/AECT2024.html",
-    "title": "AECT 2024 Presentation",
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "The problem",
+    "text": "The problem\nEducation has a persistent research-to-practice gap. A large body of peer-reviewed research is difficult for educators and school leaders to access, interpret, and connect to immediate decisions. Meanwhile, consequential choices about curricula, intervention programs, and professional development are often made without timely, usable evidence.\nGeneral-purpose AI systems can make research easier to discuss, but they are not designed to provide a controlled evidence base, a consistent hierarchy of evidence, or transparent judgments about the strength and contextual relevance of the underlying research."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "The solution",
+    "text": "The solution\naskabout.edu is an evidence-informed decision-support platform designed for practical education questions. An educator can ask a question such as, “What approaches improve reading comprehension for fourth-grade English learners?” The system retrieves relevant research from a curated corpus and returns a clear synthesis with citations, evidence-strength information, and the contexts in which the findings are grounded.\nRather than searching the open web, AAU is deliberately designed around verified research sources such as ERIC, What Works Clearinghouse materials, IES practice guides, systematic reviews, and National Academies reports."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "From question to evidence-informed action",
+    "text": "From question to evidence-informed action\n\n\nAsk in practical language\nUsers describe a program, outcome, population, or decision in the language they would use with a colleague rather than constructing a database query.\n\n\nRetrieve verified evidence\nThe system searches a curated research corpus and prioritizes stronger forms of evidence, including systematic reviews and meta-analyses, over isolated single studies.\n\n\nInterpret with context\nResponses include transparent citations, an evidence-strength rating, and information about the populations and settings represented in the evidence."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Evidence by design",
+    "text": "Evidence by design\nAAU is being developed around several principles:\n\nCurated sources: Retrieval is constrained to verified educational research and evidence reports rather than the open web.\nEvidence hierarchy: Research syntheses and higher-quality evidence are prioritized when available.\nTransparent citations: Users can trace claims back to the underlying study or report.\nCalibrated conclusions: Responses distinguish strong, moderate, limited, and inconclusive evidence.\nContextual grounding: The system surfaces the settings and populations represented in the evidence so users can judge how well it applies locally."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Current status",
+    "text": "Current status\nAs of August 2026:\n\nAn early working prototype is live with functioning retrieval pipelines tested against benchmark questions.\nCorpus development includes an ERIC ingestion pipeline spanning more than 2.2 million records; ingestion and evidence verification are still in progress.\nApproximately 10,000 What Works Clearinghouse intervention reports have been incorporated into the project corpus.\nEducational researchers, state education agency partners, and practicing teachers have provided letters of support and expressed readiness to participate in pilot testing.\n\nThe number of records available in the live vetted index will continue to change as ingestion, verification, and evaluation progress."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "My role and the founding team",
+    "text": "My role and the founding team\nI am one of four co-founders of Ask About EDU (AAU). The founding team brings together expertise in AI engineering, educational research, software design, and educational technology.\nBecause the company is still in formation, this page presents AAU as a co-founded product initiative rather than as a finalized legal entity. Company details will be updated after registration is complete."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Next phase",
+    "text": "Next phase\nThe team is seeking seed funding to move from an early prototype to a validated system. The next phase will focus on:\n\nCore engineering and product reliability.\nCorpus expansion, verification, and evidence-ranking workflows.\nPilot implementation with educators and education partners.\nRigorous evaluation of usability, evidence quality, and decision-support value."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Project links",
+    "text": "Project links\n\nVisit askabout.edu\nRead the project one-pager\nInformation for funders"
+  },
+  {
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
+    "title": "AERA 2025 Presentation",
+    "section": "Part A: Exploring Dimensions of AI Integration",
+    "text": "Part A: Exploring Dimensions of AI Integration\n\nBackground & Motivation\nGenerative AI offers powerful capabilities—automating routine tasks, enhancing writing self-efficacy, and sparking creativity—but also raises concerns about over‑dependence, diminished critical thinking, and academic integrity risks. To strike the right balance, we must understand the psychological and behavioral drivers that sustain effective, creative GenAI use in higher education.\n\n\nTheoretical Frameworks\n\nECM-ISC (Expectation Confirmation Model for Information Systems Continuance): Explains how users’ satisfaction and confirmation of expectations drive continued usage.\nI-PACE (Interaction of Person–Affect–Cognition–Execution): Models how affective and cognitive responses influence behavior and creativity.\n\n\n\nKey Constructs\n\n\n\n\n\n\n\n\nAbbreviation\nConstruct\nDefinition\n\n\n\n\nSAT\nSatisfaction\nUsers’ contentment after initial GenAI use\n\n\nAF\nAffective Response\nEmotional reactions during interaction\n\n\nPT\nPersonality Traits\nStable individual differences (e.g., openness, conscientiousness)\n\n\nCOR\nCognitive Response\nReflective thinking and metacognitive processing\n\n\nCI\nContinuance Intention\nLikelihood of future GenAI use\n\n\nCR\nCreativity\nGeneration of novel, useful ideas when using GenAI\n\n\n\n\n\nResearch Questions\n\nRQ1: How do satisfaction, affective response, and personality traits predict students’ continuance intention to engage with GenAI?\nRQ2: Does cognitive response mediate the relationship between continuance intention and creative performance?\n\n\n\nMethodology\n\nParticipants: 259 undergraduates (67% female, 33% male) with GenAI usage of 2–5 times/week.\nMeasures: Validated multi‑item scales (Cronbach’s α ≥ .75; AVE ≥ .50; composite reliability ≥ .80).\nAnalysis:\n\nDescriptive statistics\nReliability & validity checks\nStructural Equation Modeling (χ²/df = 3.91; CFI = .95; RMSEA = .06)\n\n\n\n\nKey Findings\n\nUsage Purposes: Writing support and exploratory learning were most common, followed by academic assistance and entertainment.\nReliability & Validity: All constructs met thresholds (α ≥ .70; AVE ≥ .50).\nStructural Paths:\n\nSAT → CI (β = .41, p &lt; .001)\nAF → CI (β = .22, p &lt; .01)\nPT → CI (β = .25, p &lt; .01)\nCI → COR (β = .62, p &lt; .001)\nCOR → CR (β = .33, p &lt; .001)\nCI → CR direct path was non‑significant (full mediation by COR).\n\n\n\nImplication: Cognitive response is the central mechanism translating GenAI engagement into creative output."
+  },
+  {
+    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "href": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
+    "title": "AERA 2025 Presentation",
+    "section": "Part B: Designing an Effective GenAI-Based Teaching Model",
+    "text": "Part B: Designing an Effective GenAI-Based Teaching Model\nUsing ADDIE instructional design, we integrate the six constructs into distinct phases:\n\n\n\n\n\n\n\n\nADDIE Stage\nTarget Constructs\nCore Strategies\n\n\n\n\nAnalysis & Design\nPerceived Usefulness, Ease of Use\nDemo video + interactive walkthrough with embedded quiz; instant AI feedback to build confidence.\n\n\nDevelopment\nAffective Response, Social Influence\nAI pair‑programming workshops; emotion cards (👍/👎) for real‑time feedback.\n\n\nImplementation\nCognitive Response\nStructured reflection logs (“What? Why? How?”); guided Socratic prompts to deepen metacognition.\n\n\nEvaluation & Continuous Improvement\nSatisfaction, Continuance Intention\nGamified prompts with badges & leaderboards; iterative prompt challenges to sustain engagement.\n\n\nExtension\nCreativity\nOpen‑ended mini‑projects: design AI‑enhanced micro‑lessons; peer showcase and feedback sessions.\n\n\n\n\nImplementation Plan\n\nPilot: 8‑week module in Python Programming, 2 sections × 30 students.\nFacilitator Training: Two workshops on GenAI tools and model dimensions.\nStudent Onboarding: Intro session, demo of reflection logs, and AI ethics primer.\n\n\n\nEvaluation Strategy\n\nQuantitative: Re‑test SEM paths; pre/post measures of COR, CI, and CR.\nQualitative: Text‑mining of reflection logs; focus groups on affective & metacognitive experiences.\n\n\n\nNext Steps\n\nRefine reflection prompts and gamification elements.\nScale model to humanities and STEM courses.\nEstablish an instructor community for sharing GenAI integration best practices.\n\n\nThank you for engaging! Your comments and questions are welcome below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Wei Wang",
     "section": "",
-    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+    "text": "PhD student · Learning Design & Technology · UT Knoxville\n\n\n\nI study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.\n\nGenAI use in higher education and classroom practice\nEducational data science and large-scale assessment\nEvaluation methodology for technology-enabled learning {.hero-list}\n\n\nView projects Read publications CV"
   },
   {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#overview",
-    "href": "Portfolio/AECT 2024/AECT2024.html#overview",
-    "title": "AECT 2024 Presentation",
+    "objectID": "index.html#focus-areas",
+    "href": "index.html#focus-areas",
+    "title": "Wei Wang",
+    "section": "Focus areas",
+    "text": "Focus areas\n\n\nGenAI in education\nResearching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.\nTeaching portfolio →\n\n\nEducational data science\nDeveloping analyses and tools for large-scale, longitudinal educational datasets and evaluation.\nProjects →\n\n\nResearch communication\nPresentations, publications, and community-focused dissemination of findings.\nPortfolio →"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Wei Wang",
+    "section": "Featured work",
+    "text": "Featured work\n\n\naskabout.edu\nCo-founder · Working prototype\nEvidence-informed decision support that helps educators turn verified research into context-aware answers with transparent citations and evidence-strength ratings.\nExplore Ask About EDU →\n\n\nComputational Analysis of Educational Data\nA first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.\nExplore the book →\n\n\nAIREA Data Explorer\nNational interactive data tool connecting community college AIREA credentials with regional workforce demand.\nExplore the data tool →"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Wei Wang",
+    "section": "Get in touch",
+    "text": "Get in touch\nI welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.\n\nwwang93@vols.utk.edu Google Scholar LinkedIn GitHub"
+  },
+  {
+    "objectID": "Blogs.html",
+    "href": "Blogs.html",
+    "title": "Blog",
     "section": "",
-    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
+    "text": "My blog is now hosted on Substack so posts are updated automatically and comments live there.\n\nOpen Substack Subscribe\n\n\n\n\n\nLoading latest posts…"
   },
   {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#key-points",
-    "href": "Portfolio/AECT 2024/AECT2024.html#key-points",
-    "title": "AECT 2024 Presentation",
-    "section": "Key Points",
-    "text": "Key Points\n\n🚀 GenAI’s Rise in Education\nTools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.\n🧠 Educational Design Transformation\nAt the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the CAS Online Course Design program to support faculty in designing evidence-based learning activities.\n🛠️ Practical Application Demonstrated\nEducators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:\n\nLearning Outcome: Distinguish differences between federal and state court systems.\nAssessment: Comparative analysis essay.\nActivity: Create interactive infographics or mind maps.\n\n💬 Faculty Feedback\nFaculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).\n📊 Sentiment Analysis\nParticipant reflections were analyzed using the Bing Sentiment Lexicon, revealing a generally positive attitude toward GenAI as a supplementary tool."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
-    "href": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
-    "title": "AECT 2024 Presentation",
-    "section": "Design Process (Quick Guide)",
-    "text": "Design Process (Quick Guide)\n\nSelect a GenAI tool (ChatGPT, Bing Chat, etc.).\nUse a prompt like:\n\"What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?\"\n\nReview and critically reflect on the generated suggestions.\nSelect and adapt ideas suitable for your course structure and learning goals."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#outcomes",
-    "href": "Portfolio/AECT 2024/AECT2024.html#outcomes",
-    "title": "AECT 2024 Presentation",
-    "section": "Outcomes",
-    "text": "Outcomes\n\n🔄 Encouraged iterative design of assessments with GenAI as inspiration.\n👥 Fostered collaboration and experience-sharing among faculty.\n🎯 Supported alignment between learning outcomes and activities in online settings."
-  },
-  {
-    "objectID": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
-    "href": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
-    "title": "AECT 2024 Presentation",
-    "section": "Call to Action -Your Story Matters!!!",
-    "text": "Call to Action -Your Story Matters!!!\n\nEducators are encouraged to:\n\nExplore GenAI tools in their teaching design.\nReflect critically on AI-generated suggestions.\nShare strategies and experiences within their academic communities.\n\n\nThis presentation was part of the Works in Progress & Design in Practice session at AECT 2024.\nFor more info, contact Wei Wang"
-  },
-  {
-    "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
-    "href": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
-    "title": "Stay hungry Stay foolish",
+    "objectID": "Blogs.html#read-on-substack",
+    "href": "Blogs.html#read-on-substack",
+    "title": "Blog",
     "section": "",
-    "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "Hello! I am Wei Wang (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education."
-  },
-  {
-    "objectID": "about.html#research-focus",
-    "href": "about.html#research-focus",
-    "title": "About me",
-    "section": "Research focus",
-    "text": "Research focus\n\nGenAI integration in teaching and learning\nEducational data science and large-scale assessment\nEvaluation methods for technology-enabled learning"
-  },
-  {
-    "objectID": "about.html#recent-work",
-    "href": "about.html#recent-work",
-    "title": "About me",
-    "section": "Recent work",
-    "text": "Recent work\n\nLeading the forthcoming CRC Press book Computational Analysis of Educational Data: A Field Guide Using R as first author (expected late 2026).\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
-  },
-  {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About me",
-    "section": "Contact",
-    "text": "Contact\n📍 University of Tennessee, Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu\n🔗 GitHub | LinkedIn"
+    "text": "My blog is now hosted on Substack so posts are updated automatically and comments live there.\n\nOpen Substack Subscribe\n\n\n\n\n\nLoading latest posts…"
   },
   {
     "objectID": "AGENTS.html#project-snapshot",
@@ -266,60 +301,88 @@
     "text": "Notes for agents\n\nNo Cursor rules in .cursor/rules/ or .cursorrules.\nNo GitHub Copilot instructions in .github/copilot-instructions.md.\nFollow existing patterns; do not introduce new tooling without need."
   },
   {
-    "objectID": "Blogs.html",
-    "href": "Blogs.html",
-    "title": "Blog",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
     "section": "",
-    "text": "My blog is now hosted on Substack so posts are updated automatically and comments live there.\n\nOpen Substack Subscribe\n\n\n\n\n\nLoading latest posts…"
+    "text": "Hello! I am Wei Wang (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education."
   },
   {
-    "objectID": "Blogs.html#read-on-substack",
-    "href": "Blogs.html#read-on-substack",
-    "title": "Blog",
+    "objectID": "about.html#research-focus",
+    "href": "about.html#research-focus",
+    "title": "About me",
+    "section": "Research focus",
+    "text": "Research focus\n\nGenAI integration in teaching and learning\nEducational data science and large-scale assessment\nEvaluation methods for technology-enabled learning"
+  },
+  {
+    "objectID": "about.html#recent-work",
+    "href": "about.html#recent-work",
+    "title": "About me",
+    "section": "Recent work",
+    "text": "Recent work\n\nCo-founding Ask About EDU (AAU), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.\nLeading the forthcoming CRC Press book Computational Analysis of Educational Data: A Field Guide Using R as first author (expected late 2026).\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\n📍 University of Tennessee, Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu\n🔗 GitHub | LinkedIn"
+  },
+  {
+    "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
+    "href": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
+    "title": "Stay hungry Stay foolish",
     "section": "",
-    "text": "My blog is now hosted on Substack so posts are updated automatically and comments live there.\n\nOpen Substack Subscribe\n\n\n\n\n\nLoading latest posts…"
+    "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Wei Wang",
+    "objectID": "Portfolio/AECT 2024/AECT2024.html",
+    "href": "Portfolio/AECT 2024/AECT2024.html",
+    "title": "AECT 2024 Presentation",
     "section": "",
-    "text": "PhD student · Learning Design & Technology · UT Knoxville\n\n\n\nI study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.\n\nGenAI use in higher education and classroom practice\nEducational data science and large-scale assessment\nEvaluation methodology for technology-enabled learning {.hero-list}\n\n\nView projects Read publications CV"
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
   },
   {
-    "objectID": "index.html#focus-areas",
-    "href": "index.html#focus-areas",
-    "title": "Wei Wang",
-    "section": "Focus areas",
-    "text": "Focus areas\n\n\nGenAI in education\nResearching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.\nTeaching portfolio →\n\n\nEducational data science\nDeveloping analyses and tools for large-scale, longitudinal educational datasets and evaluation.\nProjects →\n\n\nResearch communication\nPresentations, publications, and community-focused dissemination of findings.\nPortfolio →"
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "href": "Portfolio/AECT 2024/AECT2024.html#overview",
+    "title": "AECT 2024 Presentation",
+    "section": "",
+    "text": "This session, presented at AECT 2024, explores the practical integration of Generative Artificial Intelligence (GenAI)—such as ChatGPT and Bing Chat—into faculty development programs for designing effective and innovative assessments and learning activities, especially in asynchronous online courses."
   },
   {
-    "objectID": "index.html#featured-work",
-    "href": "index.html#featured-work",
-    "title": "Wei Wang",
-    "section": "Featured work",
-    "text": "Featured work\n\n\nComputational Analysis of Educational Data\nA first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.\nExplore the book →\n\n\nAIREA Data Explorer\nNational interactive data tool connecting community college AIREA credentials with regional workforce demand.\nExplore the data tool →\n\n\nKonFound-It! sensitivity analysis\nTools for quantifying robustness of causal inferences against potential biases.\nProject overview →"
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "href": "Portfolio/AECT 2024/AECT2024.html#key-points",
+    "title": "AECT 2024 Presentation",
+    "section": "Key Points",
+    "text": "Key Points\n\n🚀 GenAI’s Rise in Education\nTools like ChatGPT and Google Bard are reshaping higher education, offering human-like content generation but also raising pedagogical concerns.\n🧠 Educational Design Transformation\nAt the University of Tennessee, Knoxville (UTK), GenAI has been embedded into the CAS Online Course Design program to support faculty in designing evidence-based learning activities.\n🛠️ Practical Application Demonstrated\nEducators input learning outcomes into GenAI tools to generate customized assessments and activities. For example:\n\nLearning Outcome: Distinguish differences between federal and state court systems.\nAssessment: Comparative analysis essay.\nActivity: Create interactive infographics or mind maps.\n\n💬 Faculty Feedback\nFaculty found GenAI suggestions helpful but emphasized the need to adapt activities to the course format (e.g., avoiding live interviews in asynchronous settings).\n📊 Sentiment Analysis\nParticipant reflections were analyzed using the Bing Sentiment Lexicon, revealing a generally positive attitude toward GenAI as a supplementary tool."
   },
   {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
-    "title": "Wei Wang",
-    "section": "Get in touch",
-    "text": "Get in touch\nI welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.\n\nwwang93@vols.utk.edu Google Scholar LinkedIn GitHub"
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "href": "Portfolio/AECT 2024/AECT2024.html#design-process-quick-guide",
+    "title": "AECT 2024 Presentation",
+    "section": "Design Process (Quick Guide)",
+    "text": "Design Process (Quick Guide)\n\nSelect a GenAI tool (ChatGPT, Bing Chat, etc.).\nUse a prompt like:\n\"What are some assessments and learning activities for a college-level asynchronous course that align with the following learning outcomes: [insert outcomes]?\"\n\nReview and critically reflect on the generated suggestions.\nSelect and adapt ideas suitable for your course structure and learning goals."
   },
   {
-    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
-    "href": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
-    "title": "AERA 2025 Presentation",
-    "section": "Part A: Exploring Dimensions of AI Integration",
-    "text": "Part A: Exploring Dimensions of AI Integration\n\nBackground & Motivation\nGenerative AI offers powerful capabilities—automating routine tasks, enhancing writing self-efficacy, and sparking creativity—but also raises concerns about over‑dependence, diminished critical thinking, and academic integrity risks. To strike the right balance, we must understand the psychological and behavioral drivers that sustain effective, creative GenAI use in higher education.\n\n\nTheoretical Frameworks\n\nECM-ISC (Expectation Confirmation Model for Information Systems Continuance): Explains how users’ satisfaction and confirmation of expectations drive continued usage.\nI-PACE (Interaction of Person–Affect–Cognition–Execution): Models how affective and cognitive responses influence behavior and creativity.\n\n\n\nKey Constructs\n\n\n\n\n\n\n\n\nAbbreviation\nConstruct\nDefinition\n\n\n\n\nSAT\nSatisfaction\nUsers’ contentment after initial GenAI use\n\n\nAF\nAffective Response\nEmotional reactions during interaction\n\n\nPT\nPersonality Traits\nStable individual differences (e.g., openness, conscientiousness)\n\n\nCOR\nCognitive Response\nReflective thinking and metacognitive processing\n\n\nCI\nContinuance Intention\nLikelihood of future GenAI use\n\n\nCR\nCreativity\nGeneration of novel, useful ideas when using GenAI\n\n\n\n\n\nResearch Questions\n\nRQ1: How do satisfaction, affective response, and personality traits predict students’ continuance intention to engage with GenAI?\nRQ2: Does cognitive response mediate the relationship between continuance intention and creative performance?\n\n\n\nMethodology\n\nParticipants: 259 undergraduates (67% female, 33% male) with GenAI usage of 2–5 times/week.\nMeasures: Validated multi‑item scales (Cronbach’s α ≥ .75; AVE ≥ .50; composite reliability ≥ .80).\nAnalysis:\n\nDescriptive statistics\nReliability & validity checks\nStructural Equation Modeling (χ²/df = 3.91; CFI = .95; RMSEA = .06)\n\n\n\n\nKey Findings\n\nUsage Purposes: Writing support and exploratory learning were most common, followed by academic assistance and entertainment.\nReliability & Validity: All constructs met thresholds (α ≥ .70; AVE ≥ .50).\nStructural Paths:\n\nSAT → CI (β = .41, p &lt; .001)\nAF → CI (β = .22, p &lt; .01)\nPT → CI (β = .25, p &lt; .01)\nCI → COR (β = .62, p &lt; .001)\nCOR → CR (β = .33, p &lt; .001)\nCI → CR direct path was non‑significant (full mediation by COR).\n\n\n\nImplication: Cognitive response is the central mechanism translating GenAI engagement into creative output."
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "href": "Portfolio/AECT 2024/AECT2024.html#outcomes",
+    "title": "AECT 2024 Presentation",
+    "section": "Outcomes",
+    "text": "Outcomes\n\n🔄 Encouraged iterative design of assessments with GenAI as inspiration.\n👥 Fostered collaboration and experience-sharing among faculty.\n🎯 Supported alignment between learning outcomes and activities in online settings."
   },
   {
-    "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
-    "href": "Portfolio/AERA _2025/AERA 2025.html#part-b-designing-an-effective-genai-based-teaching-model",
-    "title": "AERA 2025 Presentation",
-    "section": "Part B: Designing an Effective GenAI-Based Teaching Model",
-    "text": "Part B: Designing an Effective GenAI-Based Teaching Model\nUsing ADDIE instructional design, we integrate the six constructs into distinct phases:\n\n\n\n\n\n\n\n\nADDIE Stage\nTarget Constructs\nCore Strategies\n\n\n\n\nAnalysis & Design\nPerceived Usefulness, Ease of Use\nDemo video + interactive walkthrough with embedded quiz; instant AI feedback to build confidence.\n\n\nDevelopment\nAffective Response, Social Influence\nAI pair‑programming workshops; emotion cards (👍/👎) for real‑time feedback.\n\n\nImplementation\nCognitive Response\nStructured reflection logs (“What? Why? How?”); guided Socratic prompts to deepen metacognition.\n\n\nEvaluation & Continuous Improvement\nSatisfaction, Continuance Intention\nGamified prompts with badges & leaderboards; iterative prompt challenges to sustain engagement.\n\n\nExtension\nCreativity\nOpen‑ended mini‑projects: design AI‑enhanced micro‑lessons; peer showcase and feedback sessions.\n\n\n\n\nImplementation Plan\n\nPilot: 8‑week module in Python Programming, 2 sections × 30 students.\nFacilitator Training: Two workshops on GenAI tools and model dimensions.\nStudent Onboarding: Intro session, demo of reflection logs, and AI ethics primer.\n\n\n\nEvaluation Strategy\n\nQuantitative: Re‑test SEM paths; pre/post measures of COR, CI, and CR.\nQualitative: Text‑mining of reflection logs; focus groups on affective & metacognitive experiences.\n\n\n\nNext Steps\n\nRefine reflection prompts and gamification elements.\nScale model to humanities and STEM courses.\nEstablish an instructor community for sharing GenAI integration best practices.\n\n\nThank you for engaging! Your comments and questions are welcome below."
+    "objectID": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "href": "Portfolio/AECT 2024/AECT2024.html#call-to-action--your-story-matters",
+    "title": "AECT 2024 Presentation",
+    "section": "Call to Action -Your Story Matters!!!",
+    "text": "Call to Action -Your Story Matters!!!\n\nEducators are encouraged to:\n\nExplore GenAI tools in their teaching design.\nReflect critically on AI-generated suggestions.\nShare strategies and experiences within their academic communities.\n\n\nThis presentation was part of the Works in Progress & Design in Practice session at AECT 2024.\nFor more info, contact Wei Wang"
+  },
+  {
+    "objectID": "Portfolio.html",
+    "href": "Portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "AERA 2025 Presentation\n\n\n\nConference Presentation\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\nConference Presentation\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
@@ -382,7 +445,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
+    "text": "askabout.edu: Evidence-Informed Decision Support for Education\n\n\n\nAI in Education\n\nEvidence Synthesis\n\nDecision Support\n\nEducational Technology\n\nVenture\n\n\n\nAn evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Publications/Publication 2/TechTrends Paper.html",

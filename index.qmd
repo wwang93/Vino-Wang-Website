@@ -61,6 +61,15 @@ Presentations, publications, and community-focused dissemination of findings.
 
 ::: {.card-grid}
 ::: {.card}
+### askabout.edu
+
+**Co-founder · Working prototype**
+
+Evidence-informed decision support that helps educators turn verified research into context-aware answers with transparent citations and evidence-strength ratings.
+
+[Explore Ask About EDU →](Projects/Ask_About_EDU/Ask_About_EDU.qmd)
+:::
+::: {.card}
 ### Computational Analysis of Educational Data
 A first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.
 
@@ -71,12 +80,6 @@ A first-author CRC Press field guide to analyzing text, relational, numeric, and
 National interactive data tool connecting community college AIREA credentials with regional workforce demand.
 
 [Explore the data tool →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
-:::
-::: {.card}
-### KonFound-It! sensitivity analysis
-Tools for quantifying robustness of causal inferences against potential biases.
-
-[Project overview →](Projects/IES_Konfound/IES_konfound.qmd)
 :::
 :::
 
