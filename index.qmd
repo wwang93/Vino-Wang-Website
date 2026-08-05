@@ -61,10 +61,10 @@ Presentations, publications, and community-focused dissemination of findings.
 
 ::: {.card-grid}
 ::: {.card}
-### KonFound-It! sensitivity analysis
-Tools for quantifying robustness of causal inferences against potential biases.
+### Computational Analysis of Educational Data
+A first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.
 
-[Project overview →](Projects/IES_Konfound/IES_konfound.qmd)
+[Explore the book →](Publications/Computational_Analysis_Educational_Data/Book.qmd)
 :::
 ::: {.card}
 ### AIREA Data Explorer
@@ -73,10 +73,10 @@ National interactive data tool connecting community college AIREA credentials wi
 [Explore the data tool →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
 :::
 ::: {.card}
-### AERA 2025 presentation
-Frameworks and a teaching model for GenAI integration in higher education.
+### KonFound-It! sensitivity analysis
+Tools for quantifying robustness of causal inferences against potential biases.
 
-[Presentation →](Portfolio/AERA%20_2025/AERA%202025.qmd)
+[Project overview →](Projects/IES_Konfound/IES_konfound.qmd)
 :::
 :::
 

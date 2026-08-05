@@ -9,13 +9,6 @@
     ]
   },
   {
-    "listing": "/Projects.html",
-    "items": [
-      "/Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
-      "/Projects/IES_Konfound/IES_konfound.html"
-    ]
-  },
-  {
     "listing": "/Portfolio.html",
     "items": [
       "/Portfolio/AERA _2025/AERA 2025.html",
@@ -23,8 +16,16 @@
     ]
   },
   {
+    "listing": "/Projects.html",
+    "items": [
+      "/Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+      "/Projects/IES_Konfound/IES_konfound.html"
+    ]
+  },
+  {
     "listing": "/Publications.html",
     "items": [
+      "/Publications/Computational_Analysis_Educational_Data/Book.html",
       "/Publications/Publication 4/GenAI dependency.html",
       "/Publications/Publication 2/TechTrends Paper.html",
       "/Publications/publication 3/Konfound Paper.html",

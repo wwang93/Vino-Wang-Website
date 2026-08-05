@@ -26,7 +26,7 @@ Hello! I am **Wei Wang** (Vino), a PhD student in Learning, Design, and Technolo
 
 ## Recent work
 
-- Designing AI-assisted instructional models that promote critical thinking.
+- Leading the forthcoming CRC Press book [*Computational Analysis of Educational Data: A Field Guide Using R*](Publications/Computational_Analysis_Educational_Data/Book.qmd) as first author (expected late 2026).
 - Building tools and visualizations for large educational datasets in R and Python.
 - Translating research into practical guidance for instructors and students.
 
