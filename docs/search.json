@@ -98,102 +98,158 @@
     "text": "Project links\n\nBook project website\nSource repository"
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html",
-    "href": "Projects/IES_Konfound/IES_konfound.html",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
     "section": "",
-    "text": "Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the konfound R package, to:\n\nQuantify the robustness of causal inferences (RIR, ITCV).\nProvide tools for published studies (pkonfound()), R model objects (konfound()), and meta-analyses (mkonfound())."
+    "text": "University of Tennessee · Principal Investigator: Dr. Fatima T. Zahra\nRole: Student Principal Investigator (Student PI) and Graduate Researcher"
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#dependencies",
-    "href": "Projects/IES_Konfound/IES_konfound.html#dependencies",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "Dependencies",
-    "text": "Dependencies\n\nDepends: R (&gt;= 2.10)\nImports: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor\nSuggests: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix"
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#project-overview",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#project-overview",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "Project overview",
+    "text": "Project overview\nNext Level Teaching Blueprint is a multi-phase design-based research initiative examining how generative AI can function as a structured discourse partner rather than a shortcut to an answer. The project focuses on undergraduate and graduate research methods courses, where students must learn to articulate reasoning, evaluate evidence, question assumptions, and make defensible methodological decisions.\nI co-lead the project as Student PI and Graduate Researcher. Our goal is to develop and test scalable instructional principles that strengthen higher-order thinking, critical thinking, and AI literacy while preserving learner agency."
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.1 Published Studies (pkonfound())",
-    "text": "4.1 Published Studies (pkonfound())\nlibrary(konfound)\n# Compute robustness indices for published summary statistics\npkonfound(\n  est_eff      = 2.0,\n  std_err      = 0.4,\n  n_obs        = 100,\n  n_covariates = 3\n)"
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#constraint-first-dialogic-learning",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#constraint-first-dialogic-learning",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "Constraint-first, dialogic learning",
+    "text": "Constraint-first, dialogic learning\nThe learning activities use a constraint-first sequence designed to keep student thinking visible:\n\n\n1. Commit to initial reasoning\nStudents articulate an initial interpretation, methodological choice, or solution before consulting an LLM.\n\n\n2. Interrogate through dialogue\nStudents use AI to surface alternatives, question assumptions, test claims, and identify limitations rather than simply request a finished answer.\n\n\n3. Revise and reflect\nStudents revise their response, explain what changed, and document how they accepted, rejected, or reframed the AI’s contribution.\n\n\nThis structure treats the LLM as a discourse partner while requiring learners to remain accountable for the reasoning and final judgment."
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.2 R Model Objects (konfound())",
-    "text": "4.2 R Model Objects (konfound())\n# Fit a linear model\nm1 &lt;- lm(mpg ~ wt + disp, data = mtcars)\n# Sensitivity analysis for coefficient 'wt'\nkonfound(m1, \"wt\")"
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#multi-phase-research-design",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#multi-phase-research-design",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "Multi-phase research design",
+    "text": "Multi-phase research design\nThe project connects two stages of implementation:\n\nSpring 2025 pre-pilot: Quantitative analyses of statistical learning and AI literacy outcomes, including data validation, demographic reporting, pre/post comparisons, and publication-ready tables and visualizations.\nSpring 2026 CEHHS Phase 1 pilot: An integrated mixed-methods study across research methods courses, combining learning outcomes with process data and classroom evidence.\n\n\n\n\n\n\n\n\nEvidence stream\nAnalytic purpose\n\n\n\n\nPre/post measures\nExamine changes in disciplinary learning, AI literacy, and critical thinking\n\n\nStudent learning diaries\nTrace reflection, metacognition, and changes in learner judgment\n\n\nAI chat logs\nStudy discourse sequences, prompting behavior, and interaction patterns\n\n\nAssignment artifacts\nCompare initial reasoning, revisions, and final disciplinary products\n\n\nClassroom observations\nDocument implementation, participation, and instructional context\n\n\nFaculty feedback\nIdentify feasibility, adaptations, and requirements for scaling"
   },
   {
-    "objectID": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
-    "href": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
-    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
-    "section": "4.3 Meta‑Analysis (mkonfound())",
-    "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#computational-analysis-of-studentai-discourse",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#computational-analysis-of-studentai-discourse",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "Computational analysis of student–AI discourse",
+    "text": "Computational analysis of student–AI discourse\nThe computational analysis plan examines not only what students produce, but how they position themselves in relation to AI.\n\n\nInteraction sequences\nModeling how students move among proposing, questioning, validating, revising, and reflecting across an AI-supported task.\n\n\nDialogue acts\nClassifying requests, explanations, challenges, evaluations, and metacognitive statements within student–AI exchanges.\n\n\nLearner authority\nIdentifying linguistic markers of authority, uncertainty, agreement, resistance, and deference to AI-generated suggestions.\n\n\nAI positioning\nExamining whether learners treat AI primarily as an answer generator, a validator, or a co-thinker."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#my-contributions",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#my-contributions",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "My contributions",
+    "text": "My contributions\nMy work includes:\n\nCo-leading the multi-phase design-based research initiative with the PI and interdisciplinary research team.\nContributing to the design and classroom implementation of constraint-first, dialogic learning activities.\nDeveloping the integrated mixed-methods workflow connecting outcome measures, learning diaries, chat logs, artifacts, observations, and faculty feedback.\nConducting quantitative analyses for the Spring 2025 pre-pilot study, including validation, descriptive reporting, pre/post comparisons, tables, and visualizations.\nDesigning computational analyses of student–AI discourse, interaction sequences, dialogue acts, learner authority, and AI positioning.\nWorking with participating faculty to translate findings into scalable pedagogical principles and implementation resources."
+  },
+  {
+    "objectID": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#scaling-and-dissemination",
+    "href": "Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html#scaling-and-dissemination",
+    "title": "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses",
+    "section": "Scaling and dissemination",
+    "text": "Scaling and dissemination\nThe team is using empirical findings to refine faculty resources and scalable implementation principles for research methods instruction. Scholarly dissemination is in development, including a Phase 1 manuscript targeted for CHI 2027."
+  },
+  {
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
     "section": "",
-    "text": "The askabout.edu working prototype turns practical education questions into evidence-grounded responses with transparent citations."
+    "text": "The AIREA Data Explorer combines an interactive national map with filters for year, job-posting measures, and community colleges."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "The problem",
-    "text": "The problem\nEducation has a persistent research-to-practice gap. A large body of peer-reviewed research is difficult for educators and school leaders to access, interpret, and connect to immediate decisions. Meanwhile, consequential choices about curricula, intervention programs, and professional development are often made without timely, usable evidence.\nGeneral-purpose AI systems can make research easier to discuss, but they are not designed to provide a controlled evidence base, a consistent hierarchy of evidence, or transparent judgments about the strength and contextual relevance of the underlying research."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Project overview",
+    "text": "Project overview\nCommunity colleges play a central role in preparing students for work in advanced infrastructure, energy, and agriculture. However, education and workforce data are often stored in separate systems, making it difficult to understand whether local credential production aligns with regional labor-market demand.\nThe AIREA Data Explorer brings these sources together in one national, interactive tool. Users can examine community college credentials, explore AIREA job postings across U.S. commuting zones, compare regions and institutions, and study how these patterns have changed since 2010."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "The solution",
-    "text": "The solution\naskabout.edu is an evidence-informed decision-support platform designed for practical education questions. An educator can ask a question such as, “What approaches improve reading comprehension for fourth-grade English learners?” The system retrieves relevant research from a curated corpus and returns a clear synthesis with citations, evidence-strength information, and the contexts in which the findings are grounded.\nRather than searching the open web, AAU is deliberately designed around verified research sources such as ERIC, What Works Clearinghouse materials, IES practice guides, systematic reviews, and National Academies reports."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "My role and contributions",
+    "text": "My role and contributions\nI co-developed the AIREA Data Explorer and contributed to the design and implementation of its interactive visualization system. My work included:\n\nBuilding Shiny interface and server components for the map, credential, job-posting, and methodology views.\nImplementing Mapbox GL JS interactions for U.S. commuting zones and community college locations.\nIntegrating institution search, year selection, metric controls, hover details, and linked visualizations.\nPreparing and connecting multi-year credential, job-posting, population, and geospatial data.\nImproving performance by separating geospatial data into year-specific files and updating map sources without rebuilding the full application.\nSupporting the transition from the early CCRC Green Seek prototype to the final AIREA-branded public release."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "From question to evidence-informed action",
-    "text": "From question to evidence-informed action\n\n\nAsk in practical language\nUsers describe a program, outcome, population, or decision in the language they would use with a colleague rather than constructing a database query.\n\n\nRetrieve verified evidence\nThe system searches a curated research corpus and prioritizes stronger forms of evidence, including systematic reviews and meta-analyses, over isolated single studies.\n\n\nInterpret with context\nResponses include transparent citations, an evidence-strength rating, and information about the populations and settings represented in the evidence."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "What users can explore",
+    "text": "What users can explore\n\n\nNational map\nCompare AIREA job demand across commuting zones while viewing community college locations and credential rates.\n\n\nCredentials awarded\nSearch colleges, compare leading institutions, and examine AIREA credentials by program, award level, and year.\n\n\nJob postings\nExplore total postings, AIREA’s share of all postings, postings per 1,000 residents, occupational demand, and trends over time.\n\n\nMethods and downloads\nReview the AIREA classification methodology and download occupation, program, credential, and job-posting tables."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "Evidence by design",
-    "text": "Evidence by design\nAAU is being developed around several principles:\n\nCurated sources: Retrieval is constrained to verified educational research and evidence reports rather than the open web.\nEvidence hierarchy: Research syntheses and higher-quality evidence are prioritized when available.\nTransparent citations: Users can trace claims back to the underlying study or report.\nCalibrated conclusions: Responses distinguish strong, moderate, limited, and inconclusive evidence.\nContextual grounding: The system surfaces the settings and populations represented in the evidence so users can judge how well it applies locally."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Data and technical approach",
+    "text": "Data and technical approach\nThe explorer combines several complementary data sources and technologies:\n\nCommunity college credentials: Integrated Postsecondary Education Data System (IPEDS).\nLabor-market demand: Lightcast job postings from 2010 onward.\nOccupations and programs: AIREA classifications connecting SOC occupations with CIP programs of study.\nRegional geography: U.S. commuting zones, which approximate local labor markets across county boundaries.\nApplication stack: R, Shiny, Mapbox GL JS, Plotly, GeoJSON, and JavaScript.\n\nThe final application supports multiple views of demand—including raw AIREA job postings, the percentage of all postings in AIREA fields, and postings per 1,000 residents—while connecting those measures to community college credential production."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "Current status",
-    "text": "Current status\nAs of August 2026:\n\nAn early working prototype is live with functioning retrieval pipelines tested against benchmark questions.\nCorpus development includes an ERIC ingestion pipeline spanning more than 2.2 million records; ingestion and evidence verification are still in progress.\nApproximately 10,000 What Works Clearinghouse intervention reports have been incorporated into the project corpus.\nEducational researchers, state education agency partners, and practicing teachers have provided letters of support and expressed readiness to participate in pilot testing.\n\nThe number of records available in the live vetted index will continue to change as ingestion, verification, and evaluation progress."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "From prototype to public data tool",
+    "text": "From prototype to public data tool\nThe project began as CCRC Green Seek, a prototype focused on green-program completions and green-sector job demand. Through continued research, classification work, data engineering, and user-experience development, it expanded into AIREA: a broader framework encompassing advanced infrastructure, energy, agriculture, and adjacent high-opportunity occupations.\nThe final release added dedicated credential and job-posting dashboards, institution and commuting-zone searches, ranking tables, downloads, methodology documentation, responsive controls, and CCRC’s public-facing visual identity."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "My role and the founding team",
-    "text": "My role and the founding team\nI am one of four co-founders of Ask About EDU (AAU). The founding team brings together expertise in AI engineering, educational research, software design, and educational technology.\nBecause the company is still in formation, this page presents AAU as a co-founded product initiative rather than as a finalized legal entity. Company details will be updated after registration is complete."
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "section": "Team and partners",
+    "text": "Team and partners\nThe AIREA Data Explorer was created by Wei Wang, Joshua Rosenberg, Cameron Sublett, Matias Fresard, and Bret Staudt Willet, in partnership with the Community College Research Center at Teachers College, Columbia University.\nThe project also acknowledges the University of Tennessee, Knoxville and the Foundation for California Community Colleges. Funding was provided by JPMorganChase and the National Renewable Energy Laboratory."
   },
   {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
-    "section": "Next phase",
-    "text": "Next phase\nThe team is seeking seed funding to move from an early prototype to a validated system. The next phase will focus on:\n\nCore engineering and product reliability.\nCorpus expansion, verification, and evidence-ranking workflows.\nPilot implementation with educators and education partners.\nRigorous evaluation of usability, evidence quality, and decision-support value."
-  },
-  {
-    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
-    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
-    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
+    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
+    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
     "section": "Project links",
-    "text": "Project links\n\nVisit askabout.edu\nRead the project one-pager\nInformation for funders"
+    "text": "Project links\n\nOfficial CCRC project page\nOpen the AIREA Data Explorer\nSource code on GitHub\nAIREA Data Explorer OSF repository"
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html",
+    "href": "Projects/AI_and_ME/AI_and_ME.html",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "",
+    "text": "The AI & ME Series brings faculty experts, instructional designers, and AI practitioners together to support responsible AI integration in higher education."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#project-overview",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#project-overview",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "Project overview",
+    "text": "Project overview\nAI & ME is a national professional development initiative focused on responsible and effective uses of generative AI in higher education teaching, assessment, research, media creation, and faculty workflows. The initiative was developed by the University of Tennessee, Knoxville’s College of Education, Health, and Human Sciences in collaboration with Teaching & Learning Innovation.\nThe project combines a five-session live webinar series with a self-paced Canvas course, extending expert-led programming into an accessible resource that faculty, graduate assistants, instructional designers, and academic support staff can revisit and complete asynchronously."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#five-session-webinar-series",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#five-session-webinar-series",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "Five-session webinar series",
+    "text": "Five-session webinar series\nThe 2026 series addressed five complementary areas:\n\nCultivating AI Literacy in Online Courses\nAI for Faculty Productivity: Local AI for FERPA and Faculty Tools\nBuilding Your Own AI Research Assistant Using Open-Sourced Cyberinfrastructure\nAI Ethics: Can We? Should We? Navigating Ethical Dilemmas of AI in Higher Education\nDesigning GenAI-Enhanced Educational Media with Google AI Studio\n\nTogether, the sessions connected foundational AI literacy, practical faculty workflows, privacy-aware research tools, ethical decision-making, and AI-supported educational media design."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#a-scalable-professional-learning-model",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#a-scalable-professional-learning-model",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "A scalable professional learning model",
+    "text": "A scalable professional learning model\n\n\nLive engagement\nMulti-session webinars created opportunities for expert demonstrations, participant questions, discussion, and interactive professional learning.\n\n\nAsynchronous access\nRecordings, transcripts, and curated resources were organized into a self-paced Canvas course for continued and scalable faculty learning.\n\n\nRecognized completion\nSynchronous and asynchronous completion workflows supported certificates that recognize participant engagement."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#my-contributions",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#my-contributions",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "My contributions",
+    "text": "My contributions\nI am listed as an instructor for the self-paced course and contributed across the live series and its conversion into an open professional learning resource. My work included:\n\nCoordinating implementation of the five-session live webinar series, including logistics, speaker support, participant communication, and post-session resource management.\nSupporting delivery of interactive learning experiences for a national higher education audience.\nProducing, editing, and organizing webinar transcripts and learning artifacts to improve accessibility and reuse.\nDeveloping the self-paced Canvas course by curating recordings, structuring learning modules, and aligning supporting resources.\nSupporting certificate-of-completion workflows for synchronous and asynchronous participation.\nContributing to the project’s visibility as a cross-unit professional development initiative in AI and higher education."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#course-format-and-audience",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#course-format-and-audience",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "Course format and audience",
+    "text": "Course format and audience\nThe Canvas course is organized around the five workshop sessions. Each session is designed for approximately two hours of engagement and includes a brief reflection activity. The intended audience includes higher education faculty, graduate assistants, instructional designers, academic support professionals, and other educators interested in integrating AI into teaching and learning.\nEnrollment availability is managed through Canvas Catalog and may change over time; the public course page remains the authoritative source for current access information."
+  },
+  {
+    "objectID": "Projects/AI_and_ME/AI_and_ME.html#project-links",
+    "href": "Projects/AI_and_ME/AI_and_ME.html#project-links",
+    "title": "AI & ME: National Webinar Series and Self-Paced Course",
+    "section": "Project links",
+    "text": "Project links\n\nAI & ME series at Teaching & Learning Innovation\nAI and Me self-paced course in Canvas Catalog"
   },
   {
     "objectID": "Portfolio/AERA _2025/AERA 2025.html#part-a-exploring-dimensions-of-ai-integration",
@@ -319,7 +375,7 @@
     "href": "about.html#recent-work",
     "title": "About me",
     "section": "Recent work",
-    "text": "Recent work\n\nCo-founding Ask About EDU (AAU), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.\nLeading the forthcoming CRC Press book Computational Analysis of Educational Data: A Field Guide Using R as first author (expected late 2026).\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
+    "text": "Recent work\n\nCo-founding Ask About EDU (AAU), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.\nCo-leading the Next Level Teaching Blueprint as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.\nLeading the forthcoming CRC Press book Computational Analysis of Educational Data: A Field Guide Using R as first author (expected late 2026).\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
   },
   {
     "objectID": "about.html#contact",
@@ -385,67 +441,109 @@
     "text": "AERA 2025 Presentation\n\n\n\nConference Presentation\n\nAERA 2025\n\n\n\n\n\n\n\n\n\nApr 25, 2025\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAECT 2024 Presentation\n\n\n\nConference Presentation\n\nAECT 2024\n\n\n\n\n\n\n\n\n\nOct 20, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
     "section": "",
-    "text": "The AIREA Data Explorer combines an interactive national map with filters for year, job-posting measures, and community colleges."
+    "text": "The askabout.edu working prototype turns practical education questions into evidence-grounded responses with transparent citations."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-overview",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "Project overview",
-    "text": "Project overview\nCommunity colleges play a central role in preparing students for work in advanced infrastructure, energy, and agriculture. However, education and workforce data are often stored in separate systems, making it difficult to understand whether local credential production aligns with regional labor-market demand.\nThe AIREA Data Explorer brings these sources together in one national, interactive tool. Users can examine community college credentials, explore AIREA job postings across U.S. commuting zones, compare regions and institutions, and study how these patterns have changed since 2010."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-problem",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "The problem",
+    "text": "The problem\nEducation has a persistent research-to-practice gap. A large body of peer-reviewed research is difficult for educators and school leaders to access, interpret, and connect to immediate decisions. Meanwhile, consequential choices about curricula, intervention programs, and professional development are often made without timely, usable evidence.\nGeneral-purpose AI systems can make research easier to discuss, but they are not designed to provide a controlled evidence base, a consistent hierarchy of evidence, or transparent judgments about the strength and contextual relevance of the underlying research."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#my-role-and-contributions",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "My role and contributions",
-    "text": "My role and contributions\nI co-developed the AIREA Data Explorer and contributed to the design and implementation of its interactive visualization system. My work included:\n\nBuilding Shiny interface and server components for the map, credential, job-posting, and methodology views.\nImplementing Mapbox GL JS interactions for U.S. commuting zones and community college locations.\nIntegrating institution search, year selection, metric controls, hover details, and linked visualizations.\nPreparing and connecting multi-year credential, job-posting, population, and geospatial data.\nImproving performance by separating geospatial data into year-specific files and updating map sources without rebuilding the full application.\nSupporting the transition from the early CCRC Green Seek prototype to the final AIREA-branded public release."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#the-solution",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "The solution",
+    "text": "The solution\naskabout.edu is an evidence-informed decision-support platform designed for practical education questions. An educator can ask a question such as, “What approaches improve reading comprehension for fourth-grade English learners?” The system retrieves relevant research from a curated corpus and returns a clear synthesis with citations, evidence-strength information, and the contexts in which the findings are grounded.\nRather than searching the open web, AAU is deliberately designed around verified research sources such as ERIC, What Works Clearinghouse materials, IES practice guides, systematic reviews, and National Academies reports."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#what-users-can-explore",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "What users can explore",
-    "text": "What users can explore\n\n\nNational map\nCompare AIREA job demand across commuting zones while viewing community college locations and credential rates.\n\n\nCredentials awarded\nSearch colleges, compare leading institutions, and examine AIREA credentials by program, award level, and year.\n\n\nJob postings\nExplore total postings, AIREA’s share of all postings, postings per 1,000 residents, occupational demand, and trends over time.\n\n\nMethods and downloads\nReview the AIREA classification methodology and download occupation, program, credential, and job-posting tables."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#from-question-to-evidence-informed-action",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "From question to evidence-informed action",
+    "text": "From question to evidence-informed action\n\n\nAsk in practical language\nUsers describe a program, outcome, population, or decision in the language they would use with a colleague rather than constructing a database query.\n\n\nRetrieve verified evidence\nThe system searches a curated research corpus and prioritizes stronger forms of evidence, including systematic reviews and meta-analyses, over isolated single studies.\n\n\nInterpret with context\nResponses include transparent citations, an evidence-strength rating, and information about the populations and settings represented in the evidence."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#data-and-technical-approach",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "Data and technical approach",
-    "text": "Data and technical approach\nThe explorer combines several complementary data sources and technologies:\n\nCommunity college credentials: Integrated Postsecondary Education Data System (IPEDS).\nLabor-market demand: Lightcast job postings from 2010 onward.\nOccupations and programs: AIREA classifications connecting SOC occupations with CIP programs of study.\nRegional geography: U.S. commuting zones, which approximate local labor markets across county boundaries.\nApplication stack: R, Shiny, Mapbox GL JS, Plotly, GeoJSON, and JavaScript.\n\nThe final application supports multiple views of demand—including raw AIREA job postings, the percentage of all postings in AIREA fields, and postings per 1,000 residents—while connecting those measures to community college credential production."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#evidence-by-design",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Evidence by design",
+    "text": "Evidence by design\nAAU is being developed around several principles:\n\nCurated sources: Retrieval is constrained to verified educational research and evidence reports rather than the open web.\nEvidence hierarchy: Research syntheses and higher-quality evidence are prioritized when available.\nTransparent citations: Users can trace claims back to the underlying study or report.\nCalibrated conclusions: Responses distinguish strong, moderate, limited, and inconclusive evidence.\nContextual grounding: The system surfaces the settings and populations represented in the evidence so users can judge how well it applies locally."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#from-prototype-to-public-data-tool",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "From prototype to public data tool",
-    "text": "From prototype to public data tool\nThe project began as CCRC Green Seek, a prototype focused on green-program completions and green-sector job demand. Through continued research, classification work, data engineering, and user-experience development, it expanded into AIREA: a broader framework encompassing advanced infrastructure, energy, agriculture, and adjacent high-opportunity occupations.\nThe final release added dedicated credential and job-posting dashboards, institution and commuting-zone searches, ranking tables, downloads, methodology documentation, responsive controls, and CCRC’s public-facing visual identity."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#current-status",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Current status",
+    "text": "Current status\nAs of August 2026:\n\nAn early working prototype is live with functioning retrieval pipelines tested against benchmark questions.\nCorpus development includes an ERIC ingestion pipeline spanning more than 2.2 million records; ingestion and evidence verification are still in progress.\nApproximately 10,000 What Works Clearinghouse intervention reports have been incorporated into the project corpus.\nEducational researchers, state education agency partners, and practicing teachers have provided letters of support and expressed readiness to participate in pilot testing.\n\nThe number of records available in the live vetted index will continue to change as ingestion, verification, and evaluation progress."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#team-and-partners",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
-    "section": "Team and partners",
-    "text": "Team and partners\nThe AIREA Data Explorer was created by Wei Wang, Joshua Rosenberg, Cameron Sublett, Matias Fresard, and Bret Staudt Willet, in partnership with the Community College Research Center at Teachers College, Columbia University.\nThe project also acknowledges the University of Tennessee, Knoxville and the Foundation for California Community Colleges. Funding was provided by JPMorganChase and the National Renewable Energy Laboratory."
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#my-role-and-the-founding-team",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "My role and the founding team",
+    "text": "My role and the founding team\nI am one of four co-founders of Ask About EDU (AAU). The founding team brings together expertise in AI engineering, educational research, software design, and educational technology.\nBecause the company is still in formation, this page presents AAU as a co-founded product initiative rather than as a finalized legal entity. Company details will be updated after registration is complete."
   },
   {
-    "objectID": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
-    "href": "Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html#project-links",
-    "title": "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand",
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#next-phase",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
+    "section": "Next phase",
+    "text": "Next phase\nThe team is seeking seed funding to move from an early prototype to a validated system. The next phase will focus on:\n\nCore engineering and product reliability.\nCorpus expansion, verification, and evidence-ranking workflows.\nPilot implementation with educators and education partners.\nRigorous evaluation of usability, evidence quality, and decision-support value."
+  },
+  {
+    "objectID": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
+    "href": "Projects/Ask_About_EDU/Ask_About_EDU.html#project-links",
+    "title": "askabout.edu: Evidence-Informed Decision Support for Education",
     "section": "Project links",
-    "text": "Project links\n\nOfficial CCRC project page\nOpen the AIREA Data Explorer\nSource code on GitHub\nAIREA Data Explorer OSF repository"
+    "text": "Project links\n\nVisit askabout.edu\nRead the project one-pager\nInformation for funders"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html",
+    "href": "Projects/IES_Konfound/IES_konfound.html",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "",
+    "text": "Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the konfound R package, to:\n\nQuantify the robustness of causal inferences (RIR, ITCV).\nProvide tools for published studies (pkonfound()), R model objects (konfound()), and meta-analyses (mkonfound())."
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "href": "Projects/IES_Konfound/IES_konfound.html#dependencies",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "Dependencies",
+    "text": "Dependencies\n\nDepends: R (&gt;= 2.10)\nImports: broom, broom.mixed, crayon, dplyr, ggplot2, lavaan, purrr, rlang, tidyr, lme4, tibble, ggrepel, pbkrtest, ppcor\nSuggests: covr, devtools, forcats, knitr, rmarkdown, mice, roxygen2, testthat, Matrix"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#published-studies-pkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.1 Published Studies (pkonfound())",
+    "text": "4.1 Published Studies (pkonfound())\nlibrary(konfound)\n# Compute robustness indices for published summary statistics\npkonfound(\n  est_eff      = 2.0,\n  std_err      = 0.4,\n  n_obs        = 100,\n  n_covariates = 3\n)"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#r-model-objects-konfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.2 R Model Objects (konfound())",
+    "text": "4.2 R Model Objects (konfound())\n# Fit a linear model\nm1 &lt;- lm(mpg ~ wt + disp, data = mtcars)\n# Sensitivity analysis for coefficient 'wt'\nkonfound(m1, \"wt\")"
+  },
+  {
+    "objectID": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "href": "Projects/IES_Konfound/IES_konfound.html#metaanalysis-mkonfound",
+    "title": "KonFound-It!: Sensitivity Analysis for Robust Inference",
+    "section": "4.3 Meta‑Analysis (mkonfound())",
+    "text": "4.3 Meta‑Analysis (mkonfound())\n# Built-in example dataset\nhead(mkonfound_ex)\n# Run sensitivity analysis across multiple studies\nmkonfound(mkonfound_ex, t, df)"
   },
   {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "askabout.edu: Evidence-Informed Decision Support for Education\n\n\n\nAI in Education\n\nEvidence Synthesis\n\nDecision Support\n\nEducational Technology\n\nVenture\n\n\n\nAn evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
+    "text": "askabout.edu: Evidence-Informed Decision Support for Education\n\n\n\nAI in Education\n\nEvidence Synthesis\n\nDecision Support\n\nEducational Technology\n\nVenture\n\n\n\nAn evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNext Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses\n\n\n\nGenAI in Education\n\nCritical Thinking\n\nDesign-Based Research\n\nMixed Methods\n\nLearning Analytics\n\n\n\nA multi-phase design-based research initiative examining how structured interaction with generative AI can strengthen critical thinking, higher-order learning, and AI literacy in research methods courses.\n\n\n\n\n\nMay 1, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAI & ME: National Webinar Series and Self-Paced Course\n\n\n\nFaculty Development\n\nGenerative AI\n\nOpen Education\n\nCanvas\n\nHigher Education\n\n\n\nA five-session national professional development series and self-paced Canvas course supporting responsible, effective uses of generative AI in higher education.\n\n\n\n\n\nMar 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Publications/Publication 2/TechTrends Paper.html",

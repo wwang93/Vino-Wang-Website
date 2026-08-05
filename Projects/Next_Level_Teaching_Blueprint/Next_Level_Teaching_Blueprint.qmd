@@ -1,0 +1,112 @@
+---
+title: "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses"
+author: "Wei Wang"
+date: "2026-05-01"
+date-format: "MMMM YYYY"
+categories: ["GenAI in Education", "Critical Thinking", "Design-Based Research", "Mixed Methods", "Learning Analytics"]
+description: "A multi-phase design-based research initiative examining how structured interaction with generative AI can strengthen critical thinking, higher-order learning, and AI literacy in research methods courses."
+page-layout: full
+title-block-banner: true
+execute:
+  echo: false
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**University of Tennessee · Principal Investigator: Dr. Fatima T. Zahra**
+
+**Role:** Student Principal Investigator (Student PI) and Graduate Researcher
+:::
+
+## Project overview
+
+**Next Level Teaching Blueprint** is a multi-phase design-based research initiative examining how generative AI can function as a structured discourse partner rather than a shortcut to an answer. The project focuses on undergraduate and graduate research methods courses, where students must learn to articulate reasoning, evaluate evidence, question assumptions, and make defensible methodological decisions.
+
+I co-lead the project as Student PI and Graduate Researcher. Our goal is to develop and test scalable instructional principles that strengthen higher-order thinking, critical thinking, and AI literacy while preserving learner agency.
+
+## Constraint-first, dialogic learning
+
+The learning activities use a **constraint-first** sequence designed to keep student thinking visible:
+
+::: {.card-grid}
+::: {.card}
+### 1. Commit to initial reasoning
+
+Students articulate an initial interpretation, methodological choice, or solution before consulting an LLM.
+:::
+
+::: {.card}
+### 2. Interrogate through dialogue
+
+Students use AI to surface alternatives, question assumptions, test claims, and identify limitations rather than simply request a finished answer.
+:::
+
+::: {.card}
+### 3. Revise and reflect
+
+Students revise their response, explain what changed, and document how they accepted, rejected, or reframed the AI's contribution.
+:::
+:::
+
+This structure treats the LLM as a discourse partner while requiring learners to remain accountable for the reasoning and final judgment.
+
+## Multi-phase research design
+
+The project connects two stages of implementation:
+
+- **Spring 2025 pre-pilot:** Quantitative analyses of statistical learning and AI literacy outcomes, including data validation, demographic reporting, pre/post comparisons, and publication-ready tables and visualizations.
+- **Spring 2026 CEHHS Phase 1 pilot:** An integrated mixed-methods study across research methods courses, combining learning outcomes with process data and classroom evidence.
+
+| Evidence stream | Analytic purpose |
+|---|---|
+| Pre/post measures | Examine changes in disciplinary learning, AI literacy, and critical thinking |
+| Student learning diaries | Trace reflection, metacognition, and changes in learner judgment |
+| AI chat logs | Study discourse sequences, prompting behavior, and interaction patterns |
+| Assignment artifacts | Compare initial reasoning, revisions, and final disciplinary products |
+| Classroom observations | Document implementation, participation, and instructional context |
+| Faculty feedback | Identify feasibility, adaptations, and requirements for scaling |
+
+## Computational analysis of student–AI discourse
+
+The computational analysis plan examines not only what students produce, but how they position themselves in relation to AI.
+
+::: {.card-grid}
+::: {.card}
+### Interaction sequences
+
+Modeling how students move among proposing, questioning, validating, revising, and reflecting across an AI-supported task.
+:::
+
+::: {.card}
+### Dialogue acts
+
+Classifying requests, explanations, challenges, evaluations, and metacognitive statements within student–AI exchanges.
+:::
+
+::: {.card}
+### Learner authority
+
+Identifying linguistic markers of authority, uncertainty, agreement, resistance, and deference to AI-generated suggestions.
+:::
+
+::: {.card}
+### AI positioning
+
+Examining whether learners treat AI primarily as an answer generator, a validator, or a co-thinker.
+:::
+:::
+
+## My contributions
+
+My work includes:
+
+- Co-leading the multi-phase design-based research initiative with the PI and interdisciplinary research team.
+- Contributing to the design and classroom implementation of constraint-first, dialogic learning activities.
+- Developing the integrated mixed-methods workflow connecting outcome measures, learning diaries, chat logs, artifacts, observations, and faculty feedback.
+- Conducting quantitative analyses for the Spring 2025 pre-pilot study, including validation, descriptive reporting, pre/post comparisons, tables, and visualizations.
+- Designing computational analyses of student–AI discourse, interaction sequences, dialogue acts, learner authority, and AI positioning.
+- Working with participating faculty to translate findings into scalable pedagogical principles and implementation resources.
+
+## Scaling and dissemination
+
+The team is using empirical findings to refine faculty resources and scalable implementation principles for research methods instruction. Scholarly dissemination is in development, including a Phase 1 manuscript targeted for **CHI 2027**.
+

@@ -27,6 +27,7 @@ Hello! I am **Wei Wang** (Vino), a PhD student in Learning, Design, and Technolo
 ## Recent work
 
 - Co-founding [**Ask About EDU (AAU)**](Projects/Ask_About_EDU/Ask_About_EDU.qmd), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.
+- Co-leading the [**Next Level Teaching Blueprint**](Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.
 - Leading the forthcoming CRC Press book [*Computational Analysis of Educational Data: A Field Guide Using R*](Publications/Computational_Analysis_Educational_Data/Book.qmd) as first author (expected late 2026).
 - Building tools and visualizations for large educational datasets in R and Python.
 - Translating research into practical guidance for instructors and students.
