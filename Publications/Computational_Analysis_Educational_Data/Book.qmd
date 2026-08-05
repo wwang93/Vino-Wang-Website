@@ -14,6 +14,9 @@ image: "research-idea-data-relationship.png"
 image-alt: "Diagram showing the reciprocal relationship between a research idea and available data: the research idea guides what researchers collect, while available data reshapes what they ask."
 page-layout: full
 title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
 ---
 
 ::: {.callout-note appearance="simple" icon=false}

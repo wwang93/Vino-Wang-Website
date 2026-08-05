@@ -14,9 +14,12 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/wwang93
+    - icon: envelope
+      text: Email
+      href: mailto:wwang93@vols.utk.edu
 ---
 
-Hello! I am **Wei Wang** (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education.
+Hello! I am **Wei Wang** (Vino), a Ph.D. Candidate in Learning Design and Technology at the University of Tennessee, Knoxville, an educational AI researcher, and a co-founder of askabout.edu. I build and study evidence-informed systems that support critical thinking, teaching practice, and educational decision-making.
 
 ## Research focus
 
@@ -33,9 +36,3 @@ Hello! I am **Wei Wang** (Vino), a PhD student in Learning, Design, and Technolo
 - Translating research into practical guidance for instructors and students.
 
 I believe in the motto: **"Technology comes and goes, pedagogy never falls."** This guides my work toward grounded, human-centered learning experiences.
-
-## Contact
-
-📍 University of Tennessee, Knoxville, TN  \
-✉️ Email: [wwang93@vols.utk.edu](mailto:wwang93@vols.utk.edu)  \
-🔗 [GitHub](https://github.com/wwang93) | [LinkedIn](https://www.linkedin.com/in/wei-wang-356aa5285/)

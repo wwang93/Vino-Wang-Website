@@ -7,30 +7,39 @@ execute:
   freeze: auto
 
 website:
-  title: "Vino Wang"
-  description: "PhD student in Learning, Design, and Technology focused on GenAI in education, educational data science, and evaluation methods."
+  title: "Wei (Vino) Wang"
+  description: "Ph.D. Candidate, educational AI researcher, co-founder of askabout.edu, and developer of evidence-informed learning and decision-support systems."
   image: vino.png
   favicon: vino.png
+  search: true
   navbar:
     left: 
       - text: "Home"
         file: index.qmd
-      - text: "Projects"
-        file: Projects.qmd
-      - text: "Publications"
-        file: Publications.qmd
-      - text: "Portfolio"
-        file: Portfolio.qmd
-      - text: "Blogs"
-        file: Blogs.qmd
+      - text: "Work"
+        menu:
+          - text: "Projects"
+            file: Projects.qmd
+          - text: "Publications"
+            file: Publications.qmd
+          - text: "Portfolio"
+            file: Portfolio.qmd
       - text: "Teaching"
         file: Teaching.qmd
+      - text: "Writing"
+        file: Blogs.qmd
+      - text: "About"
+        file: about.qmd
       - text: "CV"
         file: CV.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/wwang93
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Wei (Vino) Wang"
+    center: "[wwang93@vols.utk.edu](mailto:wwang93@vols.utk.edu)"
+    right: "[GitHub](https://github.com/wwang93) · [LinkedIn](https://www.linkedin.com/in/wei-wang-356aa5285/)"
      # - icon: twitter
        # href: https://twitter.com
 format:

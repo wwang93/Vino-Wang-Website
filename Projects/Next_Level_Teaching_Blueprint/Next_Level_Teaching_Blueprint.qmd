@@ -1,12 +1,14 @@
 ---
 title: "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses"
-author: "Wei Wang"
 date: "2026-05-01"
 date-format: "MMMM YYYY"
-categories: ["GenAI in Education", "Critical Thinking", "Design-Based Research", "Mixed Methods", "Learning Analytics"]
-description: "A multi-phase design-based research initiative examining how structured interaction with generative AI can strengthen critical thinking, higher-order learning, and AI literacy in research methods courses."
+categories: ["GenAI in Education", "Critical Thinking", "Design-Based Research"]
+description: "Student PI · Spring 2026 pilot. A multi-phase initiative examining how structured interaction with generative AI can strengthen critical thinking and AI literacy in research methods courses."
 page-layout: full
 title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
 execute:
   echo: false
 ---
@@ -109,4 +111,3 @@ My work includes:
 ## Scaling and dissemination
 
 The team is using empirical findings to refine faculty resources and scalable implementation principles for research methods instruction. Scholarly dissemination is in development, including a Phase 1 manuscript targeted for **CHI 2027**.
-

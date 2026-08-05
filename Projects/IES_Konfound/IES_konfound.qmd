@@ -1,12 +1,15 @@
 ---
 title: "KonFound-It!: Sensitivity Analysis for Robust Inference"
-author: "Wei Wang"
 date: 2024-03-04
-categories: ["R", "Sensitivity Analysis", "Causal Inference", "Statistics"]
+date-format: "YYYY"
+categories: ["R", "Sensitivity Analysis", "Causal Inference"]
 image: "konfound.jpg"
-description: "Tools and methods for quantifying the robustness of causal inferences against potential biases."
+description: "Contributor. Tools and methods for quantifying the robustness of causal inferences against potential biases."
 page-layout: full
 title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
 execute:
   echo: false
 ---

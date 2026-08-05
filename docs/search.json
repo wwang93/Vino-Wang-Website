@@ -268,30 +268,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Wei Wang",
+    "title": "Wei (Vino) Wang",
     "section": "",
-    "text": "PhD student · Learning Design & Technology · UT Knoxville\n\n\n\nI study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.\n\nGenAI use in higher education and classroom practice\nEducational data science and large-scale assessment\nEvaluation methodology for technology-enabled learning {.hero-list}\n\n\nView projects Read publications CV"
-  },
-  {
-    "objectID": "index.html#focus-areas",
-    "href": "index.html#focus-areas",
-    "title": "Wei Wang",
-    "section": "Focus areas",
-    "text": "Focus areas\n\n\nGenAI in education\nResearching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.\nTeaching portfolio →\n\n\nEducational data science\nDeveloping analyses and tools for large-scale, longitudinal educational datasets and evaluation.\nProjects →\n\n\nResearch communication\nPresentations, publications, and community-focused dissemination of findings.\nPortfolio →"
+    "text": "Co-founderaskabout.edu\n\n\nResearch leadershipStudent PI\n\n\nForthcomingCRC Press first author\n\n\nPublic data toolsAIREA · R · Shiny"
   },
   {
     "objectID": "index.html#featured-work",
     "href": "index.html#featured-work",
-    "title": "Wei Wang",
+    "title": "Wei (Vino) Wang",
     "section": "Featured work",
-    "text": "Featured work\n\n\naskabout.edu\nCo-founder · Working prototype\nEvidence-informed decision support that helps educators turn verified research into context-aware answers with transparent citations and evidence-strength ratings.\nExplore Ask About EDU →\n\n\nComputational Analysis of Educational Data\nA first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.\nExplore the book →\n\n\nAIREA Data Explorer\nNational interactive data tool connecting community college AIREA credentials with regional workforce demand.\nExplore the data tool →"
+    "text": "Featured work\n\n\n  \n\n\nCo-founder · Educational AI\n\n\naskabout.edu\n\n\nEvidence-informed decision support that turns verified research into context-aware answers with transparent citations.\n\nExplore the product →\n\n\n\n  \n\n\nFirst author · Forthcoming 2026\n\n\nComputational Analysis of Educational Data\n\n\nA CRC Press field guide to text, relational, numeric, and multimodal educational data with R and modern AI methods.\n\nExplore the book →\n\n\n\n  \n\n\nPublic data tool · CCRC\n\n\nAIREA Data Explorer\n\n\nA national interactive tool connecting community college AIREA credentials with regional workforce demand.\n\nExplore the data tool →"
   },
   {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
-    "title": "Wei Wang",
-    "section": "Get in touch",
-    "text": "Get in touch\nI welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.\n\nwwang93@vols.utk.edu Google Scholar LinkedIn GitHub"
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Wei (Vino) Wang",
+    "section": "Research focus",
+    "text": "Research focus\n\n\nGenAI in education\nStudying learning design, faculty practice, and human–AI dialogue that strengthen critical thinking and responsible use.\nTeaching and learning →\n\n\nEducational data science\nBuilding analyses and public tools for large-scale educational, workforce, text, and relational data.\nResearch projects →\n\n\nResearch communication\nTranslating technical work into publications, visual explanations, open resources, and practitioner-facing products.\nPublications →"
   },
   {
     "objectID": "Blogs.html",
@@ -361,7 +354,7 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "Hello! I am Wei Wang (Vino), a PhD student in Learning, Design, and Technology at the University of Tennessee, Knoxville. I study how ICT and generative AI can support meaningful learning, assessment, and instructional design in higher education."
+    "text": "Hello! I am Wei Wang (Vino), a Ph.D. Candidate in Learning Design and Technology at the University of Tennessee, Knoxville, an educational AI researcher, and a co-founder of askabout.edu. I build and study evidence-informed systems that support critical thinking, teaching practice, and educational decision-making."
   },
   {
     "objectID": "about.html#research-focus",
@@ -378,18 +371,18 @@
     "text": "Recent work\n\nCo-founding Ask About EDU (AAU), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.\nCo-leading the Next Level Teaching Blueprint as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.\nLeading the forthcoming CRC Press book Computational Analysis of Educational Data: A Field Guide Using R as first author (expected late 2026).\nBuilding tools and visualizations for large educational datasets in R and Python.\nTranslating research into practical guidance for instructors and students.\n\nI believe in the motto: “Technology comes and goes, pedagogy never falls.” This guides my work toward grounded, human-centered learning experiences."
   },
   {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
-    "title": "About me",
-    "section": "Contact",
-    "text": "Contact\n📍 University of Tennessee, Knoxville, TN\n✉️ Email: wwang93@vols.utk.edu\n🔗 GitHub | LinkedIn"
-  },
-  {
     "objectID": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
     "href": "Blogs/Stay hungry stay foolish/Stay hungry Stay foolish.html",
     "title": "Stay hungry Stay foolish",
     "section": "",
     "text": "Steve Jobs\n\n\nIn my early twenties, I embarked on a life-changing journey when I founded a tutoring program for students in rural areas. The first time I stood in front of my students, I shared with them one of the most impactful speeches I’ve ever encountered: Steve Jobs’ commencement address at Stanford University, where he famously said, “Stay hungry, stay foolish.” This was also the first time I used multimedia to teach these children, a moment that sparked my deep fascination with educational technology—a field that I’ve continued to explore ever since.\nThat speech became a cornerstone of my personal and professional philosophy, especially that timeless phrase, “stay hungry, stay foolish.” It has guided me over the past decade as I navigated the intersections of Information and Communication Technology (ICT) and education. Jobs’ reflection on why technology had transformed almost every industry but had left education relatively untouched deeply resonated with me. This question remains a challenge for researchers and practitioners in the educational technology field today, as we continue to strive to find ways for technological advancements to meaningfully impact learning and teaching.\nOver the years, I’ve witnessed the world of educational technology evolve through various phases—from the rise of MOOCs (Massive Open Online Courses) to the era of mobile learning, and now, the dawn of artificial intelligence in education. Each wave of innovation has offered new tools and opportunities, but the fundamental question of how to create lasting, transformative change in education remains as vital as ever.\nRevisiting this speech today, I find myself reflecting on why I chose to enter the field of educational technology in the first place. Steve Jobs’ words served as a guiding light during my formative years, pushing me to remain curious, open-minded, and bold in my pursuit of solutions. As I look ahead to the next ten years, my hope is to contribute new perspectives and breakthroughs to the ongoing conversation about the role of technology in education.\nHere’s to staying hungry and staying foolish, as I continue this journey. video:Stay hungry Stay foolish"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV Open PDF in a new tab\n\n\nFor the best experience on a phone or tablet, open or download the PDF using the buttons above.\n\n\n\n\nYour browser cannot display the embedded PDF. Download the CV."
   },
   {
     "objectID": "Portfolio/AECT 2024/AECT2024.html",
@@ -543,7 +536,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "askabout.edu: Evidence-Informed Decision Support for Education\n\n\n\nAI in Education\n\nEvidence Synthesis\n\nDecision Support\n\nEducational Technology\n\nVenture\n\n\n\nAn evidence-informed decision-support platform that helps educators access, interpret, and apply verified research to practical decisions.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nShiny\n\nMapbox\n\nR\n\nWorkforce Education\n\n\n\nA national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\nAug 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNext Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses\n\n\n\nGenAI in Education\n\nCritical Thinking\n\nDesign-Based Research\n\nMixed Methods\n\nLearning Analytics\n\n\n\nA multi-phase design-based research initiative examining how structured interaction with generative AI can strengthen critical thinking, higher-order learning, and AI literacy in research methods courses.\n\n\n\n\n\nMay 1, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAI & ME: National Webinar Series and Self-Paced Course\n\n\n\nFaculty Development\n\nGenerative AI\n\nOpen Education\n\nCanvas\n\nHigher Education\n\n\n\nA five-session national professional development series and self-paced Canvas course supporting responsible, effective uses of generative AI in higher education.\n\n\n\n\n\nMar 5, 2026\n\n\nWei Wang\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\nStatistics\n\n\n\nTools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\nMar 4, 2024\n\n\nWei Wang\n\n\n\n\n\nNo matching items"
+    "text": "askabout.edu: Evidence-Informed Decision Support for Education\n\n\n\nAI in Education\n\nEvidence Synthesis\n\nVenture\n\n\n\nCo-founder · Working prototype. Evidence-informed decision support that helps educators access, interpret, and apply verified research to practical decisions.\n\n\n\n\n\n2026\n\n\n\n\n\n\n\n\n\n\n\n\nAIREA Data Explorer: Mapping Community College Credentials and Workforce Demand\n\n\n\nData Visualization\n\nWorkforce Education\n\nR\n\n\n\nPublic release. A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.\n\n\n\n\n\n2026\n\n\n\n\n\n\n\n\n\n\n\n\nNext Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses\n\n\n\nGenAI in Education\n\nCritical Thinking\n\nDesign-Based Research\n\n\n\nStudent PI · Spring 2026 pilot. A multi-phase initiative examining how structured interaction with generative AI can strengthen critical thinking and AI literacy in research methods courses.\n\n\n\n\n\n2026\n\n\n\n\n\n\n\n\n\n\n\n\nAI & ME: National Webinar Series and Self-Paced Course\n\n\n\nFaculty Development\n\nGenerative AI\n\nOpen Education\n\n\n\nInstructor · 2026 series. A five-session national professional development series and self-paced Canvas course supporting responsible uses of generative AI in higher education.\n\n\n\n\n\n2026\n\n\n\n\n\n\n\n\n\n\n\n\nKonFound-It!: Sensitivity Analysis for Robust Inference\n\n\n\nR\n\nSensitivity Analysis\n\nCausal Inference\n\n\n\nContributor. Tools and methods for quantifying the robustness of causal inferences against potential biases.\n\n\n\n\n\n2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Publications/Publication 2/TechTrends Paper.html",

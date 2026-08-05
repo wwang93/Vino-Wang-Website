@@ -1,6 +1,19 @@
 ---
 title: "CV"
 description: "Curriculum vitae for Wei Wang."
+page-layout: full
+title-block-banner: true
 ---
 
-![](cv.pdf){width="200%" height="1000px"}
+<div class="cv-actions">
+  <a class="button" href="cv.pdf" download>Download CV</a>
+  <a class="button ghost" href="cv.pdf" target="_blank" rel="noopener">Open PDF in a new tab</a>
+</div>
+
+<p class="cv-mobile-note">For the best experience on a phone or tablet, open or download the PDF using the buttons above.</p>
+
+<div class="cv-embed">
+  <object data="cv.pdf" type="application/pdf" aria-label="Wei Wang curriculum vitae">
+    <p>Your browser cannot display the embedded PDF. <a href="cv.pdf">Download the CV</a>.</p>
+  </object>
+</div>

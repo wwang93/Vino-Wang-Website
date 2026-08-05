@@ -1,13 +1,16 @@
 ---
 title: "AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand"
-author: "Wei Wang"
 date: "2026-08-05"
-categories: ["Data Visualization", "Shiny", "Mapbox", "R", "Workforce Education"]
+date-format: "YYYY"
+categories: ["Data Visualization", "Workforce Education", "R"]
 image: "airea-data-explorer.png"
 image-alt: "AIREA Data Explorer showing community college credentials and job postings across U.S. commuting zones"
-description: "A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand."
+description: "Public release. A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand."
 page-layout: full
 title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
 execute:
   echo: false
 ---

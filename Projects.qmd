@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+  date-format: "YYYY"
   sort-ui: false
   filter-ui: false
 page-layout: full

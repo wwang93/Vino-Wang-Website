@@ -1,95 +1,91 @@
 ---
-title: "Wei Wang"
+title: "Wei (Vino) Wang"
 image: vino.png
-description: "PhD student researching GenAI in education, educational data science, and evaluation methods at UT Knoxville."
+description: "Ph.D. Candidate, educational AI researcher, and co-founder building evidence-informed tools for teaching, research, and educational decision-making."
 about:
   template: jolla
   links:
-    - icon: images/google scholar.png
+    - icon: envelope
+      text: Email
+      href: mailto:wwang93@vols.utk.edu
+    - icon: file-earmark-person
+      text: Download CV
+      href: cv.pdf
+    - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/wei-wang-356aa5285/
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/wwang93
 ---
-::: {.hero}
-<p class="hero-kicker">PhD student · Learning Design & Technology · UT Knoxville</p>
 
-# Researching how GenAI reshapes learning
-
-I study how GenAI influences teaching, learning, and evaluation at scale. My work connects educational technology, data science, and research methods to support responsible, effective classroom integration.
-
-- GenAI use in higher education and classroom practice
-- Educational data science and large-scale assessment
-- Evaluation methodology for technology-enabled learning
-{.hero-list}
-
-<div class="hero-actions">
-  <a class="button" href="Projects.qmd">View projects</a>
-  <a class="button ghost" href="Publications.qmd">Read publications</a>
-  <a class="button ghost" href="CV.qmd">CV</a>
+<div class="proof-strip" aria-label="Selected roles and work">
+  <div class="proof-item"><span>Co-founder</span><strong>askabout.edu</strong></div>
+  <div class="proof-item"><span>Research leadership</span><strong>Student PI</strong></div>
+  <div class="proof-item"><span>Forthcoming</span><strong>CRC Press first author</strong></div>
+  <div class="proof-item"><span>Public data tools</span><strong>AIREA · R · Shiny</strong></div>
 </div>
-:::
 
-## Focus areas
+## Featured work
+
+<div class="featured-grid">
+<article class="featured-card">
+<a href="Projects/Ask_About_EDU/Ask_About_EDU.qmd" class="featured-image-link">
+<img src="Projects/Ask_About_EDU/askaboutedu-product.png" alt="askabout.edu evidence-informed education product interface">
+</a>
+<div class="featured-card-body">
+<p class="featured-eyebrow">Co-founder · Educational AI</p>
+<h3><a href="Projects/Ask_About_EDU/Ask_About_EDU.qmd">askabout.edu</a></h3>
+<p>Evidence-informed decision support that turns verified research into context-aware answers with transparent citations.</p>
+<a class="featured-link" href="Projects/Ask_About_EDU/Ask_About_EDU.qmd">Explore the product →</a>
+</div>
+</article>
+<article class="featured-card">
+<a href="Publications/Computational_Analysis_Educational_Data/Book.qmd" class="featured-image-link">
+<img src="Publications/Computational_Analysis_Educational_Data/research-idea-data-relationship.png" alt="Reciprocal relationship between research ideas and available data">
+</a>
+<div class="featured-card-body">
+<p class="featured-eyebrow">First author · Forthcoming 2026</p>
+<h3><a href="Publications/Computational_Analysis_Educational_Data/Book.qmd">Computational Analysis of Educational Data</a></h3>
+<p>A CRC Press field guide to text, relational, numeric, and multimodal educational data with R and modern AI methods.</p>
+<a class="featured-link" href="Publications/Computational_Analysis_Educational_Data/Book.qmd">Explore the book →</a>
+</div>
+</article>
+<article class="featured-card">
+<a href="Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd" class="featured-image-link">
+<img src="Projects/CCRC_Green_Seek_Mapping Project/airea-data-explorer.png" alt="AIREA Data Explorer interactive map">
+</a>
+<div class="featured-card-body">
+<p class="featured-eyebrow">Public data tool · CCRC</p>
+<h3><a href="Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd">AIREA Data Explorer</a></h3>
+<p>A national interactive tool connecting community college AIREA credentials with regional workforce demand.</p>
+<a class="featured-link" href="Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd">Explore the data tool →</a>
+</div>
+</article>
+</div>
+
+## Research focus
 
 ::: {.card-grid}
 ::: {.card}
 ### GenAI in education
-Researching adoption, policy, and instructional design patterns that promote critical thinking and ethical use.
+Studying learning design, faculty practice, and human–AI dialogue that strengthen critical thinking and responsible use.
 
-[Teaching portfolio →](Teaching.qmd)
+[Teaching and learning →](Teaching.qmd)
 :::
 ::: {.card}
 ### Educational data science
-Developing analyses and tools for large-scale, longitudinal educational datasets and evaluation.
+Building analyses and public tools for large-scale educational, workforce, text, and relational data.
 
-[Projects →](Projects.qmd)
+[Research projects →](Projects.qmd)
 :::
 ::: {.card}
 ### Research communication
-Presentations, publications, and community-focused dissemination of findings.
+Translating technical work into publications, visual explanations, open resources, and practitioner-facing products.
 
-[Portfolio →](Portfolio.qmd)
+[Publications →](Publications.qmd)
 :::
 :::
-
-## Featured work
-
-::: {.card-grid}
-::: {.card}
-### askabout.edu
-
-**Co-founder · Working prototype**
-
-Evidence-informed decision support that helps educators turn verified research into context-aware answers with transparent citations and evidence-strength ratings.
-
-[Explore Ask About EDU →](Projects/Ask_About_EDU/Ask_About_EDU.qmd)
-:::
-::: {.card}
-### Computational Analysis of Educational Data
-A first-author CRC Press field guide to analyzing text, relational, numeric, and multimodal educational data with R and modern AI methods.
-
-[Explore the book →](Publications/Computational_Analysis_Educational_Data/Book.qmd)
-:::
-::: {.card}
-### AIREA Data Explorer
-National interactive data tool connecting community college AIREA credentials with regional workforce demand.
-
-[Explore the data tool →](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd)
-:::
-:::
-
-## Get in touch
-
-I welcome collaborations on GenAI in education, evaluation methods, and large-scale learning analytics.
-
-<div class="contact-list">
-  <a href="mailto:wwang93@vols.utk.edu">wwang93@vols.utk.edu</a>
-  <a href="https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1">Google Scholar</a>
-  <a href="https://www.linkedin.com/in/wei-wang-356aa5285/">LinkedIn</a>
-  <a href="https://github.com/wwang93">GitHub</a>
-</div>
