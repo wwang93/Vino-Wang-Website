@@ -1,5 +1,6 @@
 ---
-title: "Wei Wang"
+title: ""
+pagetitle: "Wei Wang"
 image: vino.png
 description: "Ph.D. Candidate, educational AI researcher, and co-founder building evidence-informed tools for teaching, research, and educational decision-making."
 about:
@@ -10,7 +11,7 @@ about:
       href: mailto:wwang93@vols.utk.edu
     - icon: file-earmark-person
       text: Download CV
-      href: cv.pdf
+      href: https://wwang93.github.io/Vino-Wang-Website/cv.pdf
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
@@ -84,7 +85,7 @@ Building analyses and public tools for large-scale educational, workforce, text,
 [Research projects →](Projects.qmd)
 :::
 ::: {.card}
-### Research communication
+### Research<br>communication {style="font-size: 1rem; line-height: 1.35; overflow-wrap: normal; word-break: keep-all; hyphens: none;"}
 Translating technical work into publications, visual explanations, open resources, and practitioner-facing products.
 
 [Publications →](Publications.qmd)
