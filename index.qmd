@@ -1,6 +1,5 @@
 ---
-title: ""
-pagetitle: "Wei Wang"
+title: "Wei Wang"
 image: vino.png
 description: "Ph.D. Candidate, educational AI researcher, and co-founder building evidence-informed tools for teaching, research, and educational decision-making."
 about:
@@ -22,6 +21,20 @@ about:
       text: GitHub
       href: https://github.com/wwang93
 ---
+
+<style>
+.quarto-about-jolla > #title-block-header .title {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
 
 <p class="identity-line" aria-label="Current roles and forthcoming work">
 <span class="identity-item">Co-founder of askabout.edu</span>
@@ -71,21 +84,21 @@ about:
 
 ## Research focus
 
-::: {.card-grid}
+::: {.card-grid .research-focus-grid}
 ::: {.card}
-### GenAI in education
+### GenAI <br> in education
 Studying learning design, faculty practice, and human–AI dialogue that strengthen critical thinking and responsible use.
 
 [Teaching and learning →](Teaching.qmd)
 :::
 ::: {.card}
-### Educational data science
+### Educational <br> data science
 Building analyses and public tools for large-scale educational, workforce, text, and relational data.
 
 [Research projects →](Projects.qmd)
 :::
 ::: {.card}
-### Research<br>communication {style="font-size: 1rem; line-height: 1.35; overflow-wrap: normal; word-break: keep-all; hyphens: none;"}
+### Research <br> communication
 Translating technical work into publications, visual explanations, open resources, and practitioner-facing products.
 
 [Publications →](Publications.qmd)

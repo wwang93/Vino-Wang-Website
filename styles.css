@@ -359,6 +359,45 @@ li {
   text-decoration: none;
 }
 
+.research-focus-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: min(960px, 100%);
+  margin-right: auto;
+  margin-left: auto;
+  align-items: stretch;
+}
+
+.research-focus-grid .card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.research-focus-grid .card h3 {
+  min-height: 2.7em;
+  margin: 0 0 0.85rem;
+  font-size: clamp(1.02rem, 1.4vw, 1.12rem);
+  line-height: 1.35;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.research-focus-grid .card > p:first-of-type {
+  flex: 1;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.research-focus-grid .card > p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
 .callout {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-card);
@@ -661,6 +700,14 @@ button:focus-visible,
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .research-focus-grid .card h3 {
+    min-height: 0;
+  }
+
+  .research-focus-grid .card h3 br {
+    display: none;
   }
 
   .featured-card:hover,
