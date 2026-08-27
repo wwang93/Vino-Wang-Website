@@ -1,0 +1,56 @@
+---
+title: "[AI and Me] Generative AI Guidebook for Higher Education Faculty"
+author: "Wei Wang (Co-Editor)"
+date: "2026-08-01"
+date-format: "MMMM YYYY"
+categories: ["Open Educational Resource", "Book", "Generative AI", "Faculty Development"]
+description: "An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education."
+image: "../../Projects/AI_and_ME/ai-and-me-banner.png"
+image-alt: "AI and Me series banner showing a faculty member and students in discussion."
+page-layout: full
+title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
+---
+
+![The AI and Me guidebook extends a national faculty-development series into an open resource for higher education.](../../Projects/AI_and_ME/ai-and-me-banner.png){fig-alt="AI and Me series banner showing a faculty member speaking with students around a conference table."}
+
+::: {.callout-note appearance="simple" icon=false}
+**Co-editor · Open educational resource · EdTech Books · 2026**
+:::
+
+<div class="hero-actions">
+  <a class="button" href="../../Projects/AI_and_ME/AI_and_ME.qmd">View the AI & ME project</a>
+  <a class="button ghost" href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me" target="_blank" rel="noopener">Explore the open course</a>
+</div>
+
+## About the guidebook
+
+*[AI and Me] Generative AI Guidebook for Higher Education Faculty* is an open educational resource published through EdTech Books. It grows out of the five-session **AI and Me: Navigating GenAI for Higher Education Faculty** webinar series and its self-paced course.
+
+The guidebook brings the series' practical examples, expert perspectives, transcripts, and supporting materials into a format that faculty can use beyond the original events. Its focus is responsible and effective integration of generative AI into teaching, assessment, research, educational media, and professional practice.
+
+## My role
+
+As a **co-editor**, I helped shape the webinar materials into a coherent, accessible guidebook for a broader higher education audience. My contributions included:
+
+- Coordinating and supporting delivery of the five-session national webinar series.
+- Editing transcripts and learning materials for clarity, accessibility, and reuse.
+- Organizing the self-paced course and connecting its modules with the guidebook's practical resources.
+- Supporting the guidebook's development as an open resource for faculty learning.
+
+## From live series to open resource
+
+The project connects three forms of professional learning:
+
+1. A national live webinar series featuring faculty and practitioners.
+2. A self-paced Canvas course that makes recordings and learning activities available asynchronously.
+3. An open guidebook that organizes the series' ideas into a reusable reference for higher education faculty.
+
+## Resource links
+
+- [AI & ME series at the University of Tennessee](https://teaching.utk.edu/ai-me/)
+- [AI and Me self-paced course](https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me)
+- [AI & ME project details on this website](../../Projects/AI_and_ME/AI_and_ME.qmd)
+

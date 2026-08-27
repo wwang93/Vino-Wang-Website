@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Research, product, and technical projects, tools, and visualizations.">
+<meta name="author" content="Wei Wang (Co-Editor)">
+<meta name="description" content="An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education.">
 
-<title>Projects – Wei Wang</title>
+<title>[AI and Me] Generative AI Guidebook for Higher Education Faculty – Wei Wang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="docs/site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="docs/site_libs/quarto-nav/headroom.min.js"></script>
-<script src="docs/site_libs/clipboard/clipboard.min.js"></script>
-<script src="docs/site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="docs/site_libs/quarto-search/fuse.min.js"></script>
-<script src="docs/site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./vino.png" rel="icon" type="image/png">
-<script src="docs/site_libs/quarto-listing/list.min.js"></script>
-<script src="docs/site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="docs/site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="docs/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="docs/site_libs/quarto-html/popper.min.js"></script>
-<script src="docs/site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="docs/site_libs/quarto-html/anchor.min.js"></script>
-<link href="docs/site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="docs/site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="docs/site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="docs/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="docs/site_libs/bootstrap/bootstrap-4d514db10ed25d0c072a00fe091e4dd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../docs/site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../docs/site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../docs/site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../docs/site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../docs/site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../vino.png" rel="icon" type="image/png">
+<script src="../../docs/site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../docs/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../docs/site_libs/quarto-html/popper.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../docs/site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../docs/site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../docs/site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../docs/site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../docs/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../docs/site_libs/bootstrap/bootstrap-4d514db10ed25d0c072a00fe091e4dd7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,76 +70,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Projects – Wei Wang">
-<meta property="og:description" content="Research, product, and technical projects, tools, and visualizations.">
-<meta property="og:image" content="./Projects/Ask_About_EDU/askaboutedu-product.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="[AI and Me] Generative AI Guidebook for Higher Education Faculty – Wei Wang">
+<meta property="og:description" content="An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education.">
+<meta property="og:image" content="../../Projects/AI_and_ME/ai-and-me-banner.png">
 <meta property="og:site_name" content="Wei Wang">
-<meta property="og:image:alt" content="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
-<meta name="twitter:title" content="Projects – Wei Wang">
-<meta name="twitter:description" content="Research, product, and technical projects, tools, and visualizations.">
-<meta name="twitter:image" content="./Projects/Ask_About_EDU/askaboutedu-product.png">
-<meta name="twitter:image:alt" content="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
+<meta name="twitter:title" content="[AI and Me] Generative AI Guidebook for Higher Education Faculty – Wei Wang">
+<meta name="twitter:description" content="An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education.">
+<meta name="twitter:image" content="../../Projects/AI_and_ME/ai-and-me-banner.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -151,7 +90,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Wei Wang</span>
     </a>
   </div>
@@ -162,35 +101,35 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
+    <a class="nav-link" href="../../Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Publications.html"> 
+    <a class="nav-link" href="../../Publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Portfolio.html"> 
+    <a class="nav-link" href="../../Portfolio.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Teaching.html"> 
+    <a class="nav-link" href="../../Teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Blogs.html"> 
+    <a class="nav-link" href="../../Blogs.html"> 
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -211,19 +150,37 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Projects</h1>
+      <h1 class="title">[AI and Me] Generative AI Guidebook for Higher Education Faculty</h1>
                   <div>
         <div class="description">
-          Research, product, and technical projects, tools, and visualizations.
+          An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education.
         </div>
       </div>
-                </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Open Educational Resource</div>
+                <div class="quarto-category">Book</div>
+                <div class="quarto-category">Generative AI</div>
+                <div class="quarto-category">Faculty Development</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta column-page-left">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Wei Wang (Co-Editor) </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 2026</p>
+      </div>
+    </div>
     
       
     </div>
@@ -233,8 +190,17 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QUklMjBpbiUyMEVkdWNhdGlvbg==">AI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2F1c2FsJTIwSW5mZXJlbmNl">Causal Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3JpdGljYWwlMjBUaGlua2luZw==">Critical Thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVzaWduLUJhc2VkJTIwUmVzZWFyY2g=">Design-Based Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXZpZGVuY2UlMjBTeW50aGVzaXM=">Evidence Synthesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmFjdWx0eSUyMERldmVsb3BtZW50">Faculty Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuQUklMjBpbiUyMEVkdWNhdGlvbg==">GenAI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhdGl2ZSUyMEFJ">Generative AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMEVkdWNhdGlvbg==">Open Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2Vuc2l0aXZpdHklMjBBbmFseXNpcw==">Sensitivity Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmVudHVyZQ==">Venture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya2ZvcmNlJTIwRWR1Y2F0aW9u">Workforce Education <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#about-the-guidebook" id="toc-about-the-guidebook" class="nav-link active" data-scroll-target="#about-the-guidebook">About the guidebook</a></li>
+  <li><a href="#my-role" id="toc-my-role" class="nav-link" data-scroll-target="#my-role">My role</a></li>
+  <li><a href="#from-live-series-to-open-resource" id="toc-from-live-series-to-open-resource" class="nav-link" data-scroll-target="#from-live-series-to-open-resource">From live series to open resource</a></li>
+  <li><a href="#resource-links" id="toc-resource-links" class="nav-link" data-scroll-target="#resource-links">Resource links</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -242,170 +208,61 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUklMjBpbiUyMEVkdWNhdGlvbiUyQ0V2aWRlbmNlJTIwU3ludGhlc2lzJTJDVmVudHVyZQ==" data-listing-date-sort="1785941014000" data-listing-file-modified-sort="1785957290126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="650">
-<div class="thumbnail"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-
-<img loading="lazy" src="./Projects/Ask_About_EDU/askaboutedu-product.png" class="thumbnail-image" alt="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">askabout.edu: Evidence-Informed Decision Support for Education</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBpbiUyMEVkdWNhdGlvbg=='); return false;">AI in Education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RXZpZGVuY2UlMjBTeW50aGVzaXM='); return false;">Evidence Synthesis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VmVudHVyZQ=='); return false;">Venture</div>
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../Projects/AI_and_ME/ai-and-me-banner.png" class="img-fluid figure-img" alt="AI and Me series banner showing a faculty member speaking with students around a conference table."></p>
+<figcaption>The AI and Me guidebook extends a national faculty-development series into an open resource for higher education.</figcaption>
+</figure>
 </div>
-<div class="delink listing-description"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-<p>Co-founder · Working prototype. Evidence-informed decision support that helps educators access, interpret, and apply verified research to practical decisions.</p>
-</a></div>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
-<div class="metadata">
-<a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-<div class="listing-date">
-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGF0YSUyMFZpc3VhbGl6YXRpb24lMkNXb3JrZm9yY2UlMjBFZHVjYXRpb24lMkNS" data-listing-date-sort="1785902400000" data-listing-file-modified-sort="1785957291445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
-<div class="thumbnail"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-
-<img loading="lazy" src="./Projects/CCRC_Green_Seek_Mapping Project/airea-data-explorer.png" class="thumbnail-image" alt="AIREA Data Explorer showing community college credentials and job postings across U.S. commuting zones">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">AIREA Data Explorer: Mapping Community College Credentials and Workforce Demand</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">Data Visualization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya2ZvcmNlJTIwRWR1Y2F0aW9u'); return false;">Workforce Education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-<p>Public release. A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-<div class="listing-date">
-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="R2VuQUklMjBpbiUyMEVkdWNhdGlvbiUyQ0NyaXRpY2FsJTIwVGhpbmtpbmclMkNEZXNpZ24tQmFzZWQlMjBSZXNlYXJjaA==" data-listing-date-sort="1777608000000" data-listing-file-modified-sort="1785957292815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="554">
-<div class="thumbnail"><a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Across Research Methods Courses</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2VuQUklMjBpbiUyMEVkdWNhdGlvbg=='); return false;">GenAI in Education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q3JpdGljYWwlMjBUaGlua2luZw=='); return false;">Critical Thinking</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGVzaWduLUJhc2VkJTIwUmVzZWFyY2g='); return false;">Design-Based Research</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">
-<p>Student PI · Spring 2026 pilot. A multi-phase initiative examining how structured interaction with generative AI can strengthen critical thinking and AI literacy in research methods courses.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">
-<div class="listing-date">
-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="RmFjdWx0eSUyMERldmVsb3BtZW50JTJDR2VuZXJhdGl2ZSUyMEFJJTJDT3BlbiUyMEVkdWNhdGlvbg==" data-listing-date-sort="1772686800000" data-listing-file-modified-sort="1787867330394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
-<div class="thumbnail"><a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">
-
-<img loading="lazy" src="./Projects/AI_and_ME/ai-and-me-banner.png" class="thumbnail-image" alt="AI and ME Series banner showing a University of Tennessee faculty member and students in discussion.">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">AI &amp; ME: National Webinar Series and Self-Paced Course</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RmFjdWx0eSUyMERldmVsb3BtZW50'); return false;">Faculty Development</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('R2VuZXJhdGl2ZSUyMEFJ'); return false;">Generative AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMEVkdWNhdGlvbg=='); return false;">Open Education</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">
-<p>Instructor · 2026 series. A five-session national professional development series and self-paced Canvas course supporting responsible uses of generative AI in higher education.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">
-<div class="listing-date">
-2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="UiUyQ1NlbnNpdGl2aXR5JTIwQW5hbHlzaXMlMkNDYXVzYWwlMjBJbmZlcmVuY2U=" data-listing-date-sort="1709528400000" data-listing-file-modified-sort="1785957295518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
-<div class="thumbnail"><a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-
-<img loading="lazy" src="./Projects/IES_Konfound/konfound.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">KonFound-It!: Sensitivity Analysis for Robust Inference</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2Vuc2l0aXZpdHklMjBBbmFseXNpcw=='); return false;">Sensitivity Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwSW5mZXJlbmNl'); return false;">Causal Inference</div>
-
-</div>
-<div class="delink listing-description"><a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-<p>Contributor. Tools and methods for quantifying the robustness of causal inferences against potential biases.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
-<div class="listing-date">
-2024
-</div>
-</a>
+<div class="callout-body-container">
+<p><strong>Co-editor · Open educational resource · EdTech Books · 2026</strong></p>
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<div class="hero-actions">
+<p><a class="button" href="../../Projects/AI_and_ME/AI_and_ME.html">View the AI &amp; ME project</a> <a class="button ghost" href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me" target="_blank" rel="noopener">Explore the open course</a></p>
+</div>
+<section id="about-the-guidebook" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-guidebook">About the guidebook</h2>
+<p><em>[AI and Me] Generative AI Guidebook for Higher Education Faculty</em> is an open educational resource published through EdTech Books. It grows out of the five-session <strong>AI and Me: Navigating GenAI for Higher Education Faculty</strong> webinar series and its self-paced course.</p>
+<p>The guidebook brings the series’ practical examples, expert perspectives, transcripts, and supporting materials into a format that faculty can use beyond the original events. Its focus is responsible and effective integration of generative AI into teaching, assessment, research, educational media, and professional practice.</p>
+</section>
+<section id="my-role" class="level2">
+<h2 class="anchored" data-anchor-id="my-role">My role</h2>
+<p>As a <strong>co-editor</strong>, I helped shape the webinar materials into a coherent, accessible guidebook for a broader higher education audience. My contributions included:</p>
+<ul>
+<li>Coordinating and supporting delivery of the five-session national webinar series.</li>
+<li>Editing transcripts and learning materials for clarity, accessibility, and reuse.</li>
+<li>Organizing the self-paced course and connecting its modules with the guidebook’s practical resources.</li>
+<li>Supporting the guidebook’s development as an open resource for faculty learning.</li>
+</ul>
+</section>
+<section id="from-live-series-to-open-resource" class="level2">
+<h2 class="anchored" data-anchor-id="from-live-series-to-open-resource">From live series to open resource</h2>
+<p>The project connects three forms of professional learning:</p>
+<ol type="1">
+<li>A national live webinar series featuring faculty and practitioners.</li>
+<li>A self-paced Canvas course that makes recordings and learning activities available asynchronously.</li>
+<li>An open guidebook that organizes the series’ ideas into a reusable reference for higher education faculty.</li>
+</ol>
+</section>
+<section id="resource-links" class="level2">
+<h2 class="anchored" data-anchor-id="resource-links">Resource links</h2>
+<ul>
+<li><a href="https://teaching.utk.edu/ai-me/">AI &amp; ME series at the University of Tennessee</a></li>
+<li><a href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me">AI and Me self-paced course</a></li>
+<li><a href="../../Projects/AI_and_ME/AI_and_ME.html">AI &amp; ME project details on this website</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

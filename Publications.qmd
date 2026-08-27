@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Peer-reviewed papers, manuscripts, and scholarly writing."
+description: "Peer-reviewed papers, accepted manuscripts, books, and open scholarly resources."
 listing:
   contents: Publications
   sort: "date desc"

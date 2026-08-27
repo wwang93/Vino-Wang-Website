@@ -41,7 +41,9 @@ about:
 <span class="identity-separator" aria-hidden="true">·</span>
 <span class="identity-item">Student PI</span>
 <span class="identity-separator" aria-hidden="true">·</span>
-<span class="identity-item">First-author CRC Press book forthcoming in 2026</span>
+<span class="identity-item">First-author JEDM article accepted</span>
+<span class="identity-separator" aria-hidden="true">·</span>
+<span class="identity-item">CRC Press first author · 2026</span>
 </p>
 
 ## Featured work

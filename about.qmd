@@ -29,6 +29,8 @@ Hello! I am **Wei Wang** (Vino), a Ph.D. Candidate in Learning Design and Techno
 
 ## Recent work
 
+- Publishing the first-author article [**Educational Video Transcript Analysis with LLMs: Improving Entity Recognition and Qualitative Insights**](Publications/Educational_Video_Transcript_LLMs/JEDM_Article.qmd), accepted by the *Journal of Educational Data Mining*.
+- Co-editing [***[AI and Me] Generative AI Guidebook for Higher Education Faculty***](Publications/AI_and_Me_Guidebook/Guidebook.qmd), a 2026 open educational resource published through EdTech Books.
 - Co-founding [**Ask About EDU (AAU)**](Projects/Ask_About_EDU/Ask_About_EDU.qmd), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.
 - Co-leading the [**Next Level Teaching Blueprint**](Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.
 - Leading the forthcoming CRC Press book [*Computational Analysis of Educational Data: A Field Guide Using R*](Publications/Computational_Analysis_Educational_Data/Book.qmd) as first author (expected late 2026).

@@ -1,0 +1,48 @@
+---
+title: "Educational Video Transcript Analysis with LLMs: Improving Entity Recognition and Qualitative Insights"
+author:
+  - name: Wei Wang
+  - name: Christopher Pritchard
+  - name: Joshua M. Rosenberg
+date: "2026-08-01"
+date-format: "MMMM YYYY"
+categories: ["Journal Article", "Accepted", "Large Language Models", "Educational Data Mining"]
+description: "A first-author article accepted by the Journal of Educational Data Mining on using LLMs to support entity recognition and qualitative analysis of educational video transcripts."
+page-layout: full
+title-block-banner: true
+toc: true
+toc-depth: 2
+toc-title: "On this page"
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**First-author journal article · Accepted for publication · Journal of Educational Data Mining**
+
+The article has been accepted. Volume, issue, page, and DOI information will be added when the final publication record becomes available.
+:::
+
+<div class="hero-actions">
+  <a class="button" href="https://jedm.educationaldatamining.org/" target="_blank" rel="noopener">Visit the journal</a>
+</div>
+
+## Article overview
+
+Educational video transcripts contain rich information about concepts, people, organizations, and relationships, but turning that material into structured data and interpretable qualitative evidence is difficult at scale. This article examines how large language models can support two connected tasks: improving entity recognition and extending qualitative insight from transcript data.
+
+The work contributes to a broader research agenda on responsible, transparent uses of LLMs for educational data analysis. It focuses on what language models can add to transcript-analysis workflows while keeping human interpretation central.
+
+## My role
+
+I am the **first author** of the article, working with **Christopher Pritchard** and **Joshua M. Rosenberg**.
+
+## Citation
+
+Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication). Educational video transcript analysis with LLMs: Improving entity recognition and qualitative insights. *Journal of Educational Data Mining*.
+
+## Publication status
+
+- **Journal:** Journal of Educational Data Mining
+- **Status:** Accepted for publication
+- **Authors:** Wei Wang, Christopher Pritchard, and Joshua M. Rosenberg
+- **Final citation and DOI:** Forthcoming
+
