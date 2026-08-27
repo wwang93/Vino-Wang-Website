@@ -2,8 +2,8 @@
 title: "Educational Video Transcript Analysis with LLMs: Improving Entity Recognition and Qualitative Insights"
 author:
   - name: Wei Wang
-  - name: Christopher Pritchard
-  - name: Joshua M. Rosenberg
+  - name: C. Pritchard
+  - name: J. M. Rosenberg
 date: "2026-08-01"
 date-format: "MMMM YYYY"
 categories: ["Journal Article", "Accepted", "Large Language Models", "Educational Data Mining"]
@@ -33,7 +33,7 @@ The work contributes to a broader research agenda on responsible, transparent us
 
 ## My role
 
-I am the **first author** of the article, working with **Christopher Pritchard** and **Joshua M. Rosenberg**.
+I am the **first author** of the article, working with **C. Pritchard** and **J. M. Rosenberg**.
 
 ## Citation
 
@@ -43,6 +43,5 @@ Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication). Educatio
 
 - **Journal:** Journal of Educational Data Mining
 - **Status:** Accepted for publication
-- **Authors:** Wei Wang, Christopher Pritchard, and Joshua M. Rosenberg
+- **Authors:** Wei Wang, C. Pritchard, and J. M. Rosenberg
 - **Final citation and DOI:** Forthcoming
-
