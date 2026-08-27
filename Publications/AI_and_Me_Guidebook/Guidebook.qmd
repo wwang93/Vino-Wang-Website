@@ -9,6 +9,8 @@ author:
     role: Editor
 date: "2026-08-01"
 date-format: "MMMM YYYY"
+author-title: "Editors"
+published-title: "Review status updated"
 categories: ["Open Educational Resource", "Book", "Generative AI", "Faculty Development"]
 description: "A forthcoming EdTech Books guidebook offering practical, human-centered guidance for responsible generative AI use in higher education; currently awaiting administrator review."
 image: "ai-and-me-guidebook-source.png"
