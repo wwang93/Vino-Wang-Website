@@ -1,12 +1,18 @@
 ---
 title: "[AI and Me] Generative AI Guidebook for Higher Education Faculty"
-author: "Wei Wang (Co-Editor)"
+author:
+  - name: Yukyeong Song
+    role: Editor
+  - name: Christopher Kilgore
+    role: Editor
+  - name: Wei Wang
+    role: Editor
 date: "2026-08-01"
 date-format: "MMMM YYYY"
 categories: ["Open Educational Resource", "Book", "Generative AI", "Faculty Development"]
-description: "An EdTech Books open guidebook that translates the AI and Me webinar series and course into practical resources for responsible generative AI use in higher education."
-image: "../../Projects/AI_and_ME/ai-and-me-banner.png"
-image-alt: "AI and Me series banner showing a faculty member and students in discussion."
+description: "A forthcoming EdTech Books guidebook offering practical, human-centered guidance for responsible generative AI use in higher education; currently awaiting administrator review."
+image: "ai-and-me-guidebook-source.png"
+image-alt: "Official cover of the AI and Me Generative AI Guidebook for Higher Education Faculty."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -14,22 +20,30 @@ toc-depth: 2
 toc-title: "On this page"
 ---
 
-![The AI and Me guidebook extends a national faculty-development series into an open resource for higher education.](../../Projects/AI_and_ME/ai-and-me-banner.png){fig-alt="AI and Me series banner showing a faculty member speaking with students around a conference table."}
+<figure class="guidebook-cover">
+<div class="guidebook-cover-crop">
+<img src="ai-and-me-guidebook-source.png" alt="Official navy cover of the AI and Me Generative AI Guidebook for Higher Education Faculty, edited by Yukyeong Song, Christopher Kilgore, and Wei Wang.">
+</div>
+<figcaption>Official guidebook cover.</figcaption>
+</figure>
 
 ::: {.callout-note appearance="simple" icon=false}
-**Co-editor · Open educational resource · EdTech Books · 2026**
+**Co-editor · EdTech Books · Awaiting administrator review**
+
+The guidebook has been submitted in the EdTech Books open publishing system. Public release is pending administrator approval.
 :::
 
 <div class="hero-actions">
-  <a class="button" href="../../Projects/AI_and_ME/AI_and_ME.qmd">View the AI & ME project</a>
-  <a class="button ghost" href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me" target="_blank" rel="noopener">Explore the open course</a>
+  <a class="button" href="https://edtechbooks.org/ai_and_me" target="_blank" rel="noopener">View on EdTech Books</a>
+  <a class="button ghost" href="../../Projects/AI_and_ME/AI_and_ME.qmd">View the AI & ME project</a>
+  <a class="button ghost" href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me" target="_blank" rel="noopener">Explore the course</a>
 </div>
 
 ## About the guidebook
 
-*[AI and Me] Generative AI Guidebook for Higher Education Faculty* is an open educational resource published through EdTech Books. It grows out of the five-session **AI and Me: Navigating GenAI for Higher Education Faculty** webinar series and its self-paced course.
+*[AI and Me] Generative AI Guidebook for Higher Education Faculty* is being prepared for open publication through EdTech Books and is currently awaiting administrator review. It grows out of the five-session **AI and Me: Navigating GenAI for Higher Education Faculty** webinar series and its self-paced course.
 
-The guidebook brings the series' practical examples, expert perspectives, transcripts, and supporting materials into a format that faculty can use beyond the original events. Its focus is responsible and effective integration of generative AI into teaching, assessment, research, educational media, and professional practice.
+The guidebook offers practical, human-centered guidance for using generative AI in higher education. Grounded in the Critical Tech-resilient Literacies framework, it supports informed and responsible decisions about when, why, and how to use generative AI in teaching, research, and academic work.
 
 ## My role
 
@@ -39,6 +53,8 @@ As a **co-editor**, I helped shape the webinar materials into a coherent, access
 - Editing transcripts and learning materials for clarity, accessibility, and reuse.
 - Organizing the self-paced course and connecting its modules with the guidebook's practical resources.
 - Supporting the guidebook's development as an open resource for faculty learning.
+
+The guidebook is edited by **Yukyeong Song, Christopher Kilgore, and Wei Wang**.
 
 ## From live series to open resource
 
@@ -50,7 +66,14 @@ The project connects three forms of professional learning:
 
 ## Resource links
 
+- [Guidebook in the EdTech Books open publishing system](https://edtechbooks.org/ai_and_me)
 - [AI & ME series at the University of Tennessee](https://teaching.utk.edu/ai-me/)
 - [AI and Me self-paced course](https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me)
 - [AI & ME project details on this website](../../Projects/AI_and_ME/AI_and_ME.qmd)
 
+## Publication status
+
+- **Platform:** EdTech Books
+- **Current status:** Awaiting administrator review
+- **Public release:** Pending approval
+- **Editors:** Yukyeong Song, Christopher Kilgore, and Wei Wang

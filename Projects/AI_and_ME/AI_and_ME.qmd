@@ -26,18 +26,18 @@ execute:
 <div class="hero-actions">
   <a class="button" href="https://teaching.utk.edu/ai-me/" target="_blank" rel="noopener">Explore the AI & ME series</a>
   <a class="button ghost" href="https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me" target="_blank" rel="noopener">View the self-paced course</a>
-  <a class="button ghost" href="../../Publications/AI_and_Me_Guidebook/Guidebook.qmd">Read about the guidebook</a>
+  <a class="button ghost" href="https://edtechbooks.org/ai_and_me" target="_blank" rel="noopener">View the guidebook</a>
 </div>
 
 ## Project overview
 
 **AI & ME** is a national professional development initiative focused on responsible and effective uses of generative AI in higher education teaching, assessment, research, media creation, and faculty workflows. The initiative was developed by the University of Tennessee, Knoxville's College of Education, Health, and Human Sciences in collaboration with Teaching & Learning Innovation.
 
-The project combines a five-session live webinar series with a self-paced Canvas course and an EdTech Books open guidebook, extending expert-led programming into resources that faculty, graduate assistants, instructional designers, and academic support staff can revisit asynchronously.
+The project combines a five-session live webinar series with a self-paced Canvas course and a forthcoming EdTech Books open guidebook, extending expert-led programming into resources that faculty, graduate assistants, instructional designers, and academic support staff can revisit asynchronously.
 
 ## From course to open guidebook
 
-The webinar series and self-paced course have also been developed into *[AI and Me] Generative AI Guidebook for Higher Education Faculty*, a 2026 open educational resource published through EdTech Books. I serve as a **co-editor**, helping translate the workshop content, transcripts, and learning resources into a practical reference for responsible generative AI use in higher education.
+The webinar series and self-paced course have also been developed into *[AI and Me] Generative AI Guidebook for Higher Education Faculty*. The guidebook is currently awaiting administrator review in the EdTech Books open publishing system before its public release. I serve as a **co-editor** alongside Yukyeong Song and Christopher Kilgore, helping translate the workshop content, transcripts, and learning resources into a practical reference for responsible generative AI use in higher education.
 
 [View the guidebook publication page →](../../Publications/AI_and_Me_Guidebook/Guidebook.qmd)
 
@@ -97,4 +97,5 @@ Enrollment availability is managed through Canvas Catalog and may change over ti
 
 - [AI & ME series at Teaching & Learning Innovation](https://teaching.utk.edu/ai-me/)
 - [AI and Me self-paced course in Canvas Catalog](https://tpte-ut.pdx.catalog.canvaslms.com/courses/ai-and-me)
+- [Guidebook in the EdTech Books open publishing system](https://edtechbooks.org/ai_and_me)
 - [*AI and Me* guidebook publication page](../../Publications/AI_and_Me_Guidebook/Guidebook.qmd)

@@ -423,6 +423,36 @@ li {
   text-align: center;
 }
 
+.guidebook-cover {
+  max-width: 420px;
+  margin: var(--space-4) auto var(--space-5);
+}
+
+.guidebook-cover-crop {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 406 / 609;
+  border-radius: var(--radius-sm);
+  background: #031427;
+  box-shadow: var(--shadow-soft);
+}
+
+.guidebook-cover-crop img {
+  position: absolute;
+  top: -7.88%;
+  left: -25.37%;
+  width: 388.67%;
+  max-width: none;
+  height: auto;
+}
+
+.guidebook-cover figcaption {
+  margin-top: var(--space-1);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 /* Listings */
 
 .quarto-listing-category-title,
@@ -459,6 +489,25 @@ li {
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.04);
   object-fit: cover;
+}
+
+.quarto-listing-default .thumbnail:has(.thumbnail-image[src*="ai-and-me-guidebook-source"]) a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #031427;
+}
+
+.quarto-listing-default .thumbnail-image[src*="ai-and-me-guidebook-source"] {
+  position: absolute;
+  top: -7.88%;
+  left: 21.72%;
+  width: auto !important;
+  max-width: none;
+  height: 185% !important;
+  aspect-ratio: auto;
+  object-fit: fill;
 }
 
 .quarto-listing-default .listing-title a {
