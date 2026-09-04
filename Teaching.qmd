@@ -3,7 +3,12 @@ title: "Teaching"
 description: "Undergraduate teaching, faculty development, adaptive learning, and open GenAI learning resources."
 listing:
   contents:
-    - Teaching
+    - Teaching/ESM_250/ESM_250.qmd
+    - Teaching/Adaptive_Learning/Adaptive_Learning.qmd
+    - Teaching/Teaching with GenAI/Teaching with GenAI.qmd
+    - Teaching/Online Course Delivery/Course Delivery.qmd
+    - Teaching/Online Course Development/Course Development.qmd
+    - Teaching/Online Course Design/Course Design.qmd
     - Projects/AI_and_ME/AI_and_ME.qmd
   sort: "date desc"
   type: default
