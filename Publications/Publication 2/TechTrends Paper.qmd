@@ -1,8 +1,9 @@
 ---
 title: "Trends and Topics in Educational Technology, 2024 Edition"
-author: "Wei Wang"
+author: ["Bohdana Allman", "Royce Kimmons", "Wei Wang", "Hanhui Bao", "Joshua M. Rosenberg", "Matthew J. Koehler"]
 date: "2024-03-21"
-categories: [Journal Articles]
+categories: ["Journal Article", "Educational Technology"]
+description: "Co-author · TechTrends, 68, 402–410 (2024). An editorial mapping trends and topics in educational technology."
 ---
 
 ### Abstract

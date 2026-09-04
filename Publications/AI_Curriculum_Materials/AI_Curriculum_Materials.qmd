@@ -1,0 +1,30 @@
+---
+title: "Trends in AI Curriculum Materials: Insights from Data Mining a Teacher Marketplace"
+author:
+  - name: Wei Wang
+  - name: J. M. Rosenberg
+  - name: M. J. Koehler
+date: "2025-10-16"
+date-format: "YYYY"
+published-title: "Preprint year"
+categories: ["Preprint", "AI Curriculum", "Educational Data Mining"]
+description: "First author · EdArXiv preprint (2025). A mixed-methods study of AI curriculum materials and patterns of adoption in a teacher marketplace."
+page-layout: full
+title-block-banner: true
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**First-author preprint · EdArXiv · 2025**
+
+This work is available as a preprint; it is not listed here as an accepted journal article.
+:::
+
+## Overview
+
+The study examines AI curriculum materials on Teachers Pay Teachers using an explanatory sequential mixed-methods design. It combines a description of available resources with regression and qualitative analysis to investigate patterns associated with their popularity. The work connects educational data mining with questions about how teachers access and adopt AI teaching materials.
+
+[Read the EdArXiv preprint →](https://osf.io/preprints/edarxiv/6b7n9_v1)
+
+## Citation
+
+Wang, W., Rosenberg, J. M., & Koehler, M. J. (2025). Trends in AI curriculum materials: Insights from data mining a teacher marketplace. *EdArXiv*. [https://doi.org/10.35542/osf.io/6b7n9_v1](https://doi.org/10.35542/osf.io/6b7n9_v1)

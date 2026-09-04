@@ -1,8 +1,10 @@
 ---
 title: "Teaching"
-description: "Teaching materials, course design, and GenAI instructional practice."
+description: "Undergraduate teaching, faculty development, adaptive learning, and open GenAI learning resources."
 listing:
-  contents: Teaching
+  contents:
+    - Teaching
+    - Projects/AI_and_ME/AI_and_ME.qmd
   sort: "date desc"
   type: default
   categories: true

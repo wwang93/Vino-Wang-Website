@@ -1,0 +1,19 @@
+---
+title: "K–12 Instruction and Adaptive Learning"
+author: "Wei Wang"
+date: "2019-08-01"
+date-format: "YYYY"
+published-title: "Role completed"
+categories: ["K–12 Teaching", "Adaptive Learning", "Teacher Support"]
+description: "Instructor & Adaptive Learning Specialist · December 2017–August 2019 · Shanghai Squirrel AI. Diagnostic-data-informed instruction and teacher support."
+page-layout: full
+title-block-banner: true
+---
+
+## Role and setting
+
+**Instructor & Adaptive Learning Specialist**  
+Shanghai Squirrel AI Education Technology Co., Ltd.  
+**December 2017–August 2019**
+
+I implemented adaptive learning workflows for K–12 learners, using diagnostic data to personalize learning pathways. I also trained teachers to integrate the adaptive system into instruction, connecting platform information with classroom decisions and individual learning needs.

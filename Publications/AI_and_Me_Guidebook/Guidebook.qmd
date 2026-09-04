@@ -12,7 +12,7 @@ date-format: "MMMM YYYY"
 author-title: "Editors"
 published-title: "Review status updated"
 categories: ["Open Educational Resource", "Book", "Generative AI", "Faculty Development"]
-description: "A forthcoming EdTech Books guidebook offering practical, human-centered guidance for responsible generative AI use in higher education; currently awaiting administrator review."
+description: "Co-editor · EdTech Books guidebook (2026). Practical, human-centered guidance for responsible GenAI use in higher education; public release pending platform review."
 image: "ai-and-me-guidebook-source.png"
 image-alt: "Official cover of the AI and Me Generative AI Guidebook for Higher Education Faculty."
 page-layout: full
@@ -79,3 +79,7 @@ The project connects three forms of professional learning:
 - **Current status:** Awaiting administrator review
 - **Public release:** Pending approval
 - **Editors:** Yukyeong Song, Christopher Kilgore, and Wei Wang
+
+## Guidebook citation
+
+Song, Y., Kilgore, C., & Wang, W. (Eds.). (2026, public release pending). *[AI and Me] Generative AI guidebook for higher education faculty*. EdTech Books.

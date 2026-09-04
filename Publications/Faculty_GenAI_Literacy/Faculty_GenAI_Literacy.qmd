@@ -1,0 +1,29 @@
+---
+title: "Developing GenAI Literacy among University Faculty: An Experience Report from a Nationwide Online Workshop"
+author:
+  - name: Yukyeong Song
+  - name: Wei Wang
+  - name: Christopher Kilgore
+  - name: J. Kim
+date: "2026-09-04"
+date-format: "MMMM D, YYYY"
+published-title: "Status updated"
+categories: ["Under Review", "Faculty Development", "GenAI Literacy"]
+description: "Co-author · Under review for SIGCSE 2027 (experience-report paper). Research-informed reporting from a nationwide faculty GenAI workshop."
+page-layout: full
+title-block-banner: true
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**Submitted to SIGCSE 2027 · Under review · Experience-report paper (ERT)**
+
+SIGCSE 2027 is the submission venue, not an acceptance or publication claim.
+:::
+
+## Research focus
+
+This experience report addresses the development of generative AI literacy among university faculty through a nationwide online workshop. The work connects with my contributions to [AI and Me](../../Projects/AI_and_ME/AI_and_ME.qmd), including webinar implementation, accessible learning resources, and the self-paced course.
+
+## Manuscript citation
+
+Song, Y., Wang, W., Kilgore, C., & Kim, J. (under review for SIGCSE 2027). Developing GenAI literacy among university faculty: An experience report from a nationwide online workshop. Experience-report paper (ERT).

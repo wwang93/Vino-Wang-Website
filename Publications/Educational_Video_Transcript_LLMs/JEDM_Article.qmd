@@ -6,6 +6,7 @@ author:
   - name: J. M. Rosenberg
 date: "2026-08-01"
 date-format: "MMMM YYYY"
+published-title: "Acceptance status recorded"
 categories: ["Journal Article", "Accepted", "Large Language Models", "Educational Data Mining"]
 description: "A first-author article accepted by the Journal of Educational Data Mining on using LLMs to support entity recognition and qualitative analysis of educational video transcripts."
 page-layout: full
@@ -37,7 +38,7 @@ I am the **first author** of the article, working with **C. Pritchard** and **J.
 
 ## Citation
 
-Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication). Educational video transcript analysis with LLMs: Improving entity recognition and qualitative insights. *Journal of Educational Data Mining*.
+Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication, 2026). Educational video transcript analysis with LLMs: Improving entity recognition and qualitative insights. *Journal of Educational Data Mining*.
 
 ## Publication status
 

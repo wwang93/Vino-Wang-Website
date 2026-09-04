@@ -1,7 +1,7 @@
 ---
 title: "About me"
 image: profile.jpg
-description: "Background, research focus, and contact details for Wei Wang (Vino)."
+description: "Wei Wang's background in educational AI, learning design, learning analytics, and evidence-informed decision support."
 about:
   template: jolla
   links:
@@ -19,22 +19,43 @@ about:
       href: mailto:wwang93@vols.utk.edu
 ---
 
-Hello! I am **Wei Wang** (Vino), a Ph.D. Candidate in Learning Design and Technology at the University of Tennessee, Knoxville, an educational AI researcher, and a co-founder of askabout.edu. I build and study evidence-informed systems that support critical thinking, teaching practice, and educational decision-making.
+Hello! I am **Wei Wang**, a Ph.D. Candidate in Learning Design and Technology at the University of Tennessee, Knoxville, and a co-founder of **AskAboutEdu (askabout.edu)**. I study how generative AI, learning analytics, and evidence-grounded systems can support teaching, learning, critical thinking, AI literacy, and educational decision-making.
+
+My work combines design-based research, mixed methods, and computational analysis. I build and evaluate tools ranging from retrieval-augmented generation (RAG) systems to interactive educational data platforms, using Python, R, natural language processing, and causal inference methods.
 
 ## Research focus
 
-- GenAI integration in teaching and learning
-- Educational data science and large-scale assessment
-- Evaluation methods for technology-enabled learning
+- Generative AI, critical thinking, and AI literacy in teaching and learning
+- Learning analytics, educational data mining, and computational research methods
+- Evidence-informed decision support and evaluation of educational technologies
 
 ## Recent work
 
-- Publishing the first-author article [**Educational Video Transcript Analysis with LLMs: Improving Entity Recognition and Qualitative Insights**](Publications/Educational_Video_Transcript_LLMs/JEDM_Article.qmd), accepted by the *Journal of Educational Data Mining*.
+- First author of an [**accepted JEDM article on LLM-assisted educational video transcript analysis**](Publications/Educational_Video_Transcript_LLMs/JEDM_Article.qmd).
 - Co-editing [***[AI and Me] Generative AI Guidebook for Higher Education Faculty***](Publications/AI_and_Me_Guidebook/Guidebook.qmd), currently awaiting administrator review in the EdTech Books open publishing system.
-- Co-founding [**Ask About EDU (AAU)**](Projects/Ask_About_EDU/Ask_About_EDU.qmd), an evidence-informed decision-support platform that helps educators access, interpret, and apply verified educational research. Company formation is currently in progress.
-- Co-leading the [**Next Level Teaching Blueprint**](Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.
+- Co-founding [**AskAboutEdu**](Projects/Ask_About_EDU/Ask_About_EDU.qmd) and developing reproducible RAG workflows that connect practical education questions with traceable research evidence.
+- Co-leading the UTK ORIED-funded [**Next Level Teaching Blueprint**](Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.
 - Leading the forthcoming CRC Press book [*Computational Analysis of Educational Data: A Field Guide Using R*](Publications/Computational_Analysis_Educational_Data/Book.qmd) as first author (expected late 2026).
-- Building tools and visualizations for large educational datasets in R and Python.
-- Translating research into practical guidance for instructors and students.
+- Co-developing the [**AIREA Data Explorer**](Projects/CCRC_Green_Seek_Mapping%20Project/GreenSeek.qmd), a public tool linking community college credentials and regional workforce demand.
+- Contributing to [**preprints and manuscripts in progress**](Publications.qmd) on AI curriculum materials, causal sensitivity analysis, faculty GenAI literacy, international students' online learning, and changing data science work.
+
+## Teaching and professional background
+
+Since August 2023, I have worked as a Teaching Assistant and Research Assistant with **UTK Digital Learning**, supporting research on AI-enhanced online teaching and faculty development. My teaching experience includes [**ESM 250: Applied Statistical Concepts for Decision Makers**](Teaching/ESM_250/ESM_250.qmd) (Spring 2025), [**AI and Me**](Projects/AI_and_ME/AI_and_ME.qmd) (2025–present), and [**Teaching with Generative AI**](Teaching/Teaching%20with%20GenAI/Teaching%20with%20GenAI.qmd) (April 2024–present).
+
+Previously, I was a researcher at **iFLYTEK's National Cognitive Intelligence Key Laboratory** (March 2021–June 2023), conducting mixed-method evaluations of smart-education initiatives and K–12 learning technologies. At **Shanghai Squirrel AI** (December 2017–August 2019), I worked as an instructor and adaptive learning specialist, using diagnostic data to personalize learning and supporting teachers' use of adaptive systems.
+
+## Education
+
+- **Ph.D., Learning Design and Technology**, University of Tennessee, Knoxville, August 2023–present. Committee: Joshua Rosenberg, Enilda Romero-Hall, Victor Lee, and Jason Johnston.
+- **M.A., Education Technology**, Johnson University, 2020–2021.
+- **M.S., Education Technology**, Anhui Normal University, 2019–2022.
+- **B.S., Software Engineering**, Longyan University, 2012–2016.
+
+## Service
+
+I have served as a peer reviewer for the *Journal of Research on Technology in Education* (2024–2025), the *Journal of Statistics and Data Science Education* (2025), and AECT (2025), and as president of the University of Tennessee's CSSA student organization.
+
+[View my full CV →](CV.qmd)
 
 I believe in the motto: **"Technology comes and goes, pedagogy never falls."** This guides my work toward grounded, human-centered learning experiences.

@@ -2,17 +2,13 @@
   {
     "listing": "/Teaching.html",
     "items": [
-      "/Teaching/Teaching with GenAI/Teaching with GenAI.html",
+      "/Projects/AI_and_ME/AI_and_ME.html",
+      "/Teaching/ESM_250/ESM_250.html",
       "/Teaching/Online Course Delivery/Course Delivery.html",
       "/Teaching/Online Course Development/Course Development.html",
-      "/Teaching/Online Course Design/Course Design.html"
-    ]
-  },
-  {
-    "listing": "/Portfolio.html",
-    "items": [
-      "/Portfolio/AERA _2025/AERA 2025.html",
-      "/Portfolio/AECT 2024/AECT2024.html"
+      "/Teaching/Online Course Design/Course Design.html",
+      "/Teaching/Teaching with GenAI/Teaching with GenAI.html",
+      "/Teaching/Adaptive_Learning/Adaptive_Learning.html"
     ]
   },
   {
@@ -26,15 +22,29 @@
     ]
   },
   {
+    "listing": "/Portfolio.html",
+    "items": [
+      "/Portfolio/AERA _2025/AERA 2025.html",
+      "/Portfolio/AECT 2024/AECT2024.html"
+    ]
+  },
+  {
     "listing": "/Publications.html",
     "items": [
       "/Publications/Computational_Analysis_Educational_Data/Book.html",
+      "/Publications/Data_Science_Job_Postings/Job_Postings.html",
+      "/Publications/Faculty_GenAI_Literacy/Faculty_GenAI_Literacy.html",
+      "/Publications/International_Students_Online_Learning/Online_Learning.html",
       "/Publications/AI_and_Me_Guidebook/Guidebook.html",
       "/Publications/Educational_Video_Transcript_LLMs/JEDM_Article.html",
+      "/Publications/Causal_Inference_Field_Guide/Field_Guide.html",
+      "/Publications/AI_Curriculum_Materials/AI_Curriculum_Materials.html",
       "/Publications/Publication 4/GenAI dependency.html",
       "/Publications/Publication 2/TechTrends Paper.html",
       "/Publications/publication 3/Konfound Paper.html",
-      "/Publications/Publication1/ECMISC_Paper.html"
+      "/Publications/Smart_Classroom_Efficacy/Smart_Classrooms.html",
+      "/Publications/Publication1/ECMISC_Paper.html",
+      "/Publications/MOOC_School_Informatization/MOOC.html"
     ]
   }
 ]

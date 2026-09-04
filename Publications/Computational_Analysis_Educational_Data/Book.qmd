@@ -20,7 +20,7 @@ toc-title: "On this page"
 ---
 
 ::: {.callout-note appearance="simple" icon=false}
-**First-author book · Forthcoming from CRC Press · Expected late 2026**
+**First-author book · Under contract with CRC Press · Expected late 2026**
 
 Both the CRC Press edition and the online companion are planned for publication in late 2026.
 :::
@@ -99,6 +99,8 @@ The field guide is designed for:
 ## Publication status
 
 - **Publisher:** CRC Press
+- **Series:** Chapman & Hall/CRC Big Data Series
+- **Status:** Under contract
 - **Expected publication:** Late 2026
 - **Online companion:** Planned for release in late 2026
 - **Authors:** Wei Wang, Mete Akcaoglu, Joshua Rosenberg, and Shaun Kellogg

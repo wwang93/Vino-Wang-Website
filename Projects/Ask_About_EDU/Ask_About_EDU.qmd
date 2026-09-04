@@ -2,10 +2,10 @@
 title: "askabout.edu: Evidence-Informed Decision Support for Education"
 date: "2026-08-05T10:43:34-04:00"
 date-format: "MMMM D, YYYY"
-categories: ["AI in Education", "Evidence Synthesis", "Venture"]
+categories: ["AI in Education", "Evidence Synthesis", "RAG"]
 image: "askaboutedu-product.png"
 image-alt: "The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source."
-description: "Co-founder · Working prototype. Evidence-informed decision support that helps educators access, interpret, and apply verified research to practical decisions."
+description: "Co-founder & Researcher. An evidence-grounded AI prototype with reproducible retrieval pipelines, source attribution, and an interactive interface for educational research."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -18,9 +18,9 @@ execute:
 ![The askabout.edu working prototype turns practical education questions into evidence-grounded responses with transparent citations.](askaboutedu-product.png){fig-alt="The askabout.edu product homepage showing a question about reading comprehension, an evidence-grounded response, an evidence-strength rating, and a cited What Works Clearinghouse source."}
 
 ::: {.callout-note appearance="simple" icon=false}
-**Co-founder · Working prototype · Company formation in progress**
+**Co-founder & Researcher · Working prototype**
 
-I am one of four co-founders of **Ask About EDU (AAU)**. The product is live as an early working prototype while the founding team prepares for pilot testing, continued corpus development, and company formation.
+I am one of four co-founders of **AskAboutEdu**, the initiative behind **askabout.edu**. The product is live as a working prototype; continued development focuses on evidence retrieval, transparent citations, and evaluation with education users.
 :::
 
 <div class="hero-actions">
@@ -39,7 +39,7 @@ General-purpose AI systems can make research easier to discuss, but they are not
 
 **askabout.edu** is an evidence-informed decision-support platform designed for practical education questions. An educator can ask a question such as, “What approaches improve reading comprehension for fourth-grade English learners?” The system retrieves relevant research from a curated corpus and returns a clear synthesis with citations, evidence-strength information, and the contexts in which the findings are grounded.
 
-Rather than searching the open web, AAU is deliberately designed around verified research sources such as ERIC, What Works Clearinghouse materials, IES practice guides, systematic reviews, and National Academies reports.
+The platform is designed around curated educational research rather than unrestricted web search. My technical work includes retrieval from **What Works Clearinghouse (WWC) intervention reports**, with metadata and source excerpts preserved so users can inspect the evidence behind an answer.
 
 ## From question to evidence-informed action
 
@@ -65,7 +65,7 @@ Responses include transparent citations, an evidence-strength rating, and inform
 
 ## Evidence by design
 
-AAU is being developed around several principles:
+AskAboutEdu is being developed around several principles:
 
 - **Curated sources:** Retrieval is constrained to verified educational research and evidence reports rather than the open web.
 - **Evidence hierarchy:** Research syntheses and higher-quality evidence are prioritized when available.
@@ -75,20 +75,19 @@ AAU is being developed around several principles:
 
 ## Current status
 
-As of August 2026:
-
-- An early working prototype is live with functioning retrieval pipelines tested against benchmark questions.
-- Corpus development includes an ERIC ingestion pipeline spanning more than 2.2 million records; ingestion and evidence verification are still in progress.
-- Approximately 10,000 What Works Clearinghouse intervention reports have been incorporated into the project corpus.
-- Educational researchers, state education agency partners, and practicing teachers have provided letters of support and expressed readiness to participate in pilot testing.
-
-The number of records available in the live vetted index will continue to change as ingestion, verification, and evaluation progress.
+As of September 2026, the project has a deployed working prototype and an end-to-end pipeline for preparing and retrieving educational evidence. Corpus development and evaluation remain ongoing. This is a research and product-development initiative, not a claim that the system has completed broad effectiveness validation.
 
 ## My role and the founding team
 
-I am one of four **co-founders of Ask About EDU (AAU)**. The founding team brings together expertise in AI engineering, educational research, software design, and educational technology.
+As **Co-founder & Researcher**, my contributions include:
 
-Because the company is still in formation, this page presents AAU as a co-founded product initiative rather than as a finalized legal entity. Company details will be updated after registration is complete.
+- Designing and deploying an AI interface that connects LLMs with structured educational research evidence.
+- Building a RAG pipeline with **Python, Streamlit, and sentence-level embeddings** to index and retrieve WWC intervention reports.
+- Extracting, normalizing, and chunking long-form PDF reports into **structured JSON corpora**, while retaining document metadata for citation and traceability.
+- Implementing evidence-constrained prompts that require responses to draw from retrieved excerpts, with explicit source attribution at the chunk level.
+- Designing an interactive workflow for researchers, policymakers, and educators to explore and interpret primary-source evidence.
+
+The founding team combines AI engineering, educational research, software design, and educational technology. This page describes the product initiative without implying that a legal entity has completed registration.
 
 ## Next phase
 

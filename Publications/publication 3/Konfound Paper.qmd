@@ -1,8 +1,9 @@
 ---
 title: "konfound: An R Sensitivity Analysis Package to Quantify the Robustness of Causal Inferences"
-author: "Wei Wang"
+author: ["Sarah Narvaiz", "Qinyun Lin", "Joshua M. Rosenberg", "Kenneth A. Frank", "Spiro J. Maroulis", "Wei Wang", "Ran Xu"]
 date: "2024-03-09"
-categories: [Journal Articles, R Packages]
+categories: ["Journal Article", "R Packages", "Causal Inference"]
+description: "Co-author · Journal of Open Source Software, 9(95), 5779 (2024). An R package for sensitivity analysis and the robustness of causal inferences."
 ---
 
 ### Abstract

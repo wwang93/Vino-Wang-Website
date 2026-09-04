@@ -10,7 +10,7 @@ about:
       href: mailto:wwang93@vols.utk.edu
     - icon: file-earmark-person
       text: Download CV
-      href: https://wwang93.github.io/Vino-Wang-Website/cv.pdf
+      href: cv.pdf?v=20260904
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
@@ -43,7 +43,7 @@ about:
 <span class="identity-separator" aria-hidden="true">·</span>
 <span class="identity-item">First-author JEDM article accepted</span>
 <span class="identity-separator" aria-hidden="true">·</span>
-<span class="identity-item">CRC Press first author · 2026</span>
+<span class="identity-item">CRC Press first author · Forthcoming late 2026</span>
 </p>
 
 ## Featured work

@@ -1,0 +1,29 @@
+---
+title: "Is Online Learning Really Ready for International Students? Acceptance, Participation, and Cultural Responsiveness in U.S. Higher Education"
+author:
+  - name: Y. Duan
+  - name: E. Romero-Hall
+  - name: Wei Wang
+  - name: J. A. Morrow
+date: "2026-09-04"
+date-format: "MMMM D, YYYY"
+published-title: "Status updated"
+categories: ["Under Review", "Online Learning", "International Students"]
+description: "Co-author · Under review at Education Sciences. A manuscript on international students' acceptance of, participation in, and experiences of culturally responsive online learning."
+page-layout: full
+title-block-banner: true
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**Manuscript under review · Education Sciences · 2026**
+
+This manuscript has not been accepted for publication.
+:::
+
+## Research focus
+
+The manuscript examines online learning for international students in U.S. higher education, with attention to acceptance, participation, and cultural responsiveness. I am a co-author with Y. Duan, E. Romero-Hall, and J. A. Morrow.
+
+## Manuscript citation
+
+Duan, Y., Romero-Hall, E., Wang, W., & Morrow, J. A. (under review, 2026). Is online learning really ready for international students? Acceptance, participation, and cultural responsiveness in U.S. higher education. *Education Sciences*.

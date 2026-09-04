@@ -15,6 +15,12 @@ execute:
 ---
 
 
+::: {.callout-note appearance="simple" icon=false}
+**IES-funded research · Award R305D220022 · Principal Investigator: Dr. Kenneth Frank**
+
+I contribute to *Quantifying the Robustness of Causal Inferences*, a cross-institutional project associated with Michigan State University. My work includes development and validation of the `konfound` R package, algorithm testing, reproducible code, documentation, and co-authorship of the [2024 JOSS article](../../Publications/publication%203/Konfound%20Paper.qmd).
+:::
+
 # 1. Project Background
 
 Sensitivity analysis addresses when evidence is strong enough to justify action by testing the robustness of inferences against potential biases. For instance, sensitivity indices quantify how much of an observed effect would need to be bias-driven to alter conclusions. This project builds on these ideas by developing methods and resources, centered on the `konfound` R package, to:
@@ -27,7 +33,7 @@ Sensitivity analysis addresses when evidence is strong enough to justify action 
 | Field | Details |
 | --- | --- |
 | **Package** | `konfound` |
-| **Version** | 1.0.3 |
+| **Current release** | [See CRAN](https://CRAN.R-project.org/package=konfound) |
 | **Title** | Quantify the Robustness of Causal Inferences |
 | **Type** | Package |
 | **License** | MIT + file LICENSE |
@@ -113,6 +119,9 @@ The `konfound` package authors include:
 - Guan Saw (ctb)
 
 # 6. Additional Resources
+
+- [IES award information](https://ies.ed.gov/use-work/awards/quantifying-robustness-causal-inferences-extensions-and-application-existing-databases?ID=5723)
+- [2026 preprint: A field guide to causal inference and sensitivity analysis](../../Publications/Causal_Inference_Field_Guide/Field_Guide.qmd)
 
 - Project website: https://konfound-it.org/konfound/
 - GitHub repo: https://github.com/konfound-project/konfound/

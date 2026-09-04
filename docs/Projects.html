@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -234,7 +234,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QUklMjBpbiUyMEVkdWNhdGlvbg==">AI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2F1c2FsJTIwSW5mZXJlbmNl">Causal Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3JpdGljYWwlMjBUaGlua2luZw==">Critical Thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVzaWduLUJhc2VkJTIwUmVzZWFyY2g=">Design-Based Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXZpZGVuY2UlMjBTeW50aGVzaXM=">Evidence Synthesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmFjdWx0eSUyMERldmVsb3BtZW50">Faculty Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuQUklMjBpbiUyMEVkdWNhdGlvbg==">GenAI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhdGl2ZSUyMEFJ">Generative AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMEVkdWNhdGlvbg==">Open Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2Vuc2l0aXZpdHklMjBBbmFseXNpcw==">Sensitivity Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmVudHVyZQ==">Venture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya2ZvcmNlJTIwRWR1Y2F0aW9u">Workforce Education <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QUklMjBpbiUyMEVkdWNhdGlvbg==">AI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2F1c2FsJTIwSW5mZXJlbmNl">Causal Inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q3JpdGljYWwlMjBUaGlua2luZw==">Critical Thinking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVzaWduLUJhc2VkJTIwUmVzZWFyY2g=">Design-Based Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXZpZGVuY2UlMjBTeW50aGVzaXM=">Evidence Synthesis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmFjdWx0eSUyMERldmVsb3BtZW50">Faculty Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuQUklMjBpbiUyMEVkdWNhdGlvbg==">GenAI in Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VuZXJhdGl2ZSUyMEFJ">Generative AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3BlbiUyMEVkdWNhdGlvbg==">Open Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UkFH">RAG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2Vuc2l0aXZpdHklMjBBbmFseXNpcw==">Sensitivity Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29ya2ZvcmNlJTIwRWR1Y2F0aW9u">Workforce Education <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -242,13 +242,28 @@ window.Quarto = {
 
 
 
+<div id="listing-projects">
+
+</div>
+<section id="earlier-research" class="level2">
+<h2 class="anchored" data-anchor-id="earlier-research">Earlier research</h2>
+<section id="ai-supported-teaching-and-educational-governance" class="level3">
+<h3 class="anchored" data-anchor-id="ai-supported-teaching-and-educational-governance">AI-supported teaching and educational governance</h3>
+<p>At the <strong>iFLYTEK Education Technology Institute</strong> in Bengbu, China, I contributed to <em>Individualized Teaching and Educational Governance Supported by Artificial Intelligence</em> (Grant IED2020-Z003; PI: Dr.&nbsp;Bang Qi Liu). I conducted field studies of smart-classroom adoption, designed teacher and principal interviews, analyzed qualitative evidence, and authored regional governance reports informing education policy and development strategies.</p>
+</section>
+<section id="knowledge-supply-and-deep-learning-in-the-internet-era" class="level3">
+<h3 class="anchored" data-anchor-id="knowledge-supply-and-deep-learning-in-the-internet-era">Knowledge supply and deep learning in the “Internet+” era</h3>
+<p>At <strong>Anhui Normal University</strong>, I contributed to the Anhui Philosophy and Social Science Planning Project (Grant AHSKY2019D036; PI: Dr.&nbsp;Hehai Liu). My work included developing and validating an ECM-ISC-based survey, analyzing continued engagement with online learning, and applying regression and confirmatory factor analysis in R and SPSS. A related <a href="./Publications/Publication1/ECMISC_Paper.html">first-author article</a> appeared in 2021.</p>
+<p><a href="./CV.html">Full research experience in my CV →</a></p>
 
 
 
+</section>
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-projects">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUklMjBpbiUyMEVkdWNhdGlvbiUyQ0V2aWRlbmNlJTIwU3ludGhlc2lzJTJDVmVudHVyZQ==" data-listing-date-sort="1785941014000" data-listing-file-modified-sort="1785957290126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="650">
+<div class="quarto-post image-right" data-index="0" data-categories="QUklMjBpbiUyMEVkdWNhdGlvbiUyQ0V2aWRlbmNlJTIwU3ludGhlc2lzJTJDUkFH" data-listing-date-sort="1785941014000" data-listing-file-modified-sort="1788542246707" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="667">
 <div class="thumbnail"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
 
 <img loading="lazy" src="./Projects/Ask_About_EDU/askaboutedu-product.png" class="thumbnail-image" alt="The askabout.edu product homepage with a practical education question, an evidence-grounded answer, an evidence-strength rating, and a cited source.">
@@ -264,11 +279,11 @@ window.Quarto = {
 
 <div class="listing-category" onclick="window.quartoListingCategory('RXZpZGVuY2UlMjBTeW50aGVzaXM='); return false;">Evidence Synthesis</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VmVudHVyZQ=='); return false;">Venture</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkFH'); return false;">RAG</div>
 
 </div>
 <div class="delink listing-description"><a href="./Projects/Ask_About_EDU/Ask_About_EDU.html" class="no-external">
-<p>Co-founder · Working prototype. Evidence-informed decision support that helps educators access, interpret, and apply verified research to practical decisions.</p>
+<p>Co-founder &amp; Researcher. An evidence-grounded AI prototype with reproducible retrieval pipelines, source attribution, and an interactive interface for educational research.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -279,7 +294,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGF0YSUyMFZpc3VhbGl6YXRpb24lMkNXb3JrZm9yY2UlMjBFZHVjYXRpb24lMkNS" data-listing-date-sort="1785902400000" data-listing-file-modified-sort="1785957291445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="623">
+<div class="quarto-post image-right" data-index="1" data-categories="RGF0YSUyMFZpc3VhbGl6YXRpb24lMkNXb3JrZm9yY2UlMjBFZHVjYXRpb24lMkNS" data-listing-date-sort="1785902400000" data-listing-file-modified-sort="1788542252293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="659">
 <div class="thumbnail"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
 
 <img loading="lazy" src="./Projects/CCRC_Green_Seek_Mapping Project/airea-data-explorer.png" class="thumbnail-image" alt="AIREA Data Explorer showing community college credentials and job postings across U.S. commuting zones">
@@ -299,7 +314,7 @@ window.Quarto = {
 
 </div>
 <div class="delink listing-description"><a href="./Projects/CCRC_Green_Seek_Mapping Project/GreenSeek.html" class="no-external">
-<p>Public release. A national interactive data explorer showing how community college credentials in advanced infrastructure, energy, and agriculture align with regional workforce demand.</p>
+<p>Co-developer · August 2024–September 2025. A public R Shiny and Mapbox platform connecting community college credentials with regional workforce demand.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -310,7 +325,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="R2VuQUklMjBpbiUyMEVkdWNhdGlvbiUyQ0NyaXRpY2FsJTIwVGhpbmtpbmclMkNEZXNpZ24tQmFzZWQlMjBSZXNlYXJjaA==" data-listing-date-sort="1777608000000" data-listing-file-modified-sort="1785957292815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="554">
+<div class="quarto-post image-right" data-index="2" data-categories="R2VuQUklMjBpbiUyMEVkdWNhdGlvbiUyQ0NyaXRpY2FsJTIwVGhpbmtpbmclMkNEZXNpZ24tQmFzZWQlMjBSZXNlYXJjaA==" data-listing-date-sort="1777608000000" data-listing-file-modified-sort="1788542249479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="566">
 <div class="thumbnail"><a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -330,7 +345,7 @@ window.Quarto = {
 
 </div>
 <div class="delink listing-description"><a href="./Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.html" class="no-external">
-<p>Student PI · Spring 2026 pilot. A multi-phase initiative examining how structured interaction with generative AI can strengthen critical thinking and AI literacy in research methods courses.</p>
+<p>Student PI &amp; Graduate Researcher · UTK ORIED-funded. Design-based research on AI-assisted critical thinking, AI literacy, and student–AI discourse in research methods courses.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -341,7 +356,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="RmFjdWx0eSUyMERldmVsb3BtZW50JTJDR2VuZXJhdGl2ZSUyMEFJJTJDT3BlbiUyMEVkdWNhdGlvbg==" data-listing-date-sort="1772686800000" data-listing-file-modified-sort="1787868563175" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
+<div class="quarto-post image-right" data-index="3" data-categories="RmFjdWx0eSUyMERldmVsb3BtZW50JTJDR2VuZXJhdGl2ZSUyMEFJJTJDT3BlbiUyMEVkdWNhdGlvbg==" data-listing-date-sort="1772686800000" data-listing-file-modified-sort="1788542255551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="696">
 <div class="thumbnail"><a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">
 
 <img loading="lazy" src="./Projects/AI_and_ME/ai-and-me-banner.png" class="thumbnail-image" alt="AI and ME Series banner showing a University of Tennessee faculty member and students in discussion.">
@@ -361,7 +376,7 @@ window.Quarto = {
 
 </div>
 <div class="delink listing-description"><a href="./Projects/AI_and_ME/AI_and_ME.html" class="no-external">
-<p>Instructor · 2026 series. A five-session national professional development series and self-paced Canvas course supporting responsible uses of generative AI in higher education.</p>
+<p>Instructor &amp; Project Contributor · 2025–present. A national GenAI webinar initiative, self-paced Canvas course, and companion guidebook for higher education faculty.</p>
 </a></div>
 </div>
 <div class="metadata">
@@ -372,7 +387,7 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="UiUyQ1NlbnNpdGl2aXR5JTIwQW5hbHlzaXMlMkNDYXVzYWwlMjBJbmZlcmVuY2U=" data-listing-date-sort="1709528400000" data-listing-file-modified-sort="1785957295518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="393">
+<div class="quarto-post image-right" data-index="4" data-categories="UiUyQ1NlbnNpdGl2aXR5JTIwQW5hbHlzaXMlMkNDYXVzYWwlMjBJbmZlcmVuY2U=" data-listing-date-sort="1709528400000" data-listing-file-modified-sort="1788542321307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="461">
 <div class="thumbnail"><a href="./Projects/IES_Konfound/IES_konfound.html" class="no-external">
 
 <img loading="lazy" src="./Projects/IES_Konfound/konfound.jpg" class="thumbnail-image">

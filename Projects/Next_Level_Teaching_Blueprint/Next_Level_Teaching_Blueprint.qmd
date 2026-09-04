@@ -3,7 +3,7 @@ title: "Next Level Teaching Blueprint: Scaling AI-Assisted Critical Thinking Acr
 date: "2026-05-01"
 date-format: "MMMM YYYY"
 categories: ["GenAI in Education", "Critical Thinking", "Design-Based Research"]
-description: "Student PI · Spring 2026 pilot. A multi-phase initiative examining how structured interaction with generative AI can strengthen critical thinking and AI literacy in research methods courses."
+description: "Student PI & Graduate Researcher · UTK ORIED-funded. Design-based research on AI-assisted critical thinking, AI literacy, and student–AI discourse in research methods courses."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -17,6 +17,8 @@ execute:
 **University of Tennessee · Principal Investigator: Dr. Fatima T. Zahra**
 
 **Role:** Student Principal Investigator (Student PI) and Graduate Researcher
+
+**Funding:** University of Tennessee, Knoxville, Office of Research, Innovation, and Economic Development (ORIED)
 :::
 
 ## Project overview

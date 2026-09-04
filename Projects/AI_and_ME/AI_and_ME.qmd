@@ -5,7 +5,7 @@ date-format: "MMMM YYYY"
 categories: ["Faculty Development", "Generative AI", "Open Education"]
 image: "ai-and-me-banner.png"
 image-alt: "AI and ME Series banner showing a University of Tennessee faculty member and students in discussion."
-description: "Instructor · 2026 series. A five-session national professional development series and self-paced Canvas course supporting responsible uses of generative AI in higher education."
+description: "Instructor & Project Contributor · 2025–present. A national GenAI webinar initiative, self-paced Canvas course, and companion guidebook for higher education faculty."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -21,6 +21,8 @@ execute:
 **Elevating Higher Education with AI**
 
 **University of Tennessee, Knoxville (CEHHS), in collaboration with Teaching & Learning Innovation · Principal Investigator: Dr. Yukyeong Song · Role: Instructor, project contributor, and guidebook co-editor**
+
+**Participation:** 2025–present. The TLI event page linked below lists the 2026 workshop series.
 :::
 
 <div class="hero-actions">
@@ -92,6 +94,12 @@ I am listed as an instructor for the self-paced course and contributed across th
 The Canvas course is organized around the five workshop sessions. Each session is designed for approximately two hours of engagement and includes a brief reflection activity. The intended audience includes higher education faculty, graduate assistants, instructional designers, academic support professionals, and other educators interested in integrating AI into teaching and learning.
 
 Enrollment availability is managed through Canvas Catalog and may change over time; the public course page remains the authoritative source for current access information.
+
+## Related manuscript
+
+I am a co-author of **Developing GenAI Literacy among University Faculty: An Experience Report from a Nationwide Online Workshop**, submitted to SIGCSE 2027 as an experience-report paper. The manuscript is **under review**, not yet accepted.
+
+[View manuscript details →](../../Publications/Faculty_GenAI_Literacy/Faculty_GenAI_Literacy.qmd)
 
 ## Project links
 

@@ -1,0 +1,32 @@
+---
+title: "Causal Inference and Sensitivity Analysis Methods: A Field Guide for Science Education Researchers"
+author:
+  - name: H. Zhang
+  - name: J. M. Rosenberg
+  - name: K. A. Frank
+  - name: Wei Wang
+  - name: R. Xu
+date: "2026-01-01"
+date-format: "YYYY"
+published-title: "Preprint year"
+categories: ["Preprint", "Causal Inference", "Sensitivity Analysis"]
+description: "Co-author · OSF preprint (2026). A field guide to causal inference and sensitivity analysis for science education researchers."
+page-layout: full
+title-block-banner: true
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**OSF preprint · 2026**
+
+This entry describes a preprint, not an accepted journal article.
+:::
+
+## Overview
+
+This field guide addresses causal inference and sensitivity analysis methods for science education researchers. It complements my work on the [IES-funded konfound project](../../Projects/IES_Konfound/IES_konfound.qmd), which develops tools for assessing the robustness of causal inferences.
+
+[Read the preprint →](https://doi.org/10.31234/osf.io/kn5qb_v2)
+
+## Citation
+
+Zhang, H., Rosenberg, J. M., Frank, K. A., Wang, W., & Xu, R. (2026). Causal inference and sensitivity analysis methods: A field guide for science education researchers. *OSF Preprints*. [https://doi.org/10.31234/osf.io/kn5qb_v2](https://doi.org/10.31234/osf.io/kn5qb_v2)

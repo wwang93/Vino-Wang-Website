@@ -1,8 +1,9 @@
 ---
 title: "An ECM-ISC Based on College Students’ Continued Learning Intention toward E-Learning Space Post COVID-19"
-author: "Wei Wang"
+author: ["Wei Wang", "Y. Duan", "Q. Wang", "H. Liu"]
 date: "2021-12-26"
-categories: [Journal Articles]
+categories: ["Journal Article", "Online Learning"]
+description: "First author · Open Journal of Social Sciences (2021). An ECM-ISC study of college students' continued use of e-learning spaces."
 ---
 
 ### Abstract

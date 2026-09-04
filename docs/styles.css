@@ -593,6 +593,13 @@ li {
   text-align: center;
 }
 
+.cv-version {
+  margin: 0 auto 1rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
 .cv-embed {
   width: 100%;
   height: max(900px, calc(100vh - 150px));

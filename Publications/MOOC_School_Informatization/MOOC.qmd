@@ -1,0 +1,17 @@
+---
+title: "Individual-Construction Strategy of School Informatization Based on MOOC"
+author: "Wei Wang"
+date: "2020-01-01"
+date-format: "YYYY"
+published-title: "Publication year"
+categories: ["Journal Article", "MOOC", "Educational Technology"]
+description: "Author · China Education Technology & Equipment (2020). Earlier work on school informatization and MOOC-based strategies."
+page-layout: full
+title-block-banner: true
+---
+
+## Citation
+
+Wang, W. (2020). Individual-construction strategy of school informatization based on MOOC. *China Education Technology & Equipment*. CNKI.
+
+The English title above follows my CV. Issue, page, and DOI details are not added here because they are not specified in that record.

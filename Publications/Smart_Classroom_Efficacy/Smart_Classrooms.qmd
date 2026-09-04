@@ -1,0 +1,19 @@
+---
+title: "Returning to the Main Position of Classroom Education: A Study on the Teaching Efficacy of Smart Classrooms and Its Influencing Factors"
+author:
+  - name: F.-z. Ye
+  - name: Wei Wang
+date: "2023-01-01"
+date-format: "YYYY"
+published-title: "Publication year"
+categories: ["Journal Article", "Smart Classrooms", "Educational Technology"]
+description: "Co-author · Journal of Bingtuan Education Institute, 33(2), 57–65 (2023). Research on smart-classroom teaching efficacy and its influencing factors."
+page-layout: full
+title-block-banner: true
+---
+
+## Citation
+
+Ye, F.-z., & Wang, W. (2023). Returning to the main position of classroom education: A study on the teaching efficacy of smart classrooms and its influencing factors. *Journal of Bingtuan Education Institute, 33*(2), 57–65. CNKI.
+
+This publication is part of my earlier work on the evaluation of technology-supported classroom teaching. The English title above follows my CV.

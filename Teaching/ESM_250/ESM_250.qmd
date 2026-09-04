@@ -1,0 +1,31 @@
+---
+title: "ESM 250: Applied Statistical Concepts for Decision Makers"
+author: "Wei Wang"
+date: "2025-01-01"
+date-format: "YYYY"
+published-title: "Course year"
+categories: ["Undergraduate Teaching", "Statistics", "Responsible AI"]
+description: "Teaching Assistant · Spring 2025 · University of Tennessee, Knoxville. Applied statistics labs, instructor-reviewed model solutions, and responsible GenAI practice."
+page-layout: full
+title-block-banner: true
+toc: true
+---
+
+::: {.callout-note appearance="simple" icon=false}
+**Teaching Assistant · Undergraduate course · Spring 2025**
+
+**University of Tennessee, Knoxville · Instructor: Dr. Fatima T. Zahra**
+:::
+
+## Teaching contributions
+
+I supported undergraduate students in applying statistical concepts to practical decisions, connecting classroom explanations with hands-on work during weekly applied sessions.
+
+- Facilitated practice in **R, Excel, Stata, and generative AI**, guiding students through debugging, method selection, and a statistical consulting project.
+- Developed **instructor-reviewed model solutions** and maintained Canvas discussions to support practice and feedback.
+- Reinforced independent problem solving, critical evaluation, attribution, and responsible uses of generative AI.
+- Supported classroom research through survey and assessment administration, documentation of GenAI engagement, and FERPA-aware handling of student interaction data.
+
+## Connection to my research
+
+This teaching experience connects to my work on how learners explain statistical reasoning and evaluate AI assistance. My related [Next Level Teaching Blueprint research](../../Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) examines critical thinking, AI literacy, and student–AI discourse in research methods courses.

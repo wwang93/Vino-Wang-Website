@@ -2,6 +2,7 @@
 title: "Projects"
 description: "Research, product, and technical projects, tools, and visualizations."
 listing:
+  id: projects
   contents: Projects
   sort: "date desc"
   type: default
@@ -12,3 +13,18 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+::: {#listing-projects}
+:::
+
+## Earlier research
+
+### AI-supported teaching and educational governance
+
+At the **iFLYTEK Education Technology Institute** in Bengbu, China, I contributed to *Individualized Teaching and Educational Governance Supported by Artificial Intelligence* (Grant IED2020-Z003; PI: Dr. Bang Qi Liu). I conducted field studies of smart-classroom adoption, designed teacher and principal interviews, analyzed qualitative evidence, and authored regional governance reports informing education policy and development strategies.
+
+### Knowledge supply and deep learning in the “Internet+” era
+
+At **Anhui Normal University**, I contributed to the Anhui Philosophy and Social Science Planning Project (Grant AHSKY2019D036; PI: Dr. Hehai Liu). My work included developing and validating an ECM-ISC-based survey, analyzing continued engagement with online learning, and applying regression and confirmatory factor analysis in R and SPSS. A related [first-author article](Publications/Publication1/ECMISC_Paper.qmd) appeared in 2021.
+
+[Full research experience in my CV →](CV.qmd)
