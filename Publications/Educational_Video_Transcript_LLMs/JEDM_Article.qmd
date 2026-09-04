@@ -1,5 +1,5 @@
 ---
-title: "Educational Video Transcript Analysis with LLMs: Improving Entity Recognition and Qualitative Insights"
+title: "Analyzing Educational Video Transcripts with LLMs: Accuracy, Named Entities, and Interpretability"
 author:
   - name: Wei Wang
   - name: C. Pritchard
@@ -8,7 +8,7 @@ date: "2026-08-01"
 date-format: "MMMM YYYY"
 published-title: "Acceptance status recorded"
 categories: ["Journal Article", "Accepted", "Large Language Models", "Educational Data Mining"]
-description: "A first-author article accepted by the Journal of Educational Data Mining on using LLMs to support entity recognition and qualitative analysis of educational video transcripts."
+description: "A first-author article accepted by the Journal of Educational Data Mining on LLM-assisted educational video transcript analysis, with a focus on accuracy, named entities, and interpretability."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -38,7 +38,7 @@ I am the **first author** of the article, working with **C. Pritchard** and **J.
 
 ## Citation
 
-Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication, 2026). Educational video transcript analysis with LLMs: Improving entity recognition and qualitative insights. *Journal of Educational Data Mining*.
+Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication, 2026). Analyzing educational video transcripts with LLMs: Accuracy, named entities, and interpretability. *Journal of Educational Data Mining*.
 
 ## Publication status
 
