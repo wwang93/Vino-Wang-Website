@@ -1,23 +1,23 @@
 ---
 title: "CV"
-description: "Wei Wang's CV, updated September 4, 2026."
+description: "Wei Wang's CV, updated September 5, 2026."
 page-layout: full
 title-block-banner: true
 ---
 
 ::: {.cv-shell}
-<p class="cv-version">CV · Updated September 4, 2026 · 6 pages</p>
+<p class="cv-version">CV · Updated September 5, 2026 · 6 pages</p>
 
 <div class="cv-actions">
-<a class="button" href="cv.pdf?v=20260904-2" download="CV.pdf">Download CV</a>
-<a class="button ghost" href="cv.pdf?v=20260904-2" target="_blank" rel="noopener">Open PDF in a new tab</a>
+<a class="button" href="cv.pdf?v=20260905" download="CV.pdf">Download CV</a>
+<a class="button ghost" href="cv.pdf?v=20260905" target="_blank" rel="noopener">Open PDF in a new tab</a>
 </div>
 
 <p class="cv-mobile-note">For the best experience on a phone or tablet, open or download the PDF using the buttons above.</p>
 
 <div class="cv-embed">
-<object data="cv.pdf?v=20260904-2" type="application/pdf" aria-label="Wei Wang curriculum vitae, updated September 4, 2026">
-<p>Your browser cannot display the embedded PDF. <a href="cv.pdf?v=20260904-2" download="CV.pdf">Download the CV</a>.</p>
+<object data="cv.pdf?v=20260905" type="application/pdf" aria-label="Wei Wang curriculum vitae, updated September 5, 2026">
+<p>Your browser cannot display the embedded PDF. <a href="cv.pdf?v=20260905" download="CV.pdf">Download the CV</a>.</p>
 </object>
 </div>
 :::
