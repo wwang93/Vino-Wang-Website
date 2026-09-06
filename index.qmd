@@ -13,7 +13,7 @@ about:
       href: https://wwang93.github.io/Vino-Wang-Website/cv.pdf?v=20260905
     - icon: mortarboard
       text: Google Scholar
-      href: https://scholar.google.com/citations?user=GYCWu24AAAAJ&hl=en&inst=9897619243961157265&authuser=1
+      href: https://scholar.google.com/citations?user=Ipw0XSwAAAAJ&hl=en&inst=9897619243961157265
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/wei-wang-356aa5285/
