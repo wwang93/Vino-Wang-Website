@@ -2,13 +2,13 @@
 title: "Analyzing Educational Video Transcripts with LLMs: Accuracy, Named Entities, and Interpretability"
 author:
   - name: Wei Wang
-  - name: C. Pritchard
-  - name: J. M. Rosenberg
-date: "2026-08-01"
-date-format: "MMMM YYYY"
-published-title: "Acceptance status recorded"
-categories: ["Journal Article", "Accepted", "Large Language Models", "Educational Data Mining"]
-description: "A first-author article accepted by the Journal of Educational Data Mining on LLM-assisted educational video transcript analysis, with a focus on accuracy, named entities, and interpretability."
+  - name: Cody Pritchard
+  - name: Joshua Rosenberg
+date: "2026-09-10"
+date-format: "MMMM D, YYYY"
+published-title: "Published"
+categories: ["Journal Article", "Published", "Large Language Models", "Educational Data Mining"]
+description: "A first-author article published in the Journal of Educational Data Mining, 18(2), 143–168, on LLM-assisted educational video transcript analysis, with a focus on accuracy, named entities, and interpretability."
 page-layout: full
 title-block-banner: true
 toc: true
@@ -17,13 +17,15 @@ toc-title: "On this page"
 ---
 
 ::: {.callout-note appearance="simple" icon=false}
-**First-author journal article · Accepted for publication · Journal of Educational Data Mining**
+**First-author journal article · Published · Journal of Educational Data Mining**
 
-The article has been accepted. Volume, issue, page, and DOI information will be added when the final publication record becomes available.
+Published September 10, 2026, in *Journal of Educational Data Mining*, **18**(2), 143–168. [DOI: 10.5281/zenodo.22689987](https://doi.org/10.5281/zenodo.22689987).
 :::
 
 <div class="hero-actions">
-  <a class="button" href="https://jedm.educationaldatamining.org/" target="_blank" rel="noopener">Visit the journal</a>
+  <a class="button" href="https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1014" target="_blank" rel="noopener">Read the article</a>
+  <a class="button ghost" href="https://jedm.educationaldatamining.org/index.php/JEDM/article/download/1014/303" target="_blank" rel="noopener">Download PDF</a>
+  <a class="button ghost" href="https://github.com/wwang93/JEDM-Paper-Pipeline" target="_blank" rel="noopener">Code and data</a>
 </div>
 
 ## Article overview
@@ -34,15 +36,19 @@ The work contributes to a broader research agenda on responsible, transparent us
 
 ## My role
 
-I am the **first author** of the article, working with **C. Pritchard** and **J. M. Rosenberg**.
+I am the **first author** of the article, working with **Cody Pritchard** and **Joshua Rosenberg**.
 
 ## Citation
 
-Wang, W., Pritchard, C., & Rosenberg, J. M. (accepted for publication, 2026). Analyzing educational video transcripts with LLMs: Accuracy, named entities, and interpretability. *Journal of Educational Data Mining*.
+Wang, W., Pritchard, C., & Rosenberg, J. (2026). Analyzing educational video transcripts with LLMs: Accuracy, named entities, and interpretability. *Journal of Educational Data Mining, 18*(2), 143–168. [https://doi.org/10.5281/zenodo.22689987](https://doi.org/10.5281/zenodo.22689987)
 
-## Publication status
+## Publication details
 
 - **Journal:** Journal of Educational Data Mining
-- **Status:** Accepted for publication
-- **Authors:** Wei Wang, C. Pritchard, and J. M. Rosenberg
-- **Final citation and DOI:** Forthcoming
+- **Status:** Published
+- **Publication date:** September 10, 2026
+- **Volume, issue, and pages:** 18(2), 143–168
+- **Authors:** Wei Wang, Cody Pritchard, and Joshua Rosenberg
+- **Section:** Human-AI Partnership for Qualitative Analysis
+- **DOI:** [10.5281/zenodo.22689987](https://doi.org/10.5281/zenodo.22689987)
+- **Official article:** [JEDM publication record](https://jedm.educationaldatamining.org/index.php/JEDM/article/view/1014)

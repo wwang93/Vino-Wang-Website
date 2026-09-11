@@ -31,7 +31,7 @@ My work combines design-based research, mixed methods, and computational analysi
 
 ## Recent work
 
-- First author of an [**accepted JEDM article on LLM-assisted educational video transcript analysis**](Publications/Educational_Video_Transcript_LLMs/JEDM_Article.qmd).
+- First author of a [**published JEDM article on LLM-assisted educational video transcript analysis**](Publications/Educational_Video_Transcript_LLMs/JEDM_Article.qmd).
 - Co-editing [***[AI and Me] Generative AI Guidebook for Higher Education Faculty***](Publications/AI_and_Me_Guidebook/Guidebook.qmd), currently awaiting administrator review in the EdTech Books open publishing system.
 - Co-founding [**AskAboutEdu**](Projects/Ask_About_EDU/Ask_About_EDU.qmd) and developing reproducible RAG workflows that connect practical education questions with traceable research evidence.
 - Co-leading the UTK ORIED-funded [**Next Level Teaching Blueprint**](Projects/Next_Level_Teaching_Blueprint/Next_Level_Teaching_Blueprint.qmd) as Student PI and Graduate Researcher, examining how constraint-first, dialogic AI activities can strengthen critical thinking in research methods courses.
